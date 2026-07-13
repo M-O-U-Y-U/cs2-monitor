@@ -1,0 +1,322 @@
+{
+  "_meta": {},
+  "P90 | Traction (Well-Worn)": {
+    "start_price": 3.04,
+    "last_price": 3.04,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 3.04
+      }
+    ],
+    "historical_high": 3.04
+  },
+  "MAC-10 | Whitefish (Well-Worn)": {
+    "start_price": 2.04,
+    "last_price": 2.04,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.04
+      }
+    ],
+    "historical_high": 2.04
+  },
+  "MAG-7 | Wildwood (Factory New)": {
+    "start_price": 3.36,
+    "last_price": 3.36,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 3.36
+      }
+    ],
+    "historical_high": 3.36
+  },
+  "StatTrak™ Nova | Wood Fired (Field-Tested)": {
+    "start_price": 6.17,
+    "last_price": 6.17,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 6.17
+      }
+    ],
+    "historical_high": 6.17
+  },
+  "Sawed-Off | Black Sand (Minimal Wear)": {
+    "start_price": 4.85,
+    "last_price": 4.85,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 4.85
+      }
+    ],
+    "historical_high": 4.85
+  },
+  "Sealed Genesis Terminal": {
+    "start_price": 0.98,
+    "last_price": 0.98,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.98
+      }
+    ],
+    "historical_high": 0.98
+  },
+  "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
+    "start_price": 1.96,
+    "last_price": 1.96,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 1.96
+      }
+    ],
+    "historical_high": 1.96
+  },
+  "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
+    "start_price": 2.0,
+    "last_price": 2.0,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.0
+      }
+    ],
+    "historical_high": 2.0
+  },
+  "StatTrak™ PP-Bizon | Space Cat (Well-Worn)": {
+    "start_price": 5.47,
+    "last_price": 5.47,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 5.47
+      }
+    ],
+    "historical_high": 5.47
+  },
+  "Sawed-Off | Spirit Board (Well-Worn)": {
+    "start_price": 0.63,
+    "last_price": 0.63,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.63
+      }
+    ],
+    "historical_high": 0.63
+  },
+  "R8 Revolver | Junk Yard (Field-Tested)": {
+    "start_price": 3.36,
+    "last_price": 3.36,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 3.36
+      }
+    ],
+    "historical_high": 3.36
+  },
+  "Desert Eagle | Bronze Deco (Minimal Wear)": {
+    "start_price": 3.05,
+    "last_price": 3.05,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 3.05
+      }
+    ],
+    "historical_high": 3.05
+  },
+  "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
+    "start_price": 0.77,
+    "last_price": 0.77,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.77
+      }
+    ],
+    "historical_high": 0.77
+  },
+  "AWP | Arsenic Spill (Field-Tested)": {
+    "start_price": 3.37,
+    "last_price": 3.37,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 3.37
+      }
+    ],
+    "historical_high": 3.37
+  },
+  "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
+    "start_price": 4.18,
+    "last_price": 4.18,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 4.18
+      }
+    ],
+    "historical_high": 4.18
+  },
+  "P250 | Sedimentary (Minimal Wear)": {
+    "start_price": 0.69,
+    "last_price": 0.69,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.69
+      }
+    ],
+    "historical_high": 0.69
+  },
+  "Nova | Windblown (Field-Tested)": {
+    "start_price": 6.74,
+    "last_price": 6.74,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 6.74
+      }
+    ],
+    "historical_high": 6.74
+  },
+  "Glock-18 | Clear Polymer (Battle-Scarred)": {
+    "start_price": 2.64,
+    "last_price": 2.64,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.64
+      }
+    ],
+    "historical_high": 2.64
+  },
+  "Tec-9 | Citric Acid (Minimal Wear)": {
+    "start_price": 0.57,
+    "last_price": 0.57,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.57
+      }
+    ],
+    "historical_high": 0.57
+  },
+  "FAMAS | Yeti Camo (Field-Tested)": {
+    "start_price": 2.41,
+    "last_price": 2.41,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.41
+      }
+    ],
+    "historical_high": 2.41
+  },
+  "USP-S | Tropical Breeze (Field-Tested)": {
+    "start_price": 3.04,
+    "last_price": 3.04,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 3.04
+      }
+    ],
+    "historical_high": 3.04
+  },
+  "Revolution Case": {
+    "start_price": 2.7,
+    "last_price": 2.7,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.7
+      }
+    ],
+    "historical_high": 2.7
+  },
+  "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
+    "start_price": 0.61,
+    "last_price": 0.61,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.61
+      }
+    ],
+    "historical_high": 0.61
+  },
+  "Galil AR | Sky Mandala (Field-Tested)": {
+    "start_price": 2.66,
+    "last_price": 2.66,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.66
+      }
+    ],
+    "historical_high": 2.66
+  },
+  "StatTrak™ MAC-10 | Ensnared (Field-Tested)": {
+    "start_price": 0.77,
+    "last_price": 0.77,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.77
+      }
+    ],
+    "historical_high": 0.77
+  },
+  "StatTrak™ Negev | Ultralight (Field-Tested)": {
+    "start_price": 0.72,
+    "last_price": 0.72,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.72
+      }
+    ],
+    "historical_high": 0.72
+  },
+  "MP7 | Coral Paisley (Minimal Wear)": {
+    "start_price": 0.91,
+    "last_price": 0.91,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 0.91
+      }
+    ],
+    "historical_high": 0.91
+  },
+  "StatTrak™ Music Kit | Perfect World, Ay Hey": {
+    "start_price": 61.8,
+    "last_price": 61.8,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 61.8
+      }
+    ],
+    "historical_high": 61.8
+  },
+  "StatTrak™ P90 | Grim (Field-Tested)": {
+    "start_price": 2.43,
+    "last_price": 2.43,
+    "history": [
+      {
+        "time": "16:42",
+        "price": 2.43
+      }
+    ],
+    "historical_high": 2.43
+  }
+}
