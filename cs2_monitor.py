@@ -13,9 +13,10 @@ DATA_FILE = "advanced_data.json"
 
 MIN_ITEM_VALUE = 0.5       # 忽略低于0.5元的物品
 MIN_INCREASE_PERCENT = 1.0 # 涨幅超过1%才进行日内推送通知
+REQUEST_DELAY = 10         # 【新增】每次查完一个饰品休眠几秒（防Steam封IP，建议8-12秒）
 # ============================================
 
-# 建立全局 Session 并伪装浏览器，大幅度降低 429 报错率
+# 全局 Session 与 浏览器伪装 (防封锁)
 session = requests.Session()
 session.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
@@ -82,7 +83,7 @@ def get_market_data(hash_name):
 def generate_sparkline_url(prices, is_red):
     """通过 QuickChart API 生成走势图 URL (纯前端渲染)"""
     if not prices: return ""
-    if len(prices) == 1: prices.append(prices[0]) # 补充一个点画平线
+    if len(prices) == 1: prices.append(prices[0])
     
     color = "rgb(255, 77, 79)" if is_red else "rgb(82, 196, 26)"
     bg_color = "rgba(255, 77, 79, 0.1)" if is_red else "rgba(82, 196, 26, 0.1)"
@@ -103,7 +104,7 @@ def main():
     today_str = now_bj.strftime("%Y-%m-%d")
     current_time_str = now_bj.strftime("%H:%M")
     
-    # 只要是晚上22点之后（含23点），且今天没出过报告，均可视为可出夜间报告
+    # 只要是晚上22点之后（含23点），且今天没出过报告，即触发晚间大盘复盘
     is_11_pm = (now_bj.hour >= 22)
 
     if os.path.exists(DATA_FILE):
@@ -126,6 +127,7 @@ def main():
 
     hourly_alerts = []
     daily_summary = []
+    valid_items_checked = 0 # 统计成功获取价格的饰品数
 
     for hash_name, cn_name in inventory_items.items():
         market_data = get_market_data(hash_name)
@@ -133,13 +135,15 @@ def main():
         volume = market_data["volume"]
         median = market_data["median"]
         
-        # 价格低于阈值或获取失败的处理
+        # 价格低于阈值或获取失败(被429限流)的处理
         if price <= MIN_ITEM_VALUE:
             if should_generate_daily and hash_name in db:
                 db[hash_name]["start_price"] = db[hash_name].get("last_price", 0)
                 db[hash_name]["history"] = [{"time": "昨日收盘", "price": db[hash_name]["start_price"]}]
-            time.sleep(4)
+            time.sleep(REQUEST_DELAY) # 使用配置的延长休眠时间
             continue
+            
+        valid_items_checked += 1
         
         # 数据初始化及平滑升级
         if hash_name not in db:
@@ -169,7 +173,7 @@ def main():
                 # 动态捕捉盘中突破新高
                 if price > historical_high:
                     high_tag = "🚀 <span style='color:red;'><b>突破历史新高！</b></span>"
-                    item_data["historical_high"] = price # 实时更新
+                    item_data["historical_high"] = price 
                 else:
                     high_tag = "📈 价格回升 (波动期)"
                 
@@ -199,24 +203,20 @@ def main():
                 trend_color = "red" if net_change > 0 else "green"
                 is_red_chart = (net_change >= 0)
                 
-                # 计算今日盘中高低点
                 all_prices_today = [start_price] + [x['price'] for x in item_data['history']]
                 if price not in all_prices_today: all_prices_today.append(price)
                 
                 day_high = max(all_prices_today)
                 day_low = min(all_prices_today)
                 
-                # 生成微型折线图
                 chart_url = generate_sparkline_url(all_prices_today, is_red_chart)
                 
-                # 对比历史最高价
                 if day_high > historical_high:
                     high_str = f"<span style='color:red;'><b>突破历史新高 (原¥{historical_high:.2f})！🎊</b></span>"
                     item_data["historical_high"] = day_high
                 else:
                     high_str = f"距历史高位(¥{historical_high:.2f})差 ¥{(historical_high - day_high):.2f}"
 
-                # 轨迹排版
                 history_str_list = [f"{x['time']}(¥{x['price']:.2f})" for x in item_data['history']]
                 history_path = " > ".join(history_str_list)
                 
@@ -237,13 +237,13 @@ def main():
             item_data["start_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
 
-        time.sleep(4) # 休眠防 429 限流
+        time.sleep(REQUEST_DELAY) # 使用配置的延长休眠时间，防 429
 
     # 数据持久化保存
     with open(DATA_FILE, 'w', encoding='utf-8') as f: 
         json.dump(db, f, ensure_ascii=False, indent=2)
 
-    # 发送推送
+    # 发送推送消息
     if hourly_alerts:
         send_wxpusher(f"📈 CS2饰品异动通知 ({current_time_str})", "".join(hourly_alerts))
     
@@ -251,6 +251,10 @@ def main():
         daily_summary.sort(key=lambda x: x[0], reverse=True)
         final_summary_html = "<hr>".join([msg for _, msg in daily_summary])
         send_wxpusher(f"📊 CS2饰品今日大盘复盘 ({today_str})", f"今日产生有效波动的饰品汇总：<br><br>{final_summary_html}")
+
+    # ================= 存活心跳 (测试用) =================
+    if not hourly_alerts and not daily_summary and valid_items_checked > 0:
+        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"脚本运行正常，刚刚成功巡查了 {valid_items_checked} 件饰品。<br>目前大盘平稳，未达到 1% 的报警阈值。")
 
 if __name__ == "__main__":
     main()
