@@ -18,7 +18,7 @@ CSQAQ_API_TOKEN = "JXJTD1B787E8L01767A8Z738"
 MIN_ITEM_VALUE = 0.5       
 MIN_INCREASE_PERCENT = 1.0 
 
-# 既然要直连 Steam 官方，必须保证 8~12 秒的休眠防 429 限流
+# 随机休眠防 Steam 429 封禁 (8~12秒完美模拟真人，绝对安全)
 MIN_REQUEST_DELAY = 8.0    
 MAX_REQUEST_DELAY = 12.0   
 # ============================================
@@ -26,8 +26,7 @@ MAX_REQUEST_DELAY = 12.0
 session = requests.Session()
 session.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-    "Accept-Language": "zh-CN,zh;q=0.9",
-    "Referer": "https://steamcommunity.com/market/"
+    "Accept-Language": "zh-CN,zh;q=0.9"
 })
 
 def send_wxpusher(title, content):
@@ -60,7 +59,7 @@ def bind_dynamic_ip():
         print(f"[错误] 自动绑定IP发生异常: {e}")
 
 def get_inventory():
-    """获取库存"""
+    """获取最新实时库存 (每次运行都会拉取最新)"""
     url = f"https://steamcommunity.com/inventory/{STEAM_ID}/730/2?l=schinese&count=500"
     items = {}
     try:
@@ -80,7 +79,7 @@ def get_inventory():
     except: return {}
 
 def get_steam_market_data(hash_name):
-    """【绝对核心】实时获取 Steam 官方在售底价"""
+    """【主引擎】实时获取 Steam 官方在售底价"""
     url = "https://steamcommunity.com/market/priceoverview/"
     params = {"appid": 730, "currency": 23, "market_hash_name": hash_name}
     result = {"price": -1}
@@ -101,29 +100,54 @@ def get_steam_market_data(hash_name):
         return result
     except: return result
 
-def get_csqaq_good_id(hash_name):
-    """【辅核第一步】搜索获取 CSQAQ 站内的专属 good_id"""
+def clean_string(text):
+    """【智能模糊匹配核心】清洗特殊字符，解决 StatTrak™ 等特殊命名导致的匹配失败"""
+    if not text: return ""
+    return str(text).replace("™", "").replace(" ", "").replace("（", "(").replace("）", ")").lower()
+
+def get_csqaq_good_id(cn_name, hash_name):
+    """【辅核第一步】通过官方文档接口搜索 CSQAQ 专属 good_id (带智能容错)"""
     if not CSQAQ_API_TOKEN: return None
     url = "https://api.csqaq.com/api/v1/info/get_good_id"
     headers = {"ApiToken": CSQAQ_API_TOKEN, "Content-Type": "application/json"}
-    payload = {"page_index": 1, "page_size": 20, "search": hash_name}
     
+    clean_hash = clean_string(hash_name)
+    clean_cn = clean_string(cn_name)
+
+    # 尝试 1：用英文原名搜索
+    payload = {"page_index": 1, "page_size": 20, "search": hash_name}
     try:
         res = requests.post(url, headers=headers, json=payload, timeout=10)
-        if res.status_code == 429: return None
-        
-        res_json = res.json()
-        if res_json.get("code") != 200: return None
-            
-        data_dict = res_json.get("data", {}).get("data", {})
-        for _, item in data_dict.items():
-            if item.get("market_hash_name") == hash_name:
-                return item.get("id")
+        if res.status_code == 200:
+            data_dict = res.json().get("data", {}).get("data", {})
+            if data_dict:
+                # 优先精确模糊匹配
+                for _, item in data_dict.items():
+                    if clean_string(item.get("market_hash_name")) == clean_hash or clean_string(item.get("name")) == clean_cn:
+                        return item.get("id")
+                # 如果没对上但有结果，取第一个搜索结果兜底
+                for _, item in data_dict.items():
+                    return item.get("id")
     except: pass
+
+    # 尝试 2：如果英文没搜到，用中文名再搜一次
+    payload["search"] = cn_name
+    try:
+        res = requests.post(url, headers=headers, json=payload, timeout=10)
+        if res.status_code == 200:
+            data_dict = res.json().get("data", {}).get("data", {})
+            if data_dict:
+                for _, item in data_dict.items():
+                    if clean_string(item.get("name")) == clean_cn or clean_string(item.get("market_hash_name")) == clean_hash:
+                        return item.get("id")
+                for _, item in data_dict.items():
+                    return item.get("id")
+    except: pass
+
     return None
 
 def get_csqaq_max_prices(good_id):
-    """【辅核第二步】根据 ID 拉取国内各大平台现金价，并筛出最高价"""
+    """【辅核第二步】根据 ID 拉取国内全网详情，筛出最高价"""
     result = {"max_sell": "未知", "max_buy": "未知"}
     url = f"https://api.csqaq.com/api/v1/info/good?id={good_id}"
     headers = {"ApiToken": CSQAQ_API_TOKEN}
@@ -185,6 +209,7 @@ def main():
     if should_generate_daily: meta["last_report_date"] = today_str
     db["_meta"] = meta
 
+    # 第一步：绝对动态地拉取最新库存
     inventory_items = get_inventory()
     if not inventory_items: 
         print("[提示] 库存为空或获取失败，结束运行。")
@@ -209,13 +234,12 @@ def main():
         steam_data = get_steam_market_data(hash_name)
         price = steam_data["price"]
         
-        # 过滤低价值废品或获取失败的饰品
+        # 过滤低价值废品
         if price <= MIN_ITEM_VALUE:
             if should_generate_daily and "start_price" in item_data:
                 item_data["start_price"] = item_data.get("last_price", 0)
                 item_data["history"] = [{"time": "昨日收盘", "price": item_data["start_price"]}]
             
-            # 由于访问了 Steam，必须严格休眠防 429
             time.sleep(round(random.uniform(MIN_REQUEST_DELAY, MAX_REQUEST_DELAY), 2))
             continue
             
@@ -225,17 +249,22 @@ def main():
         csqaq_max_sell = "未知"
         csqaq_max_buy = "未知"
         
-        # 读取记忆ID，提速
+        # 读取记忆ID
         good_id = item_data.get("csqaq_id")
         if not good_id:
-            good_id = get_csqaq_good_id(hash_name) 
-            time.sleep(1.5) # CSQAQ单点请求限流
+            good_id = get_csqaq_good_id(cn_name, hash_name) # 传入双名称，智能匹配
+            time.sleep(1.5) 
             if good_id: item_data["csqaq_id"] = good_id
                 
         if good_id:
             csqaq_data = get_csqaq_max_prices(good_id)
             csqaq_max_sell = csqaq_data["max_sell"]
             csqaq_max_buy = csqaq_data["max_buy"]
+            
+            # 【ID 自愈系统】：如果查回来全都是未知，说明这个 ID 废了或者匹配错了。
+            # 直接删除它！下一次运行就会触发自动重新搜索！
+            if csqaq_max_sell == "未知" and csqaq_max_buy == "未知":
+                item_data["csqaq_id"] = None
 
         # ========== 核心属性初始化与升级 ==========
         if "start_price" not in item_data:
@@ -243,21 +272,21 @@ def main():
             item_data["last_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
             item_data["historical_high"] = price
-            item_data["daily_alert_high"] = price # 初始化今日报警水位线
+            item_data["daily_alert_high"] = price 
 
         start_price = item_data["start_price"]
         last_price = item_data["last_price"]
         historical_high = item_data.get("historical_high", price)
         daily_alert_high = item_data.get("daily_alert_high", start_price)
         
-        # ========== 常规异动监控 (防横跳冷却处理) ==========
+        # ========== 常规异动监控 (以 Steam 为基准) ==========
         if price > last_price and last_price > 0:
             increase_percent = ((price - last_price) / last_price) * 100
             
             if increase_percent >= MIN_INCREASE_PERCENT:
-                # 【防打扰核心】只有突破了今天已经报过警的最高价格，才会发送推送
+                # 防打扰：只有突破了今天已报过警的最高价才推送
                 if price > daily_alert_high:
-                    item_data["daily_alert_high"] = price # 更新报警水位线
+                    item_data["daily_alert_high"] = price 
                     
                     if price > historical_high:
                         high_tag = "🚀 <span style='color:red;'><b>突破 Steam 历史新高！</b></span>"
@@ -323,7 +352,7 @@ def main():
             
             item_data["start_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
-            item_data["daily_alert_high"] = price # 复盘时重置报警水位线
+            item_data["daily_alert_high"] = price 
 
         # ================= 极其重要的 Steam 防护休眠 =================
         time.sleep(round(random.uniform(MIN_REQUEST_DELAY, MAX_REQUEST_DELAY), 2))
