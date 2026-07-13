@@ -1,0 +1,34 @@
+{
+  "Nova | Windblown (Field-Tested)": {
+    "start_price": 6.8,
+    "last_price": 6.8,
+    "history": [
+      6.8,
+      6.8
+    ]
+  },
+  "StatTrak™ Nova | Wood Fired (Field-Tested)": {
+    "start_price": 6.46,
+    "last_price": 6.46,
+    "history": [
+      6.46,
+      6.46
+    ]
+  },
+  "StatTrak™ PP-Bizon | Space Cat (Well-Worn)": {
+    "start_price": 5.47,
+    "last_price": 5.47,
+    "history": [
+      5.47,
+      5.47
+    ]
+  },
+  "StatTrak™ Music Kit | Perfect World, Ay Hey": {
+    "start_price": 61.23,
+    "last_price": 61.23,
+    "history": [
+      61.23,
+      61.23
+    ]
+  }
+}
