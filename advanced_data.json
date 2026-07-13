@@ -1,28 +1,19 @@
 {
-  "_meta": {},
+  "_meta": {
+    "last_report_date": "2026-07-13"
+  },
   "P90 | Traction (Well-Worn)": {
-    "start_price": 3.04,
+    "start_price": 3.03,
     "last_price": 3.03,
     "history": [
       {
-        "time": "16:42",
-        "price": 3.04
-      },
-      {
-        "time": "16:55",
-        "price": 3.03
-      },
-      {
-        "time": "20:01",
-        "price": 3.04
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 3.03
       }
     ],
     "historical_high": 3.04,
-    "csqaq_id": 8473
+    "csqaq_id": 8473,
+    "daily_alert_high": 3.03
   },
   "MAC-10 | Whitefish (Well-Worn)": {
     "start_price": 2.04,
@@ -40,564 +31,381 @@
     "historical_high": 2.57
   },
   "MAG-7 | Wildwood (Factory New)": {
-    "start_price": 3.36,
+    "start_price": 3.47,
     "last_price": 3.47,
     "history": [
       {
-        "time": "16:42",
-        "price": 3.36
-      },
-      {
-        "time": "20:01",
-        "price": 3.01
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 3.47
       }
     ],
     "historical_high": 3.47,
-    "csqaq_id": 20658
+    "csqaq_id": 20658,
+    "daily_alert_high": 3.47
   },
   "StatTrak™ Nova | Wood Fired (Field-Tested)": {
-    "start_price": 6.17,
+    "start_price": 5.46,
     "last_price": 5.46,
     "history": [
       {
-        "time": "16:42",
-        "price": 6.17
-      },
-      {
-        "time": "16:55",
-        "price": 6.15
-      },
-      {
-        "time": "20:01",
-        "price": 5.87
-      },
-      {
-        "time": "21:03",
-        "price": 5.47
-      },
-      {
-        "time": "21:40",
+        "time": "22:31",
         "price": 5.46
       }
     ],
     "historical_high": 6.17,
-    "csqaq_id": 18114
+    "csqaq_id": 18114,
+    "daily_alert_high": 5.46
   },
   "Sawed-Off | Black Sand (Minimal Wear)": {
     "start_price": 4.85,
     "last_price": 4.85,
     "history": [
       {
-        "time": "16:42",
-        "price": 4.85
-      },
-      {
-        "time": "20:01",
-        "price": 4.46
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 4.85
       }
     ],
     "historical_high": 4.85,
-    "csqaq_id": 17916
+    "csqaq_id": 17916,
+    "daily_alert_high": 4.85
   },
   "Sealed Genesis Terminal": {
-    "start_price": 0.98,
+    "start_price": 1.0,
     "last_price": 1.0,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.98
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 1.0
       }
     ],
     "historical_high": 1.0,
-    "csqaq_id": 23870
+    "csqaq_id": 23870,
+    "daily_alert_high": 1.0
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
-    "start_price": 1.96,
+    "start_price": 1.95,
     "last_price": 1.95,
     "history": [
       {
-        "time": "16:42",
-        "price": 1.96
-      },
-      {
-        "time": "16:55",
-        "price": 2.02
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 1.95
       }
     ],
     "historical_high": 2.02,
-    "csqaq_id": 22213
+    "csqaq_id": 22213,
+    "daily_alert_high": 1.95
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
-    "start_price": 2.0,
+    "start_price": 2.13,
     "last_price": 2.13,
     "history": [
       {
-        "time": "16:42",
-        "price": 2.0
-      },
-      {
-        "time": "16:55",
-        "price": 2.11
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 2.13
       }
     ],
-    "historical_high": 2.11,
-    "csqaq_id": 14710
+    "historical_high": 2.13,
+    "csqaq_id": 14710,
+    "daily_alert_high": 2.13
   },
   "StatTrak™ PP-Bizon | Space Cat (Well-Worn)": {
     "start_price": 5.47,
     "last_price": 5.47,
     "history": [
       {
-        "time": "16:42",
+        "time": "22:31",
         "price": 5.47
       }
     ],
     "historical_high": 5.47,
-    "csqaq_id": 14751
+    "csqaq_id": 14751,
+    "daily_alert_high": 5.47
   },
   "Sawed-Off | Spirit Board (Well-Worn)": {
-    "start_price": 0.63,
+    "start_price": 0.62,
     "last_price": 0.62,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.63
-      },
-      {
-        "time": "16:55",
-        "price": 0.62
-      },
-      {
-        "time": "20:01",
-        "price": 0.53
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.62
       }
     ],
     "historical_high": 0.63,
-    "csqaq_id": 17946
+    "csqaq_id": 17946,
+    "daily_alert_high": 0.62
   },
   "R8 Revolver | Junk Yard (Field-Tested)": {
-    "start_price": 3.36,
+    "start_price": 3.29,
     "last_price": 3.29,
     "history": [
       {
-        "time": "16:42",
-        "price": 3.36
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 3.29
       }
     ],
     "historical_high": 3.36,
-    "csqaq_id": 13187
+    "csqaq_id": 13187,
+    "daily_alert_high": 3.29
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "start_price": 3.05,
     "last_price": 3.05,
     "history": [
       {
-        "time": "16:42",
-        "price": 3.05
-      },
-      {
-        "time": "20:01",
-        "price": 3.19
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 3.05
       }
     ],
     "historical_high": 3.19,
-    "csqaq_id": 539
+    "csqaq_id": 539,
+    "daily_alert_high": 3.05
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
-    "start_price": 0.77,
+    "start_price": 0.81,
     "last_price": 0.81,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.77
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.81
       }
     ],
     "historical_high": 0.81,
-    "csqaq_id": 22167
+    "csqaq_id": 22167,
+    "daily_alert_high": 0.81
   },
   "AWP | Arsenic Spill (Field-Tested)": {
-    "start_price": 3.37,
+    "start_price": 3.36,
     "last_price": 3.36,
     "history": [
       {
-        "time": "16:42",
-        "price": 3.37
-      },
-      {
-        "time": "16:55",
-        "price": 3.51
-      },
-      {
-        "time": "20:01",
-        "price": 3.4
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 3.36
       }
     ],
     "historical_high": 3.51,
-    "csqaq_id": 22026
+    "csqaq_id": 22026,
+    "daily_alert_high": 3.36
   },
   "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
     "start_price": 4.18,
     "last_price": 4.18,
     "history": [
       {
-        "time": "16:42",
-        "price": 4.18
-      },
-      {
-        "time": "20:01",
-        "price": 3.93
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 4.18
       }
     ],
     "historical_high": 4.18,
-    "csqaq_id": 8530
+    "csqaq_id": 8530,
+    "daily_alert_high": 4.18
   },
   "P250 | Sedimentary (Minimal Wear)": {
     "start_price": 0.69,
     "last_price": 0.69,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.69
-      },
-      {
-        "time": "16:55",
-        "price": 0.72
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 0.69
       }
     ],
     "historical_high": 0.72,
-    "csqaq_id": 22033
+    "csqaq_id": 22033,
+    "daily_alert_high": 0.69
   },
   "Nova | Windblown (Field-Tested)": {
-    "start_price": 6.74,
+    "start_price": 5.9,
     "last_price": 5.9,
     "history": [
       {
-        "time": "16:42",
-        "price": 6.74
-      },
-      {
-        "time": "16:55",
-        "price": 6.72
-      },
-      {
-        "time": "20:01",
-        "price": 5.87
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 5.9
       }
     ],
     "historical_high": 6.74,
-    "csqaq_id": 18120
+    "csqaq_id": 18120,
+    "daily_alert_high": 5.9
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
-    "start_price": 2.64,
+    "start_price": 2.27,
     "last_price": 2.27,
     "history": [
       {
-        "time": "16:42",
-        "price": 2.64
-      },
-      {
-        "time": "20:01",
-        "price": 2.31
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 2.27
       }
     ],
     "historical_high": 2.64,
-    "csqaq_id": 13178
+    "csqaq_id": 13178,
+    "daily_alert_high": 2.27
   },
   "Tec-9 | Citric Acid (Minimal Wear)": {
-    "start_price": 0.57,
+    "start_price": 0.62,
     "last_price": 0.62,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.57
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 0.62
       }
     ],
     "historical_high": 0.62,
-    "csqaq_id": 22038
+    "csqaq_id": 22038,
+    "daily_alert_high": 0.62
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
-    "start_price": 2.41,
+    "start_price": 2.34,
     "last_price": 2.34,
     "history": [
       {
-        "time": "16:42",
-        "price": 2.41
-      },
-      {
-        "time": "20:01",
-        "price": 2.31
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 2.34
       }
     ],
     "historical_high": 2.41,
-    "csqaq_id": 21900
+    "csqaq_id": 21900,
+    "daily_alert_high": 2.34
   },
   "USP-S | Tropical Breeze (Field-Tested)": {
-    "start_price": 3.04,
+    "start_price": 3.03,
     "last_price": 3.03,
     "history": [
       {
-        "time": "16:42",
-        "price": 3.04
-      },
-      {
-        "time": "16:55",
-        "price": 2.85
-      },
-      {
-        "time": "20:01",
-        "price": 3.01
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 3.03
       }
     ],
     "historical_high": 3.04,
-    "csqaq_id": 21512
+    "csqaq_id": 21512,
+    "daily_alert_high": 3.03
   },
   "Revolution Case": {
     "start_price": 2.7,
     "last_price": 2.7,
     "history": [
       {
-        "time": "16:42",
+        "time": "22:31",
         "price": 2.7
       }
     ],
     "historical_high": 2.7,
-    "csqaq_id": 16283
+    "csqaq_id": 16283,
+    "daily_alert_high": 2.7
   },
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
-    "start_price": 0.61,
+    "start_price": 0.69,
     "last_price": 0.69,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.61
-      },
-      {
-        "time": "20:01",
-        "price": 0.68
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.69
       }
     ],
     "historical_high": 0.69,
-    "csqaq_id": 23476
+    "csqaq_id": 23476,
+    "daily_alert_high": 0.69
   },
   "Galil AR | Sky Mandala (Field-Tested)": {
-    "start_price": 2.66,
+    "start_price": 2.73,
     "last_price": 2.73,
     "history": [
       {
-        "time": "16:42",
-        "price": 2.66
-      },
-      {
-        "time": "16:55",
-        "price": 3.03
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 2.73
       }
     ],
     "historical_high": 3.03,
-    "csqaq_id": 24925
+    "csqaq_id": 24925,
+    "daily_alert_high": 2.73
   },
   "StatTrak™ MAC-10 | Ensnared (Field-Tested)": {
-    "start_price": 0.77,
+    "start_price": 0.76,
     "last_price": 0.76,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.77
-      },
-      {
-        "time": "16:55",
-        "price": 0.76
-      },
-      {
-        "time": "20:01",
-        "price": 0.86
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.76
       }
     ],
     "historical_high": 0.86,
-    "csqaq_id": 14742
+    "csqaq_id": 14742,
+    "daily_alert_high": 0.76
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
-    "start_price": 0.72,
+    "start_price": 0.84,
     "last_price": 0.84,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.72
-      },
-      {
-        "time": "20:01",
-        "price": 0.83
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.84
       }
     ],
     "historical_high": 0.84,
-    "csqaq_id": 18780
+    "csqaq_id": 18780,
+    "daily_alert_high": 0.84
   },
   "MP7 | Coral Paisley (Minimal Wear)": {
-    "start_price": 0.91,
+    "start_price": 1.04,
     "last_price": 1.04,
     "history": [
       {
-        "time": "16:42",
-        "price": 0.91
-      },
-      {
-        "time": "16:55",
-        "price": 0.92
-      },
-      {
-        "time": "20:01",
-        "price": 1.12
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 1.04
       }
     ],
     "historical_high": 1.12,
-    "csqaq_id": 24939
+    "csqaq_id": 24939,
+    "daily_alert_high": 1.04
   },
   "StatTrak™ Music Kit | Perfect World, Ay Hey": {
-    "start_price": 61.8,
+    "start_price": 56.0,
     "last_price": 56.0,
     "history": [
       {
-        "time": "16:42",
-        "price": 61.8
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 56.0
       }
     ],
     "historical_high": 61.8,
-    "csqaq_id": 20826
+    "csqaq_id": 20826,
+    "daily_alert_high": 56.0
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
-    "start_price": 2.43,
+    "start_price": 2.13,
     "last_price": 2.13,
     "history": [
       {
-        "time": "16:42",
-        "price": 2.43
-      },
-      {
-        "time": "20:01",
+        "time": "22:31",
         "price": 2.13
       }
     ],
     "historical_high": 2.43,
-    "csqaq_id": 3873
+    "csqaq_id": 3873,
+    "daily_alert_high": 2.13
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
-    "start_price": 0.61,
+    "start_price": 0.6,
     "last_price": 0.6,
     "history": [
       {
-        "time": "16:55",
-        "price": 0.61
-      },
-      {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.6
       }
     ],
     "historical_high": 0.61,
-    "csqaq_id": 17156
+    "csqaq_id": 17156,
+    "daily_alert_high": 0.6
   },
   "StatTrak™ G3SG1 | Hunter (Battle-Scarred)": {
     "start_price": 1.58,
     "last_price": 1.58,
     "history": [
       {
-        "time": "20:01",
+        "time": "22:31",
         "price": 1.58
       }
     ],
     "historical_high": 1.58,
-    "csqaq_id": 3293
+    "csqaq_id": 3293,
+    "daily_alert_high": 1.58
   },
   "MAG-7 | Copper Oxide (Field-Tested)": {
     "history": [],
@@ -606,14 +414,15 @@
   "Kilowatt Case": {
     "history": [
       {
-        "time": "21:03",
+        "time": "22:31",
         "price": 1.72
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.72,
     "last_price": 1.72,
-    "historical_high": 1.72
+    "historical_high": 1.72,
+    "daily_alert_high": 1.72
   },
   "Sealed Graffiti | GGWP (Wire Blue)": {
     "history": []
@@ -680,14 +489,15 @@
   "AUG | Storm (Field-Tested)": {
     "history": [
       {
-        "time": "21:03",
+        "time": "22:31",
         "price": 0.54
       }
     ],
     "csqaq_id": 215,
     "start_price": 0.54,
     "last_price": 0.54,
-    "historical_high": 0.54
+    "historical_high": 0.54,
+    "daily_alert_high": 0.54
   },
   "Tec-9 | Army Mesh (Field-Tested)": {
     "history": [],
