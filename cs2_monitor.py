@@ -18,7 +18,7 @@ MIN_ITEM_VALUE = 0.5
 MIN_INCREASE_PERCENT = 1.0 
 
 # 严格遵守 CSQAQ 官方的频率限制 (大于 1秒/次)，设置 1.5 秒最稳妥且极速
-REQUEST_DELAY = 1.5
+REQUEST_DELAY = 1.3
 # ============================================
 
 session = requests.Session()
