@@ -1,23 +1,45 @@
 name: Monitor
+
 on:
+  # 1. 监听推送到 main 分支：每次你修改代码提交后会立刻运行一次，用于“激活”并重置调度器
+  push:
+    branches:
+      - main 
+  # 2. 定时任务：每小时的第 14 分和 44 分执行（完美避开 00 和 30 的拥挤高峰）
   schedule:
-    # */5 表示每 5 分钟运行一次（达到 GitHub 允许的最高频率极限）
-    - cron: '*/5 * * * *' 
+    - cron: '14,44 * * * *' 
+  # 3. 手动触发
   workflow_dispatch:    
 
 jobs:
   run:
     runs-on: ubuntu-latest
+    
+    # 增加并发控制：如果上一个任务卡住没跑完，新的排队任务会自动取消旧任务，防止堵车和 Git 冲突
+    concurrency: 
+      group: steam-monitor
+      cancel-in-progress: true
+      
     permissions:
       contents: write
+      
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with: 
           python-version: '3.10'
-      - run: pip install requests
-      - run: python cs2_monitor.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
+          
+      - name: Install Dependencies
+        run: pip install requests
+        
+      - name: Run Monitor Script
+        run: python cs2_monitor.py
+        
+      - name: Commit and Push Data
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update price data"
           file_pattern: "advanced_data.json"
