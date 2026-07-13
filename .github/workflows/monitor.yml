@@ -1,19 +1,18 @@
 name: Monitor
 
 on:
+  # 保留 push 触发：当你手动修改代码提交时，立刻运行一次
   push:
     branches:
       - main 
-  # 定时任务：每小时的第 14 分和 44 分执行（避开 00 和 30 的网络拥挤高峰）
-  schedule:
-    - cron: '14,44 * * * *' 
+  # 开启手动与 API 触发：让 cron-job.org 通过 API 准点唤醒它
   workflow_dispatch:    
 
 jobs:
   run:
     runs-on: ubuntu-latest
     
-    # 并发控制：如果上一个任务卡住没跑完，新的任务会自动取消旧任务，防止堵车
+    # 并发控制：防止多个任务撞车
     concurrency: 
       group: steam-monitor
       cancel-in-progress: true
@@ -22,11 +21,9 @@ jobs:
       contents: write
       
     steps:
-      # 【已修复】升级到 v6，原生支持 Node.js 24
       - name: Checkout code
         uses: actions/checkout@v6 
         
-      # 【已修复】升级到 v6，原生支持 Node.js 24
       - name: Setup Python
         uses: actions/setup-python@v6
         with: 
@@ -38,7 +35,6 @@ jobs:
       - name: Run Monitor Script
         run: python cs2_monitor.py
         
-      # 【已修复】升级到 v7，原生支持 Node.js 24
       - name: Commit and Push Data
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
