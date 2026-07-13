@@ -61,7 +61,7 @@
   },
   "StatTrak™ Nova | Wood Fired (Field-Tested)": {
     "start_price": 6.17,
-    "last_price": 5.47,
+    "last_price": 5.46,
     "history": [
       {
         "time": "16:42",
@@ -78,6 +78,10 @@
       {
         "time": "21:03",
         "price": 5.47
+      },
+      {
+        "time": "21:40",
+        "price": 5.46
       }
     ],
     "historical_high": 6.17,
