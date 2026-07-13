@@ -4,6 +4,7 @@ import json
 import os
 import datetime
 import urllib.parse
+import random
 
 # ================= 配置区域 =================
 WXPUSHER_APP_TOKEN = "AT_yHKSDVeK6iT5WJO6UEgHybzBaA0dBpGa"
@@ -17,14 +18,16 @@ CSQAQ_API_TOKEN = "JXJTD1B787E8L01767A8Z738"
 MIN_ITEM_VALUE = 0.5       
 MIN_INCREASE_PERCENT = 1.0 
 
-# 严格遵守 CSQAQ 官方的频率限制 (大于 1秒/次)，设置 1.5 秒最稳妥且极速
-REQUEST_DELAY = 1.5
+# 既然要直连 Steam 官方，必须保证 8~12 秒的休眠防 429 限流
+MIN_REQUEST_DELAY = 8.0    
+MAX_REQUEST_DELAY = 12.0   
 # ============================================
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/114.0.0.0 Safari/537.36",
-    "Accept-Language": "zh-CN,zh;q=0.9"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Referer": "https://steamcommunity.com/market/"
 })
 
 def send_wxpusher(title, content):
@@ -42,7 +45,7 @@ def send_wxpusher(title, content):
     except: pass
 
 def bind_dynamic_ip():
-    """【黑科技】每次启动时，调用官方API，把 GitHub 分配的随机动态 IP 自动加入白名单！"""
+    """【防拦截】自动将当前 GitHub 节点 IP 绑定至 CSQAQ 白名单"""
     if not CSQAQ_API_TOKEN: return
     url = "https://api.csqaq.com/api/v1/sys/bind_local_ip"
     headers = {"ApiToken": CSQAQ_API_TOKEN, "Content-Type": "application/json"}
@@ -50,7 +53,6 @@ def bind_dynamic_ip():
         res = requests.post(url, headers=headers, json={}, timeout=10)
         data = res.json()
         if data.get("code") == 200:
-            # 成功绑定的话，控制台会输出: 绑定IP更新成功，当前绑定IP为：xxx.xxx.xxx.xxx
             print(f"[系统] {data.get('data', '成功将当前IP绑定至白名单！')}")
         else:
             print(f"[系统提示] IP绑定状态: {data.get('msg')}")
@@ -58,7 +60,7 @@ def bind_dynamic_ip():
         print(f"[错误] 自动绑定IP发生异常: {e}")
 
 def get_inventory():
-    """获取库存 (仅向 Steam 发送 1 次请求)"""
+    """获取库存"""
     url = f"https://steamcommunity.com/inventory/{STEAM_ID}/730/2?l=schinese&count=500"
     items = {}
     try:
@@ -68,8 +70,7 @@ def get_inventory():
             return {}
         try:
             data = res.json()
-        except:
-            return {}
+        except: return {}
             
         for item in data.get('descriptions', []):
             if item.get('marketable'):
@@ -78,8 +79,30 @@ def get_inventory():
         return items
     except: return {}
 
+def get_steam_market_data(hash_name):
+    """【绝对核心】实时获取 Steam 官方在售底价"""
+    url = "https://steamcommunity.com/market/priceoverview/"
+    params = {"appid": 730, "currency": 23, "market_hash_name": hash_name}
+    result = {"price": -1}
+    
+    try:
+        res = session.get(url, params=params, timeout=15)
+        if res.status_code == 429:
+            print(f"[警告] Steam 接口限流 (429): {hash_name}")
+            return result
+        try:
+            data = res.json()
+        except: return result
+
+        if not data.get("success"): return result
+            
+        if "lowest_price" in data:
+            result["price"] = float(str(data['lowest_price']).replace('¥', '').replace(',', '').strip())
+        return result
+    except: return result
+
 def get_csqaq_good_id(hash_name):
-    """【API 第一步】通过名字搜索 CSQAQ 站内的专属 good_id"""
+    """【辅核第一步】搜索获取 CSQAQ 站内的专属 good_id"""
     if not CSQAQ_API_TOKEN: return None
     url = "https://api.csqaq.com/api/v1/info/get_good_id"
     headers = {"ApiToken": CSQAQ_API_TOKEN, "Content-Type": "application/json"}
@@ -90,36 +113,45 @@ def get_csqaq_good_id(hash_name):
         if res.status_code == 429: return None
         
         res_json = res.json()
-        if res_json.get("code") != 200:
-            print(f"[ID拦截] {hash_name} 获取失败: {res_json.get('msg')}")
-            return None
+        if res_json.get("code") != 200: return None
             
         data_dict = res_json.get("data", {}).get("data", {})
         for _, item in data_dict.items():
             if item.get("market_hash_name") == hash_name:
                 return item.get("id")
-    except Exception as e:
-        print(f"[错误] 获取 {hash_name} ID异常: {e}")
+    except: pass
     return None
 
-def get_csqaq_details(good_id):
-    """【API 第二步】通过 good_id 直接获取全部精细数据"""
+def get_csqaq_max_prices(good_id):
+    """【辅核第二步】根据 ID 拉取国内各大平台现金价，并筛出最高价"""
+    result = {"max_sell": "未知", "max_buy": "未知"}
     url = f"https://api.csqaq.com/api/v1/info/good?id={good_id}"
     headers = {"ApiToken": CSQAQ_API_TOKEN}
     
     try:
         res = requests.get(url, headers=headers, timeout=10)
-        if res.status_code == 429: return None
+        if res.status_code == 429: return result
         
         res_json = res.json()
-        if res_json.get("code") != 200:
-            print(f"[详情拦截] ID:{good_id} 获取失败: {res_json.get('msg')}")
-            return None
+        if res_json.get("code") != 200: return result
             
-        return res_json.get("data", {}).get("goods_info", {})
-    except Exception as e:
-        print(f"[错误] 获取 ID:{good_id} 详情异常: {e}")
-    return None
+        details = res_json.get("data", {}).get("goods_info", {})
+        
+        sell_prices = []
+        buy_prices = []
+        platforms = ["buff", "yyyp", "c5", "eco", "igxe"]
+        
+        for p in platforms:
+            sp = details.get(f"{p}_sell_price")
+            bp = details.get(f"{p}_buy_price")
+            if sp and float(sp) > 0: sell_prices.append(float(sp))
+            if bp and float(bp) > 0: buy_prices.append(float(bp))
+                
+        if sell_prices: result["max_sell"] = f"¥{max(sell_prices):.2f}"
+        if buy_prices: result["max_buy"] = f"¥{max(buy_prices):.2f}"
+        
+        return result
+    except: return result
 
 def generate_sparkline_url(prices, is_red):
     """生成走势折线图"""
@@ -162,72 +194,50 @@ def main():
     daily_summary = []
     valid_items_checked = 0 
 
-    print("[启动] 核心监控系统启动，正在验证网络...")
-    # 🔥 核心修正：自动把 GitHub 当前 IP 动态绑定到你的 CSQAQ 账户白名单
+    print("[启动] 核心监控系统启动...")
+    # 自动解除 CSQAQ 的动态 IP 风控拦截
     bind_dynamic_ip()
-    print("[提示] 基于 CSQAQ 官方文档接口拉取大盘价格...")
+    print("[提示] 正在获取 Steam 实时行情，并辅以国内数据比对...")
 
     for hash_name, cn_name in inventory_items.items():
         
         if hash_name not in db:
             db[hash_name] = {"history": []}
-            
         item_data = db[hash_name]
         
-        # ========== 智能记忆 ID 提速 ==========
-        good_id = item_data.get("csqaq_id")
-        if not good_id:
-            good_id = get_csqaq_good_id(hash_name) 
-            time.sleep(REQUEST_DELAY) 
-            if good_id:
-                item_data["csqaq_id"] = good_id
-            else:
-                continue 
-                
-        # ========== 核心：拉取饰品全盘详情 ==========
-        details = get_csqaq_details(good_id)
-        time.sleep(REQUEST_DELAY) 
+        # ========== 1. 【主引擎】绝对实时获取 Steam 官方价格 ==========
+        steam_data = get_steam_market_data(hash_name)
+        price = steam_data["price"]
         
-        if not details:
-            continue
-            
-        # 1. 绝对核心：提取 Steam 官方余额价格
-        steam_sell = details.get("steam_sell_price") or details.get("steam_buy_price")
-        if not steam_sell: 
-            continue
-            
-        price = float(steam_sell)
-        
-        # 2. 极简辅核：只筛出全网(BUFF/悠悠/C5/ECO/IGXE)最高底价和求购价
-        sell_prices = []
-        buy_prices = []
-        platforms = ["buff", "yyyp", "c5", "eco", "igxe"]
-        
-        for p in platforms:
-            sp = details.get(f"{p}_sell_price")
-            bp = details.get(f"{p}_buy_price")
-            if sp and str(sp).strip():
-                try: 
-                    if float(sp) > 0: sell_prices.append(float(sp))
-                except: pass
-            if bp and str(bp).strip():
-                try: 
-                    if float(bp) > 0: buy_prices.append(float(bp))
-                except: pass
-                
-        max_sell = f"¥{max(sell_prices):.2f}" if sell_prices else "未知"
-        max_buy = f"¥{max(buy_prices):.2f}" if buy_prices else "未知"
-        
-        # 过滤低价值
+        # 过滤低价值废品或获取失败的饰品
         if price <= MIN_ITEM_VALUE:
             if should_generate_daily and "start_price" in item_data:
                 item_data["start_price"] = item_data.get("last_price", 0)
                 item_data["history"] = [{"time": "昨日收盘", "price": item_data["start_price"]}]
+            
+            # 由于访问了 Steam，必须严格休眠防 429
+            time.sleep(round(random.uniform(MIN_REQUEST_DELAY, MAX_REQUEST_DELAY), 2))
             continue
             
         valid_items_checked += 1
+        
+        # ========== 2. 【辅引擎】智能抓取国内现金参考价 ==========
+        csqaq_max_sell = "未知"
+        csqaq_max_buy = "未知"
+        
+        # 读取记忆ID，提速
+        good_id = item_data.get("csqaq_id")
+        if not good_id:
+            good_id = get_csqaq_good_id(hash_name) 
+            time.sleep(1.5) # CSQAQ单点请求限流
+            if good_id: item_data["csqaq_id"] = good_id
+                
+        if good_id:
+            csqaq_data = get_csqaq_max_prices(good_id)
+            csqaq_max_sell = csqaq_data["max_sell"]
+            csqaq_max_buy = csqaq_data["max_buy"]
 
-        # 新增饰品属性初始化
+        # ========== 核心属性初始化与升级 ==========
         if "start_price" not in item_data:
             item_data["start_price"] = price
             item_data["last_price"] = price
@@ -243,11 +253,11 @@ def main():
         # ========== 常规异动监控 (防横跳冷却处理) ==========
         if price > last_price and last_price > 0:
             increase_percent = ((price - last_price) / last_price) * 100
+            
             if increase_percent >= MIN_INCREASE_PERCENT:
-                
-                # 只有突破今天已经发过警报的价格才发推送
+                # 【防打扰核心】只有突破了今天已经报过警的最高价格，才会发送推送
                 if price > daily_alert_high:
-                    item_data["daily_alert_high"] = price 
+                    item_data["daily_alert_high"] = price # 更新报警水位线
                     
                     if price > historical_high:
                         high_tag = "🚀 <span style='color:red;'><b>突破 Steam 历史新高！</b></span>"
@@ -261,7 +271,7 @@ def main():
                            f"Steam余额价：¥{last_price:.2f} ➡️ <b style='font-size:15px; color:#d9534f;'>¥{price:.2f}</b> "
                            f"<span style='color:red;'>(+{increase_percent:.2f}%)</span><br>"
                            f"<div style='font-size:11px; color:#666; background:#f9f9f9; padding:4px 6px; border-radius:4px; margin-top:6px;'>"
-                           f"🛒 <b>国内现金参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
+                           f"🛒 <b>国内现金参考:</b> 全网最高底价 {csqaq_max_sell} | 最高求购 {csqaq_max_buy}"
                            f"</div></div>")
                     hourly_alerts.append(msg)
         
@@ -303,7 +313,7 @@ def main():
                                f"📊 Steam 探底: ¥{day_low:.2f} | 冲高: ¥{day_high:.2f}<br>"
                                f"👑 {high_str}<br>"
                                f"<div style='font-size:11px; color:#31708f; background:#d9edf7; padding:4px 6px; border-radius:4px; margin:6px 0;'>"
-                               f"🛒 <b>国内辅助参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
+                               f"🛒 <b>国内辅助参考:</b> 全网最高底价 {csqaq_max_sell} | 最高求购 {csqaq_max_buy}"
                                f"</div>"
                                f"<img src='{chart_url}' alt='走势图' style='width:100%; max-width:300px; margin-top:2px; border-radius:4px;'><br>"
                                f"<div style='font-size:11px; color:#888; margin-top:6px; padding:4px; background:#f9f9f9; border:1px solid #eee; border-radius:4px;'>"
@@ -314,6 +324,9 @@ def main():
             item_data["start_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
             item_data["daily_alert_high"] = price # 复盘时重置报警水位线
+
+        # ================= 极其重要的 Steam 防护休眠 =================
+        time.sleep(round(random.uniform(MIN_REQUEST_DELAY, MAX_REQUEST_DELAY), 2))
 
     with open(DATA_FILE, 'w', encoding='utf-8') as f: 
         json.dump(db, f, ensure_ascii=False, indent=2)
@@ -327,7 +340,7 @@ def main():
         send_wxpusher(f"📊 Steam 大盘深度复盘 ({today_str})", f"今日产生有效波动的饰品汇总：<br><br>{final_summary_html}")
 
     if not hourly_alerts and not daily_summary and valid_items_checked > 0:
-        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"官方接口引擎运行正常！<br>已完成 {valid_items_checked} 件饰品的 Steam 价格排查。<br>目前大盘平稳，未达到报警阈值。")
+        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"双核看盘系统运行正常！<br>已完成 {valid_items_checked} 件饰品的实时价格排查。<br>目前大盘平稳，未达到报警阈值。")
 
 if __name__ == "__main__":
     main()
