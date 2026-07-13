@@ -4,6 +4,7 @@ import json
 import os
 import datetime
 import urllib.parse
+import random  # 【新增】引入随机数模块
 
 # ================= 配置区域 =================
 WXPUSHER_APP_TOKEN = "AT_yHKSDVeK6iT5WJO6UEgHybzBaA0dBpGa"
@@ -13,7 +14,10 @@ DATA_FILE = "advanced_data.json"
 
 MIN_ITEM_VALUE = 0.5       # 忽略低于0.5元的物品
 MIN_INCREASE_PERCENT = 1.0 # 涨幅超过1%才进行日内推送通知
-REQUEST_DELAY = 10         # 【新增】每次查完一个饰品休眠几秒（防Steam封IP，建议8-12秒）
+
+# 【修改】使用随机抖动代替固定休眠，极大幅度降低封禁率
+MIN_REQUEST_DELAY = 5.0    # 最短休眠时间(秒)
+MAX_REQUEST_DELAY = 10.0   # 最长休眠时间(秒)
 # ============================================
 
 # 全局 Session 与 浏览器伪装 (防封锁)
@@ -98,6 +102,10 @@ def generate_sparkline_url(prices, is_red):
     encoded_config = urllib.parse.quote(config_str)
     return f"https://quickchart.io/chart?w=300&h=80&bkg=white&c={encoded_config}"
 
+def get_random_delay():
+    """获取随机延迟时间 (精确到小数点后2位)"""
+    return round(random.uniform(MIN_REQUEST_DELAY, MAX_REQUEST_DELAY), 2)
+
 def main():
     now_utc = datetime.datetime.utcnow()
     now_bj = now_utc + datetime.timedelta(hours=8)
@@ -140,7 +148,10 @@ def main():
             if should_generate_daily and hash_name in db:
                 db[hash_name]["start_price"] = db[hash_name].get("last_price", 0)
                 db[hash_name]["history"] = [{"time": "昨日收盘", "price": db[hash_name]["start_price"]}]
-            time.sleep(REQUEST_DELAY) # 使用配置的延长休眠时间
+            
+            # 【应用随机抖动】
+            delay = get_random_delay()
+            time.sleep(delay) 
             continue
             
         valid_items_checked += 1
@@ -237,7 +248,9 @@ def main():
             item_data["start_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
 
-        time.sleep(REQUEST_DELAY) # 使用配置的延长休眠时间，防 429
+        # 【应用随机抖动】每次查询完后，随机休眠 5.xx ~ 10.xx 秒
+        delay = get_random_delay()
+        time.sleep(delay)
 
     # 数据持久化保存
     with open(DATA_FILE, 'w', encoding='utf-8') as f: 
