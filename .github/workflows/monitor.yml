@@ -1,8 +1,8 @@
 name: Monitor
 on:
   schedule:
-    # 17,47 表示每小时的 17分 和 47分 运行，完美避开整点和半点的排队高峰
-    - cron: '17,47 * * * *' 
+    # */5 表示每 5 分钟运行一次（达到 GitHub 允许的最高频率极限）
+    - cron: '*/5 * * * *' 
   workflow_dispatch:    
 
 jobs:
