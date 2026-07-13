@@ -73,7 +73,6 @@ def get_csqaq_good_id(hash_name):
         res = requests.post(url, headers=headers, json=payload, timeout=10)
         if res.status_code == 429: return None
         
-        # 严格按照官方文档结构解析 {"data": {"data": {"6796": {...}}}}
         data_dict = res.json().get("data", {}).get("data", {})
         for _, item in data_dict.items():
             if item.get("market_hash_name") == hash_name:
@@ -90,8 +89,6 @@ def get_csqaq_details(good_id):
     try:
         res = requests.get(url, headers=headers, timeout=10)
         if res.status_code == 429: return None
-        
-        # 按照官方文档解析 data -> goods_info
         return res.json().get("data", {}).get("goods_info", {})
     except Exception as e:
         print(f"[错误] 获取 ID:{good_id} 详情异常: {e}")
@@ -142,26 +139,25 @@ def main():
 
     for hash_name, cn_name in inventory_items.items():
         
-        # ========== 数据平滑初始化 ==========
         if hash_name not in db:
             db[hash_name] = {"history": []}
             
         item_data = db[hash_name]
         
         # ========== 智能记忆 ID 提速 ==========
-        # 如果数据库没有记住这个饰品的 ID，就去查一次并存下来
         good_id = item_data.get("csqaq_id")
         if not good_id:
-            good_id = get_csqaq_id(hash_name)
-            time.sleep(REQUEST_DELAY) # 遵循 1.5秒 限流
+            # 【已修复】：这里的函数名修改正确了
+            good_id = get_csqaq_good_id(hash_name) 
+            time.sleep(REQUEST_DELAY) 
             if good_id:
                 item_data["csqaq_id"] = good_id
             else:
-                continue # 查不到 ID 跳过
+                continue 
                 
         # ========== 核心：拉取饰品全盘详情 ==========
         details = get_csqaq_details(good_id)
-        time.sleep(REQUEST_DELAY) # 遵循 1.5秒 限流
+        time.sleep(REQUEST_DELAY) 
         
         if not details:
             continue
