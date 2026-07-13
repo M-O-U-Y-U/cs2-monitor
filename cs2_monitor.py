@@ -1,10 +1,8 @@
 import requests
-import time
 import json
 import os
 import datetime
 import urllib.parse
-import random
 
 # ================= 配置区域 =================
 WXPUSHER_APP_TOKEN = "AT_yHKSDVeK6iT5WJO6UEgHybzBaA0dBpGa"
@@ -12,17 +10,13 @@ WXPUSHER_UID = "UID_xpTn3FaNA1yWqDvDMQJYurXEen72"
 STEAM_ID = "76561199123057301"
 DATA_FILE = "advanced_data.json"
 
-MIN_ITEM_VALUE = 0.5       # 忽略低于0.5元的物品
-MIN_INCREASE_PERCENT = 1.0 # 涨幅超过1%才进行日内推送通知
-
-# 随机休眠抖动，防止被识别为机器规律请求 (单位:秒)
-MIN_REQUEST_DELAY = 2.0    
-MAX_REQUEST_DELAY = 4.0   
+MIN_ITEM_VALUE = 0.5       
+MIN_INCREASE_PERCENT = 1.0 
 # ============================================
 
 session = requests.Session()
 session.headers.update({
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/114.0.0.0 Safari/537.36",
     "Accept-Language": "zh-CN,zh;q=0.9"
 })
 
@@ -49,64 +43,56 @@ def get_inventory():
         if res.status_code == 429:
             print("[警告] 获取库存被 Steam 限流 (429)")
             return {}
-        data = res.json()
+        try:
+            data = res.json()
+        except:
+            print("[错误] 获取库存失败，返回非JSON数据")
+            return {}
+            
         for item in data.get('descriptions', []):
             if item.get('marketable'):
                 hash_name = item['market_hash_name']
                 items[hash_name] = item.get('name', hash_name)
         return items
     except Exception as e: 
-        print(f"[错误] 获取库存失败: {e}")
+        print(f"[错误] 获取库存异常: {e}")
         return {}
 
-def get_market_data(hash_name):
+def fetch_all_market_data():
     """
-    使用 CSGO Backpack 第三方 API 榨干更多专业数据
+    【降维打击】使用 Skinport 官方 API 一次性拉取全网所有饰品数据！
+    彻底告别一个一个查价格，0 延迟，0 封禁风险。
     """
-    url = "https://csgobackpack.net/api/GetItemPrice/"
-    params = {"id": hash_name, "currency": "CNY", "time": 1} # time=1 代表取最近 24 小时的数据
+    url = "https://api.skinport.com/v1/items"
+    params = {"app_id": 730, "currency": "CNY", "tradable": 0}
     
-    # 默认返回结构，加入均价和最高价
-    result = {
-        "price": -1, 
-        "volume": "未知", 
-        "median": "未知", 
-        "average": "未知", 
-        "high_24h": "未知"
-    }
-    
+    print("[提示] 正在从 Skinport 获取全球大盘价格 (只需几秒)...")
     try:
-        res = session.get(url, params=params, timeout=10)
-        if res.status_code == 429:
-            print(f"[警告] 获取 {hash_name} 数据被限流 (429)")
-            return result
-        
+        res = session.get(url, params=params, timeout=20)
         data = res.json()
-        if not data.get("success"): 
-            return result
+        
+        market_dict = {}
+        for item in data:
+            name = item.get("market_hash_name")
+            if not name: continue
             
-        # 1. 核心价格：优先用最低在售价，没有的话用中位价兜底
-        price_str = data.get("lowest_price") or data.get("median_price")
-        if price_str:
-            result["price"] = float(str(price_str).replace(',', '').strip())
+            # 优先取市场最低在售价，如果没有则取系统建议价
+            price = item.get("min_price") or item.get("suggested_price") or -1
             
-        # 2. 丰富的大盘数据
-        if data.get("amount_sold"):
-            result["volume"] = data['amount_sold']
-        if data.get("median_price"):
-            result["median"] = data['median_price']
-        if data.get("average_price"):
-            result["average"] = data['average_price']
-        if data.get("highest_price"):
-            result["high_24h"] = data['highest_price']
+            market_dict[name] = {
+                "price": float(price),
+                "volume": item.get("quantity", 0),
+                "median": item.get("mean_price", "未知"),
+                "high_24h": item.get("max_price", "未知")
+            }
             
-        return result
-    except Exception as e: 
-        print(f"[错误] 获取 {hash_name} 数据异常: {e}")
-        return result
-
+        print(f"[成功] 全球大盘拉取完成，共载入 {len(market_dict)} 件饰品数据！")
+        return market_dict
+    except Exception as e:
+        print(f"[错误] 大盘数据拉取失败: {e}")
+        return {}
+        
 def generate_sparkline_url(prices, is_red):
-    """通过 QuickChart API 生成微缩走势图"""
     if not prices: return ""
     if len(prices) == 1: prices.append(prices[0])
     
@@ -123,17 +109,12 @@ def generate_sparkline_url(prices, is_red):
     encoded_config = urllib.parse.quote(config_str)
     return f"https://quickchart.io/chart?w=300&h=80&bkg=white&c={encoded_config}"
 
-def get_random_delay():
-    """生成带有小数点的随机抖动时间，完美模拟真人点击"""
-    return round(random.uniform(MIN_REQUEST_DELAY, MAX_REQUEST_DELAY), 2)
-
 def main():
     now_utc = datetime.datetime.utcnow()
     now_bj = now_utc + datetime.timedelta(hours=8)
     today_str = now_bj.strftime("%Y-%m-%d")
     current_time_str = now_bj.strftime("%H:%M")
     
-    # 只要是晚上22点之后（含23点），且今天没出过报告，即触发晚间复盘
     is_11_pm = (now_bj.hour >= 22)
 
     if os.path.exists(DATA_FILE):
@@ -155,31 +136,37 @@ def main():
     if not inventory_items: 
         print("[提示] 库存为空或获取失败，结束运行。")
         return
+        
+    # ================= 极速引擎核心 =================
+    global_market_data = fetch_all_market_data()
+    if not global_market_data:
+        print("[错误] 大盘数据为空，任务中止。")
+        return
+    # ================================================
 
     hourly_alerts = []
     daily_summary = []
     valid_items_checked = 0 
 
     for hash_name, cn_name in inventory_items.items():
-        market_data = get_market_data(hash_name)
+        market_data = global_market_data.get(hash_name)
+        
+        if not market_data:
+            continue
+            
         price = market_data["price"]
         volume = market_data["volume"]
         median = market_data["median"]
-        average = market_data["average"]
         high_24h = market_data["high_24h"]
         
-        # 价格低于阈值或获取失败处理
         if price <= MIN_ITEM_VALUE:
             if should_generate_daily and hash_name in db:
                 db[hash_name]["start_price"] = db[hash_name].get("last_price", 0)
                 db[hash_name]["history"] = [{"time": "昨日收盘", "price": db[hash_name]["start_price"]}]
-            
-            time.sleep(get_random_delay()) 
             continue
             
         valid_items_checked += 1
         
-        # 数据初始化及平滑升级
         if hash_name not in db:
             db[hash_name] = {
                 "start_price": price, 
@@ -213,12 +200,11 @@ def main():
                 msg = (f"<div style='border-bottom: 1px dashed #ccc; padding-bottom: 10px; margin-bottom: 10px;'>"
                        f"<b style='font-size:16px;'>{cn_name}</b><br>"
                        f"当前状态：{high_tag}<br>"
-                       f"行情变动：¥{last_price:.2f} ➡️ <b style='font-size:15px; color:#d9534f;'>¥{price:.2f}</b> "
+                       f"现金底价：¥{last_price:.2f} ➡️ <b style='font-size:15px; color:#d9534f;'>¥{price:.2f}</b> "
                        f"<span style='color:red;'>(+{increase_percent:.2f}%)</span><br>"
                        f"<div style='font-size:12px; color:#555; background:#f5f5f5; padding:6px; border-radius:4px; margin-top:6px;'>"
                        f"<b>大盘参考：</b><br>"
-                       f"24h热度: {volume} 笔 | 24h均价: ¥{average}<br>"
-                       f"24h高点: ¥{high_24h} | 中位参考: ¥{median}"
+                       f"在售件数: {volume} 件 | 均价参考: ¥{median}<br>"
                        f"</div></div>")
                 hourly_alerts.append(msg)
         
@@ -229,7 +215,7 @@ def main():
             
         item_data["last_price"] = price
         
-        # ========== 2. 晚间复盘逻辑 (高低点 + 折线图 + 大盘数据) ==========
+        # ========== 2. 晚间复盘逻辑 ==========
         if should_generate_daily:
             net_change = ((price - start_price) / start_price * 100) if start_price > 0 else 0
             
@@ -254,7 +240,6 @@ def main():
                 history_str_list = [f"{x['time']}(¥{x['price']:.2f})" for x in item_data['history']]
                 history_path = " > ".join(history_str_list)
                 
-                # 精美排版的每日摘要卡片
                 summary_msg = (f"<div style='margin-bottom:20px;'>"
                                f"<b style='font-size:15px;'>{cn_name}</b> <span style='font-size:12px; color:#888;'>({hash_name})</span><br>"
                                f"今日收盘：<b style='font-size:16px;'>¥{price:.2f}</b> "
@@ -263,9 +248,9 @@ def main():
                                f"📊 今日探底: ¥{day_low:.2f} | 冲高: ¥{day_high:.2f}<br>"
                                f"👑 {high_str}<br>"
                                f"<div style='font-size:12px; color:#31708f; background:#d9edf7; padding:6px; border-radius:5px; margin:6px 0;'>"
-                               f"🛒 <b>CSGO大盘 24H 真实数据</b><br>"
-                               f"成交笔数: {volume} 笔 | 24H均价: ¥{average}<br>"
-                               f"最高成交: ¥{high_24h} | 中位参考: ¥{median}"
+                               f"🛒 <b>全网真实交易底价 (Skinport API)</b><br>"
+                               f"在售件数: {volume} 件 | 平均参考价: ¥{median}<br>"
+                               f"最高挂单: ¥{high_24h}"
                                f"</div>"
                                f"<img src='{chart_url}' alt='走势图' style='width:100%; max-width:300px; margin-top:2px; border-radius:4px;'><br>"
                                f"<div style='font-size:11px; color:#888; margin-top:6px; padding:4px; background:#f9f9f9; border:1px solid #eee; border-radius:4px;'>"
@@ -275,8 +260,6 @@ def main():
             
             item_data["start_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
-
-        time.sleep(get_random_delay())
 
     with open(DATA_FILE, 'w', encoding='utf-8') as f: 
         json.dump(db, f, ensure_ascii=False, indent=2)
@@ -291,7 +274,7 @@ def main():
 
     # ================= 存活心跳 (测试用) =================
     if not hourly_alerts and not daily_summary and valid_items_checked > 0:
-        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"脚本运行正常，刚刚成功获取了 {valid_items_checked} 件饰品的最新价格。<br>目前大盘平稳，未达到报警阈值。")
+        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"极速引擎运行正常！<br>瞬间获取并匹配了 {valid_items_checked} 件饰品的真实底价。<br>目前大盘平稳，未达到报警阈值。")
 
 if __name__ == "__main__":
     main()
