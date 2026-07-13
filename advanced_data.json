@@ -45,11 +45,15 @@
   },
   "StatTrak™ Nova | Wood Fired (Field-Tested)": {
     "start_price": 5.46,
-    "last_price": 5.46,
+    "last_price": 5.36,
     "history": [
       {
         "time": "22:31",
         "price": 5.46
+      },
+      {
+        "time": "23:01",
+        "price": 5.36
       }
     ],
     "historical_high": 6.17,
@@ -253,24 +257,32 @@
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "start_price": 2.34,
-    "last_price": 2.34,
+    "last_price": 2.41,
     "history": [
       {
         "time": "22:31",
         "price": 2.34
+      },
+      {
+        "time": "23:01",
+        "price": 2.41
       }
     ],
     "historical_high": 2.41,
     "csqaq_id": 21900,
-    "daily_alert_high": 2.34
+    "daily_alert_high": 2.41
   },
   "USP-S | Tropical Breeze (Field-Tested)": {
     "start_price": 3.03,
-    "last_price": 3.03,
+    "last_price": 2.94,
     "history": [
       {
         "time": "22:31",
         "price": 3.03
+      },
+      {
+        "time": "23:01",
+        "price": 2.94
       }
     ],
     "historical_high": 3.04,
@@ -370,16 +382,20 @@
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "start_price": 2.13,
-    "last_price": 2.13,
+    "last_price": 2.31,
     "history": [
       {
         "time": "22:31",
         "price": 2.13
+      },
+      {
+        "time": "23:01",
+        "price": 2.31
       }
     ],
     "historical_high": 2.43,
     "csqaq_id": 3873,
-    "daily_alert_high": 2.13
+    "daily_alert_high": 2.31
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "start_price": 0.6,
@@ -502,5 +518,18 @@
   "Tec-9 | Army Mesh (Field-Tested)": {
     "history": [],
     "csqaq_id": 6346
+  },
+  "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
+    "history": [
+      {
+        "time": "23:01",
+        "price": 3.18
+      }
+    ],
+    "csqaq_id": 3996,
+    "start_price": 3.18,
+    "last_price": 3.18,
+    "historical_high": 3.18,
+    "daily_alert_high": 3.18
   }
 }
