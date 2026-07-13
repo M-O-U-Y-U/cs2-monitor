@@ -17,7 +17,7 @@ CSQAQ_API_TOKEN = "JXJTD1B787E8L01767A8Z738"
 MIN_ITEM_VALUE = 0.5       
 MIN_INCREASE_PERCENT = 1.0 
 
-# 严格遵守 CSQAQ 官方的频率限制 (大于 1秒/次)，设置 1.5 秒最稳妥
+# 严格遵守 CSQAQ 官方的频率限制 (大于 1秒/次)，设置 1.5 秒最稳妥且极速
 REQUEST_DELAY = 1.5
 # ============================================
 
@@ -63,7 +63,7 @@ def get_inventory():
     except: return {}
 
 def get_csqaq_good_id(hash_name):
-    """【API 第一步】通过名字搜索 CSQAQ 站内的专属 good_id"""
+    """【API 第一步】通过名字搜索 CSQAQ 站内的专属 good_id (加入防崩溃保护)"""
     if not CSQAQ_API_TOKEN: return None
     url = "https://api.csqaq.com/api/v1/info/get_good_id"
     headers = {"ApiToken": CSQAQ_API_TOKEN, "Content-Type": "application/json"}
@@ -73,7 +73,20 @@ def get_csqaq_good_id(hash_name):
         res = requests.post(url, headers=headers, json=payload, timeout=10)
         if res.status_code == 429: return None
         
-        data_dict = res.json().get("data", {}).get("data", {})
+        res_json = res.json()
+        
+        # 拦截业务报错并打印真实原因
+        if res_json.get("code") != 200:
+            print(f"[CSQAQ-ID拦截] {hash_name} 获取失败: {res_json.get('msg')}")
+            return None
+            
+        data_block = res_json.get("data")
+        if not data_block: return None
+        
+        data_dict = data_block.get("data")
+        if not data_dict: return None
+        
+        # 严格按照官方文档解析字典 {"6796": {...}}
         for _, item in data_dict.items():
             if item.get("market_hash_name") == hash_name:
                 return item.get("id")
@@ -82,20 +95,28 @@ def get_csqaq_good_id(hash_name):
     return None
 
 def get_csqaq_details(good_id):
-    """【API 第二步】通过 good_id 直接获取全部精细数据"""
+    """【API 第二步】通过 good_id 直接获取全盘数据 (包含Steam价格)"""
     url = f"https://api.csqaq.com/api/v1/info/good?id={good_id}"
     headers = {"ApiToken": CSQAQ_API_TOKEN}
     
     try:
         res = requests.get(url, headers=headers, timeout=10)
         if res.status_code == 429: return None
-        return res.json().get("data", {}).get("goods_info", {})
+        
+        res_json = res.json()
+        if res_json.get("code") != 200:
+            print(f"[CSQAQ-详情拦截] ID:{good_id} 获取失败: {res_json.get('msg')}")
+            return None
+            
+        data_block = res_json.get("data")
+        if not data_block: return None
+        
+        return data_block.get("goods_info", {})
     except Exception as e:
         print(f"[错误] 获取 ID:{good_id} 详情异常: {e}")
     return None
 
 def generate_sparkline_url(prices, is_red):
-    """生成走势折线图"""
     if not prices: return ""
     if len(prices) == 1: prices.append(prices[0])
     color = "rgb(255, 77, 79)" if is_red else "rgb(82, 196, 26)"
@@ -135,7 +156,7 @@ def main():
     daily_summary = []
     valid_items_checked = 0 
 
-    print("[启动] 核心监控系统启动，基于 CSQAQ 官方文档接口拉取 Steam 价格...")
+    print("[启动] 核心监控系统启动，基于 CSQAQ 接口拉取 Steam 价格与辅盘数据...")
 
     for hash_name, cn_name in inventory_items.items():
         
@@ -144,10 +165,9 @@ def main():
             
         item_data = db[hash_name]
         
-        # ========== 智能记忆 ID 提速 ==========
+        # ========== 智能记忆 ID 极速处理 ==========
         good_id = item_data.get("csqaq_id")
         if not good_id:
-            # 【已修复】：这里的函数名修改正确了
             good_id = get_csqaq_good_id(hash_name) 
             time.sleep(REQUEST_DELAY) 
             if good_id:
@@ -169,10 +189,10 @@ def main():
             
         price = float(steam_sell)
         
-        # 2. 极简辅核：只筛出全网(BUFF/悠悠/C5/ECO/IGXE)最高底价和求购价
+        # 2. 极简辅核：只筛出全网最高底价和求购价
         sell_prices = []
         buy_prices = []
-        platforms = ["buff", "yyyp", "c5", "eco", "igxe"]
+        platforms = ["buff", "yyyp", "c5", "eco", "igxe", "r8"]
         
         for p in platforms:
             sp = details.get(f"{p}_sell_price")
@@ -192,7 +212,7 @@ def main():
             
         valid_items_checked += 1
 
-        # 新增饰品属性初始化
+        # 饰品属性初始化
         if "start_price" not in item_data:
             item_data["start_price"] = price
             item_data["last_price"] = price
@@ -220,7 +240,7 @@ def main():
                        f"Steam余额价：¥{last_price:.2f} ➡️ <b style='font-size:15px; color:#d9534f;'>¥{price:.2f}</b> "
                        f"<span style='color:red;'>(+{increase_percent:.2f}%)</span><br>"
                        f"<div style='font-size:11px; color:#666; background:#f9f9f9; padding:4px 6px; border-radius:4px; margin-top:6px;'>"
-                       f"🛒 <b>国内现金参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
+                       f"🛒 <b>国内辅盘参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
                        f"</div></div>")
                 hourly_alerts.append(msg)
         
@@ -262,7 +282,7 @@ def main():
                                f"📊 Steam 探底: ¥{day_low:.2f} | 冲高: ¥{day_high:.2f}<br>"
                                f"👑 {high_str}<br>"
                                f"<div style='font-size:11px; color:#31708f; background:#d9edf7; padding:4px 6px; border-radius:4px; margin:6px 0;'>"
-                               f"🛒 <b>国内辅助参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
+                               f"🛒 <b>国内辅盘参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
                                f"</div>"
                                f"<img src='{chart_url}' alt='走势图' style='width:100%; max-width:300px; margin-top:2px; border-radius:4px;'><br>"
                                f"<div style='font-size:11px; color:#888; margin-top:6px; padding:4px; background:#f9f9f9; border:1px solid #eee; border-radius:4px;'>"
@@ -285,7 +305,7 @@ def main():
         send_wxpusher(f"📊 Steam 大盘深度复盘 ({today_str})", f"今日产生有效波动的饰品汇总：<br><br>{final_summary_html}")
 
     if not hourly_alerts and not daily_summary and valid_items_checked > 0:
-        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"官方接口引擎运行正常！<br>已完成 {valid_items_checked} 件饰品的 Steam 价格排查。<br>目前大盘平稳，未达到报警阈值。")
+        send_wxpusher(f"✅ 监控打卡 ({current_time_str})", f"极速接口引擎运行正常！<br>已完成 {valid_items_checked} 件饰品的 Steam 价格排查。<br>目前大盘平稳，未达到报警阈值。")
 
 if __name__ == "__main__":
     main()
