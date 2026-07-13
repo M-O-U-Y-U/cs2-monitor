@@ -2,7 +2,7 @@
   "_meta": {},
   "Kilowatt Case": {
     "start_price": 1.7,
-    "last_price": 1.68,
+    "last_price": 1.72,
     "history": [
       {
         "time": "15:34",
@@ -15,6 +15,10 @@
       {
         "time": "16:17",
         "price": 1.68
+      },
+      {
+        "time": "16:32",
+        "price": 1.72
       }
     ]
   },
@@ -110,7 +114,7 @@
   },
   "Sealed Genesis Terminal": {
     "start_price": 0.96,
-    "last_price": 0.97,
+    "last_price": 0.96,
     "history": [
       {
         "time": "15:34",
@@ -123,6 +127,10 @@
       {
         "time": "16:17",
         "price": 0.97
+      },
+      {
+        "time": "16:32",
+        "price": 0.96
       }
     ]
   },
@@ -146,7 +154,7 @@
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "start_price": 2.11,
-    "last_price": 2.02,
+    "last_price": 2.0,
     "history": [
       {
         "time": "15:34",
@@ -159,6 +167,10 @@
       {
         "time": "16:17",
         "price": 2.02
+      },
+      {
+        "time": "16:32",
+        "price": 2.0
       }
     ]
   },
@@ -200,7 +212,7 @@
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "start_price": 3.05,
-    "last_price": 3.01,
+    "last_price": 3.05,
     "history": [
       {
         "time": "15:34",
@@ -213,12 +225,16 @@
       {
         "time": "16:17",
         "price": 3.01
+      },
+      {
+        "time": "16:32",
+        "price": 3.05
       }
     ]
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
     "start_price": 0.76,
-    "last_price": 0.81,
+    "last_price": 0.77,
     "history": [
       {
         "time": "15:34",
@@ -231,12 +247,16 @@
       {
         "time": "16:17",
         "price": 0.81
+      },
+      {
+        "time": "16:32",
+        "price": 0.77
       }
     ]
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "start_price": 3.54,
-    "last_price": 3.68,
+    "last_price": 3.57,
     "history": [
       {
         "time": "15:34",
@@ -249,12 +269,16 @@
       {
         "time": "16:17",
         "price": 3.68
+      },
+      {
+        "time": "16:32",
+        "price": 3.57
       }
     ]
   },
   "P250 | Sedimentary (Minimal Wear)": {
     "start_price": 0.72,
-    "last_price": 0.67,
+    "last_price": 0.62,
     "history": [
       {
         "time": "15:34",
@@ -267,12 +291,16 @@
       {
         "time": "16:17",
         "price": 0.67
+      },
+      {
+        "time": "16:32",
+        "price": 0.62
       }
     ]
   },
   "Nova | Windblown (Field-Tested)": {
     "start_price": 6.73,
-    "last_price": 6.73,
+    "last_price": 6.74,
     "history": [
       {
         "time": "15:34",
@@ -281,6 +309,10 @@
       {
         "time": "15:34",
         "price": 6.73
+      },
+      {
+        "time": "16:32",
+        "price": 6.74
       }
     ]
   },
@@ -322,7 +354,7 @@
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "start_price": 2.41,
-    "last_price": 2.41,
+    "last_price": 2.39,
     "history": [
       {
         "time": "15:34",
@@ -335,12 +367,16 @@
       {
         "time": "16:17",
         "price": 2.41
+      },
+      {
+        "time": "16:32",
+        "price": 2.39
       }
     ]
   },
   "USP-S | Tropical Breeze (Field-Tested)": {
     "start_price": 3.13,
-    "last_price": 3.13,
+    "last_price": 3.19,
     "history": [
       {
         "time": "15:34",
@@ -353,6 +389,10 @@
       {
         "time": "16:17",
         "price": 3.13
+      },
+      {
+        "time": "16:32",
+        "price": 3.19
       }
     ]
   },
@@ -372,7 +412,7 @@
   },
   "Galil AR | Sky Mandala (Field-Tested)": {
     "start_price": 3.02,
-    "last_price": 2.68,
+    "last_price": 2.66,
     "history": [
       {
         "time": "15:34",
@@ -385,12 +425,16 @@
       {
         "time": "16:17",
         "price": 2.68
+      },
+      {
+        "time": "16:32",
+        "price": 2.66
       }
     ]
   },
   "StatTrak™ MAC-10 | Ensnared (Field-Tested)": {
     "start_price": 0.85,
-    "last_price": 0.85,
+    "last_price": 0.75,
     "history": [
       {
         "time": "15:34",
@@ -399,6 +443,10 @@
       {
         "time": "15:34",
         "price": 0.85
+      },
+      {
+        "time": "16:32",
+        "price": 0.75
       }
     ]
   },
@@ -422,7 +470,7 @@
   },
   "MP7 | Coral Paisley (Minimal Wear)": {
     "start_price": 1.08,
-    "last_price": 0.99,
+    "last_price": 0.98,
     "history": [
       {
         "time": "15:34",
@@ -435,6 +483,10 @@
       {
         "time": "16:17",
         "price": 0.99
+      },
+      {
+        "time": "16:32",
+        "price": 0.98
       }
     ]
   },
