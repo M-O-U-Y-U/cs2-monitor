@@ -17,7 +17,7 @@ CSQAQ_API_TOKEN = "JXJTD1B787E8L01767A8Z738"
 MIN_ITEM_VALUE = 0.5       
 MIN_INCREASE_PERCENT = 1.0 
 
-# 严格遵守官方 1次/秒 的限制，1.5 秒极速又稳妥
+# 严格遵守 CSQAQ 官方的频率限制 (大于 1秒/次)，设置 1.5 秒最稳妥且极速
 REQUEST_DELAY = 1.5
 # ============================================
 
@@ -40,21 +40,6 @@ def send_wxpusher(title, content):
     try:
         session.post(url, json=payload, timeout=10)
     except: pass
-
-def bind_dynamic_ip():
-    """【黑科技】每次启动时，调用官方API，把 GitHub 分配的随机动态 IP 自动加入白名单！"""
-    if not CSQAQ_API_TOKEN: return
-    url = "https://api.csqaq.com/api/v1/sys/bind_local_ip"
-    headers = {"ApiToken": CSQAQ_API_TOKEN, "Content-Type": "application/json"}
-    try:
-        res = requests.post(url, headers=headers, json={}, timeout=10)
-        data = res.json()
-        if data.get("code") == 200:
-            print("[系统] 成功将当前 GitHub 节点 IP 自动绑定至 CSQAQ 白名单！")
-        else:
-            print(f"[系统提示] IP绑定状态: {data.get('msg')}")
-    except Exception as e:
-        print(f"[错误] 自动绑定IP发生异常: {e}")
 
 def get_inventory():
     """获取库存 (仅向 Steam 发送 1 次请求)"""
@@ -98,11 +83,11 @@ def get_csqaq_good_id(hash_name):
             if item.get("market_hash_name") == hash_name:
                 return item.get("id")
     except Exception as e:
-        pass
+        print(f"[错误] 获取 {hash_name} ID异常: {e}")
     return None
 
 def get_csqaq_details(good_id):
-    """【API 第二步】通过 good_id 直接获取全部精细数据 (包含 Steam 价格)"""
+    """【API 第二步】通过 good_id 直接获取全部精细数据"""
     url = f"https://api.csqaq.com/api/v1/info/good?id={good_id}"
     headers = {"ApiToken": CSQAQ_API_TOKEN}
     
@@ -121,6 +106,7 @@ def get_csqaq_details(good_id):
     return None
 
 def generate_sparkline_url(prices, is_red):
+    """生成走势折线图"""
     if not prices: return ""
     if len(prices) == 1: prices.append(prices[0])
     color = "rgb(255, 77, 79)" if is_red else "rgb(82, 196, 26)"
@@ -160,10 +146,7 @@ def main():
     daily_summary = []
     valid_items_checked = 0 
 
-    print("[启动] 核心监控系统启动...")
-    # 🔥 核心突破：自动把 GitHub 当前 IP 绑定到你的 CSQAQ 账户
-    bind_dynamic_ip()
-    print("[提示] 正在基于 CSQAQ 官方文档接口拉取 Steam 价格...")
+    print("[启动] 核心监控系统启动，基于 CSQAQ 官方文档接口拉取大盘价格...")
 
     for hash_name, cn_name in inventory_items.items():
         
@@ -196,19 +179,40 @@ def main():
             
         price = float(steam_sell)
         
-        # 2. 极简辅核：只筛出全网(BUFF/悠悠/C5/ECO/IGXE)最高底价和求购价
-        sell_prices = []
-        buy_prices = []
-        platforms = ["buff", "yyyp", "c5", "eco", "igxe"]
+        # 2. 极简辅核：筛出全网最高底价和求购价，并标注平台
+        sell_list = []
+        buy_list = []
+        platforms = {
+            "buff": "BUFF",
+            "yyyp": "悠悠",
+            "c5": "C5",
+            "eco": "ECO",
+            "igxe": "IGXE"
+        }
         
-        for p in platforms:
-            sp = details.get(f"{p}_sell_price")
-            bp = details.get(f"{p}_buy_price")
-            if sp and float(sp) > 0: sell_prices.append(float(sp))
-            if bp and float(bp) > 0: buy_prices.append(float(bp))
+        for p_key, p_name in platforms.items():
+            sp = details.get(f"{p_key}_sell_price")
+            bp = details.get(f"{p_key}_buy_price")
+            if sp and str(sp).strip():
+                try: 
+                    if float(sp) > 0: sell_list.append((float(sp), p_name))
+                except: pass
+            if bp and str(bp).strip():
+                try: 
+                    if float(bp) > 0: buy_list.append((float(bp), p_name))
+                except: pass
                 
-        max_sell = f"¥{max(sell_prices):.2f}" if sell_prices else "未知"
-        max_buy = f"¥{max(buy_prices):.2f}" if buy_prices else "未知"
+        if sell_list:
+            best_sell = max(sell_list, key=lambda x: x[0])
+            max_sell = f"¥{best_sell[0]:.2f} ({best_sell[1]})"
+        else:
+            max_sell = "未知"
+            
+        if buy_list:
+            best_buy = max(buy_list, key=lambda x: x[0])
+            max_buy = f"¥{best_buy[0]:.2f} ({best_buy[1]})"
+        else:
+            max_buy = "未知"
         
         # 过滤低价值废品
         if price <= MIN_ITEM_VALUE:
@@ -225,31 +229,37 @@ def main():
             item_data["last_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
             item_data["historical_high"] = price
+            item_data["daily_alert_high"] = price # 初始化今日报警水位线
 
         start_price = item_data["start_price"]
         last_price = item_data["last_price"]
         historical_high = item_data.get("historical_high", price)
+        daily_alert_high = item_data.get("daily_alert_high", start_price)
         
-        # ========== 常规异动监控 (绝对基于 Steam) ==========
+        # ========== 常规异动监控 (防反复横跳机制) ==========
         if price > last_price and last_price > 0:
             increase_percent = ((price - last_price) / last_price) * 100
+            
             if increase_percent >= MIN_INCREASE_PERCENT:
-                
-                if price > historical_high:
-                    high_tag = "🚀 <span style='color:red;'><b>突破 Steam 历史新高！</b></span>"
-                    item_data["historical_high"] = price 
-                else:
-                    high_tag = "📈 Steam 价格回升"
-                
-                msg = (f"<div style='border-bottom: 1px dashed #ccc; padding-bottom: 10px; margin-bottom: 10px;'>"
-                       f"<b style='font-size:16px;'>{cn_name}</b><br>"
-                       f"当前状态：{high_tag}<br>"
-                       f"Steam余额价：¥{last_price:.2f} ➡️ <b style='font-size:15px; color:#d9534f;'>¥{price:.2f}</b> "
-                       f"<span style='color:red;'>(+{increase_percent:.2f}%)</span><br>"
-                       f"<div style='font-size:11px; color:#666; background:#f9f9f9; padding:4px 6px; border-radius:4px; margin-top:6px;'>"
-                       f"🛒 <b>国内现金参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
-                       f"</div></div>")
-                hourly_alerts.append(msg)
+                # 【防打扰核心】只有突破了今天已经报过警的最高价格，才会发送推送
+                if price > daily_alert_high:
+                    item_data["daily_alert_high"] = price # 更新报警水位线
+                    
+                    if price > historical_high:
+                        high_tag = "🚀 <span style='color:red;'><b>突破 Steam 历史新高！</b></span>"
+                        item_data["historical_high"] = price 
+                    else:
+                        high_tag = "📈 Steam 价格回升"
+                    
+                    msg = (f"<div style='border-bottom: 1px dashed #ccc; padding-bottom: 10px; margin-bottom: 10px;'>"
+                           f"<b style='font-size:16px;'>{cn_name}</b><br>"
+                           f"当前状态：{high_tag}<br>"
+                           f"Steam余额价：¥{last_price:.2f} ➡️ <b style='font-size:15px; color:#d9534f;'>¥{price:.2f}</b> "
+                           f"<span style='color:red;'>(+{increase_percent:.2f}%)</span><br>"
+                           f"<div style='font-size:11px; color:#666; background:#f9f9f9; padding:4px 6px; border-radius:4px; margin-top:6px;'>"
+                           f"🛒 <b>国内现金参考:</b> 最高底价 {max_sell} | 最高求购 {max_buy}"
+                           f"</div></div>")
+                    hourly_alerts.append(msg)
         
         last_history_price = item_data["history"][-1]["price"] if item_data["history"] else start_price
         if price != last_history_price:
@@ -289,7 +299,7 @@ def main():
                                f"📊 Steam 探底: ¥{day_low:.2f} | 冲高: ¥{day_high:.2f}<br>"
                                f"👑 {high_str}<br>"
                                f"<div style='font-size:11px; color:#31708f; background:#d9edf7; padding:4px 6px; border-radius:4px; margin:6px 0;'>"
-                               f"🛒 <b>国内辅助参考:</b> 全网最高底价 {max_sell} | 最高求购 {max_buy}"
+                               f"🛒 <b>国内辅助参考:</b> 最高底价 {max_sell} | 最高求购 {max_buy}"
                                f"</div>"
                                f"<img src='{chart_url}' alt='走势图' style='width:100%; max-width:300px; margin-top:2px; border-radius:4px;'><br>"
                                f"<div style='font-size:11px; color:#888; margin-top:6px; padding:4px; background:#f9f9f9; border:1px solid #eee; border-radius:4px;'>"
@@ -299,6 +309,7 @@ def main():
             
             item_data["start_price"] = price
             item_data["history"] = [{"time": current_time_str, "price": price}]
+            item_data["daily_alert_high"] = price # 复盘时，重置防打扰水位线为收盘价
 
     with open(DATA_FILE, 'w', encoding='utf-8') as f: 
         json.dump(db, f, ensure_ascii=False, indent=2)
