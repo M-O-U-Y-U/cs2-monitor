@@ -212,7 +212,7 @@
   },
   "R8 Revolver | Junk Yard (Field-Tested)": {
     "start_price": 3.29,
-    "last_price": 3.46,
+    "last_price": 3.37,
     "history": [
       {
         "time": "22:31",
@@ -225,6 +225,10 @@
       {
         "time": "10:31",
         "price": 3.46
+      },
+      {
+        "time": "11:31",
+        "price": 3.37
       }
     ],
     "historical_high": 3.58,
@@ -283,7 +287,7 @@
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "start_price": 3.36,
-    "last_price": 3.36,
+    "last_price": 3.83,
     "history": [
       {
         "time": "22:31",
@@ -304,11 +308,15 @@
       {
         "time": "11:01",
         "price": 3.36
+      },
+      {
+        "time": "11:31",
+        "price": 3.83
       }
     ],
-    "historical_high": 3.74,
+    "historical_high": 3.83,
     "csqaq_id": 22026,
-    "daily_alert_high": 3.74
+    "daily_alert_high": 3.83
   },
   "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
     "start_price": 4.18,
@@ -433,7 +441,7 @@
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "start_price": 2.34,
-    "last_price": 2.34,
+    "last_price": 2.41,
     "history": [
       {
         "time": "22:31",
@@ -454,6 +462,10 @@
       {
         "time": "10:31",
         "price": 2.34
+      },
+      {
+        "time": "11:31",
+        "price": 2.41
       }
     ],
     "historical_high": 2.41,
@@ -495,7 +507,7 @@
   },
   "Revolution Case": {
     "start_price": 2.7,
-    "last_price": 2.89,
+    "last_price": 2.8,
     "history": [
       {
         "time": "22:31",
@@ -504,6 +516,10 @@
       {
         "time": "10:31",
         "price": 2.89
+      },
+      {
+        "time": "11:31",
+        "price": 2.8
       }
     ],
     "historical_high": 2.89,
@@ -529,7 +545,7 @@
   },
   "Galil AR | Sky Mandala (Field-Tested)": {
     "start_price": 2.73,
-    "last_price": 3.01,
+    "last_price": 3.03,
     "history": [
       {
         "time": "22:31",
@@ -550,15 +566,19 @@
       {
         "time": "11:01",
         "price": 3.01
+      },
+      {
+        "time": "11:31",
+        "price": 3.03
       }
     ],
     "historical_high": 3.03,
-    "csqaq_id": null,
+    "csqaq_id": 24925,
     "daily_alert_high": 3.02
   },
   "StatTrak™ MAC-10 | Ensnared (Field-Tested)": {
     "start_price": 0.76,
-    "last_price": 0.77,
+    "last_price": 0.82,
     "history": [
       {
         "time": "22:31",
@@ -567,11 +587,15 @@
       {
         "time": "11:01",
         "price": 0.77
+      },
+      {
+        "time": "11:31",
+        "price": 0.82
       }
     ],
     "historical_high": 0.86,
     "csqaq_id": 14742,
-    "daily_alert_high": 0.77
+    "daily_alert_high": 0.82
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "start_price": 0.84,
@@ -613,7 +637,7 @@
   },
   "StatTrak™ Music Kit | Perfect World, Ay Hey": {
     "start_price": 56.0,
-    "last_price": 57.1,
+    "last_price": 57.44,
     "history": [
       {
         "time": "22:31",
@@ -626,6 +650,10 @@
       {
         "time": "10:31",
         "price": 57.1
+      },
+      {
+        "time": "11:31",
+        "price": 57.44
       }
     ],
     "historical_high": 61.99,
@@ -830,11 +858,15 @@
       {
         "time": "11:01",
         "price": 8.77
+      },
+      {
+        "time": "11:31",
+        "price": 8.79
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.77,
-    "last_price": 8.77,
+    "last_price": 8.79,
     "historical_high": 8.77,
     "daily_alert_high": 8.77
   }
