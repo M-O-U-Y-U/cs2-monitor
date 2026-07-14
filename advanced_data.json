@@ -203,7 +203,7 @@
   },
   "Sawed-Off | Spirit Board (Well-Worn)": {
     "start_price": 0.62,
-    "last_price": 0.69,
+    "last_price": 0.62,
     "history": [
       {
         "time": "22:31",
@@ -224,6 +224,10 @@
       {
         "time": "12:31",
         "price": 0.69
+      },
+      {
+        "time": "13:01",
+        "price": 0.62
       }
     ],
     "historical_high": 0.69,
@@ -282,7 +286,7 @@
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
     "start_price": 0.81,
-    "last_price": 0.78,
+    "last_price": 0.77,
     "history": [
       {
         "time": "22:31",
@@ -299,6 +303,10 @@
       {
         "time": "10:31",
         "price": 0.78
+      },
+      {
+        "time": "13:01",
+        "price": 0.77
       }
     ],
     "historical_high": 0.87,
@@ -307,7 +315,7 @@
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "start_price": 3.36,
-    "last_price": 3.36,
+    "last_price": 3.95,
     "history": [
       {
         "time": "22:31",
@@ -340,11 +348,15 @@
       {
         "time": "12:31",
         "price": 3.36
+      },
+      {
+        "time": "13:01",
+        "price": 3.95
       }
     ],
-    "historical_high": 3.83,
+    "historical_high": 3.95,
     "csqaq_id": 22026,
-    "daily_alert_high": 3.83
+    "daily_alert_high": 3.95
   },
   "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
     "start_price": 4.18,
@@ -938,11 +950,15 @@
       {
         "time": "11:31",
         "price": 8.79
+      },
+      {
+        "time": "13:01",
+        "price": 8.68
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.77,
-    "last_price": 8.79,
+    "last_price": 8.68,
     "historical_high": 8.77,
     "daily_alert_high": 8.77
   }
