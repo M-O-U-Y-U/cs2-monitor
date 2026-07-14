@@ -132,7 +132,7 @@
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "start_price": 1.95,
-    "last_price": 2.1,
+    "last_price": 2.03,
     "history": [
       {
         "time": "22:31",
@@ -141,6 +141,10 @@
       {
         "time": "10:01",
         "price": 2.1
+      },
+      {
+        "time": "12:31",
+        "price": 2.03
       }
     ],
     "historical_high": 2.1,
@@ -149,7 +153,7 @@
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "start_price": 2.13,
-    "last_price": 2.2,
+    "last_price": 2.19,
     "history": [
       {
         "time": "22:31",
@@ -174,6 +178,10 @@
       {
         "time": "12:01",
         "price": 2.2
+      },
+      {
+        "time": "12:31",
+        "price": 2.19
       }
     ],
     "historical_high": 2.23,
@@ -195,7 +203,7 @@
   },
   "Sawed-Off | Spirit Board (Well-Worn)": {
     "start_price": 0.62,
-    "last_price": 0.61,
+    "last_price": 0.69,
     "history": [
       {
         "time": "22:31",
@@ -212,11 +220,15 @@
       {
         "time": "11:01",
         "price": 0.61
+      },
+      {
+        "time": "12:31",
+        "price": 0.69
       }
     ],
-    "historical_high": 0.63,
+    "historical_high": 0.69,
     "csqaq_id": 17946,
-    "daily_alert_high": 0.62
+    "daily_alert_high": 0.69
   },
   "R8 Revolver | Junk Yard (Field-Tested)": {
     "start_price": 3.29,
@@ -295,7 +307,7 @@
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "start_price": 3.36,
-    "last_price": 3.49,
+    "last_price": 3.36,
     "history": [
       {
         "time": "22:31",
@@ -324,6 +336,10 @@
       {
         "time": "12:01",
         "price": 3.49
+      },
+      {
+        "time": "12:31",
+        "price": 3.36
       }
     ],
     "historical_high": 3.83,
@@ -353,7 +369,7 @@
   },
   "P250 | Sedimentary (Minimal Wear)": {
     "start_price": 0.69,
-    "last_price": 0.59,
+    "last_price": 0.6,
     "history": [
       {
         "time": "22:31",
@@ -370,6 +386,10 @@
       {
         "time": "12:01",
         "price": 0.59
+      },
+      {
+        "time": "12:31",
+        "price": 0.6
       }
     ],
     "historical_high": 0.72,
@@ -407,7 +427,7 @@
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "start_price": 2.27,
-    "last_price": 2.49,
+    "last_price": 2.5,
     "history": [
       {
         "time": "22:31",
@@ -420,6 +440,10 @@
       {
         "time": "10:01",
         "price": 2.49
+      },
+      {
+        "time": "12:31",
+        "price": 2.5
       }
     ],
     "historical_high": 2.64,
@@ -461,7 +485,7 @@
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "start_price": 2.34,
-    "last_price": 2.41,
+    "last_price": 2.31,
     "history": [
       {
         "time": "22:31",
@@ -486,6 +510,10 @@
       {
         "time": "11:31",
         "price": 2.41
+      },
+      {
+        "time": "12:31",
+        "price": 2.31
       }
     ],
     "historical_high": 2.41,
@@ -494,7 +522,7 @@
   },
   "USP-S | Tropical Breeze (Field-Tested)": {
     "start_price": 3.03,
-    "last_price": 3.08,
+    "last_price": 3.01,
     "history": [
       {
         "time": "22:31",
@@ -519,6 +547,10 @@
       {
         "time": "11:01",
         "price": 3.08
+      },
+      {
+        "time": "12:31",
+        "price": 3.01
       }
     ],
     "historical_high": 3.08,
@@ -565,7 +597,7 @@
   },
   "Galil AR | Sky Mandala (Field-Tested)": {
     "start_price": 2.73,
-    "last_price": 2.71,
+    "last_price": 2.66,
     "history": [
       {
         "time": "22:31",
@@ -594,6 +626,10 @@
       {
         "time": "12:01",
         "price": 2.71
+      },
+      {
+        "time": "12:31",
+        "price": 2.66
       }
     ],
     "historical_high": 3.03,
@@ -623,7 +659,7 @@
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "start_price": 0.84,
-    "last_price": 0.78,
+    "last_price": 0.69,
     "history": [
       {
         "time": "22:31",
@@ -632,6 +668,10 @@
       {
         "time": "10:01",
         "price": 0.78
+      },
+      {
+        "time": "12:31",
+        "price": 0.69
       }
     ],
     "historical_high": 0.84,
@@ -715,7 +755,7 @@
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "start_price": 0.6,
-    "last_price": 0.62,
+    "last_price": 0.6,
     "history": [
       {
         "time": "22:31",
@@ -724,6 +764,10 @@
       {
         "time": "10:31",
         "price": 0.62
+      },
+      {
+        "time": "12:31",
+        "price": 0.6
       }
     ],
     "historical_high": 0.62,
@@ -873,11 +917,15 @@
       {
         "time": "11:01",
         "price": 3.31
+      },
+      {
+        "time": "12:31",
+        "price": 3.3
       }
     ],
     "csqaq_id": 959,
     "start_price": 3.31,
-    "last_price": 3.31,
+    "last_price": 3.3,
     "historical_high": 3.31,
     "daily_alert_high": 3.31
   },
