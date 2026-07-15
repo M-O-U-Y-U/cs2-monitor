@@ -64,13 +64,17 @@
       {
         "time": "11:01",
         "price": 2.78
+      },
+      {
+        "time": "14:01",
+        "price": 2.87
       }
     ],
     "csqaq_id": 3996,
     "start_price": 2.78,
-    "last_price": 2.78,
-    "historical_high": 2.78,
-    "daily_alert_high": 2.78
+    "last_price": 2.87,
+    "historical_high": 2.87,
+    "daily_alert_high": 2.87
   },
   "StatTrak™ G3SG1 | Hunter (Battle-Scarred)": {
     "history": [
@@ -97,11 +101,15 @@
       {
         "time": "12:01",
         "price": 3.01
+      },
+      {
+        "time": "14:01",
+        "price": 3.0
       }
     ],
     "csqaq_id": 20658,
     "start_price": 3.28,
-    "last_price": 3.01,
+    "last_price": 3.0,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
   },
@@ -110,13 +118,17 @@
       {
         "time": "10:31",
         "price": 2.26
+      },
+      {
+        "time": "14:01",
+        "price": 2.35
       }
     ],
     "csqaq_id": 18114,
     "start_price": 2.26,
-    "last_price": 2.26,
-    "historical_high": 2.26,
-    "daily_alert_high": 2.26
+    "last_price": 2.35,
+    "historical_high": 2.35,
+    "daily_alert_high": 2.35
   },
   "Sawed-Off | Black Sand (Minimal Wear)": {
     "history": [
@@ -169,13 +181,17 @@
       {
         "time": "10:31",
         "price": 2.0
+      },
+      {
+        "time": "14:01",
+        "price": 2.11
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.0,
-    "last_price": 2.0,
-    "historical_high": 2.0,
-    "daily_alert_high": 2.0
+    "last_price": 2.11,
+    "historical_high": 2.11,
+    "daily_alert_high": 2.11
   },
   "MP9 | Pine (Factory New)": {
     "history": []
@@ -222,13 +238,17 @@
       {
         "time": "10:31",
         "price": 3.36
+      },
+      {
+        "time": "14:01",
+        "price": 3.45
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.36,
-    "last_price": 3.36,
-    "historical_high": 3.36,
-    "daily_alert_high": 3.36
+    "last_price": 3.45,
+    "historical_high": 3.45,
+    "daily_alert_high": 3.45
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -239,11 +259,15 @@
       {
         "time": "12:01",
         "price": 3.6
+      },
+      {
+        "time": "14:01",
+        "price": 3.13
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.36,
-    "last_price": 3.6,
+    "last_price": 3.13,
     "historical_high": 3.6,
     "daily_alert_high": 3.6
   },
@@ -269,13 +293,17 @@
       {
         "time": "12:01",
         "price": 3.68
+      },
+      {
+        "time": "14:01",
+        "price": 3.86
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.76,
-    "last_price": 3.68,
-    "historical_high": 3.76,
-    "daily_alert_high": 3.76
+    "last_price": 3.86,
+    "historical_high": 3.86,
+    "daily_alert_high": 3.86
   },
   "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
     "history": [
@@ -310,11 +338,15 @@
       {
         "time": "12:01",
         "price": 0.52
+      },
+      {
+        "time": "14:01",
+        "price": 0.55
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.52,
+    "last_price": 0.55,
     "historical_high": 0.6,
     "daily_alert_high": 0.6
   },
@@ -343,11 +375,15 @@
       {
         "time": "11:01",
         "price": 2.73
+      },
+      {
+        "time": "14:01",
+        "price": 2.71
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.71,
-    "last_price": 2.73,
+    "last_price": 2.71,
     "historical_high": 2.71,
     "daily_alert_high": 2.71
   },
@@ -377,11 +413,15 @@
       {
         "time": "12:01",
         "price": 2.35
+      },
+      {
+        "time": "14:01",
+        "price": 2.33
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.42,
-    "last_price": 2.35,
+    "last_price": 2.33,
     "historical_high": 2.42,
     "daily_alert_high": 2.42
   },
@@ -393,11 +433,15 @@
       {
         "time": "10:31",
         "price": 2.87
+      },
+      {
+        "time": "14:01",
+        "price": 2.81
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.87,
-    "last_price": 2.87,
+    "last_price": 2.81,
     "historical_high": 2.87,
     "daily_alert_high": 2.87
   },
@@ -410,11 +454,15 @@
       {
         "time": "11:01",
         "price": 2.59
+      },
+      {
+        "time": "14:01",
+        "price": 2.6
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.6,
-    "last_price": 2.59,
+    "last_price": 2.6,
     "historical_high": 2.6,
     "daily_alert_high": 2.6
   },
@@ -455,13 +503,17 @@
       {
         "time": "11:01",
         "price": 2.62
+      },
+      {
+        "time": "14:01",
+        "price": 2.78
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.66,
-    "last_price": 2.62,
-    "historical_high": 2.66,
-    "daily_alert_high": 2.66
+    "last_price": 2.78,
+    "historical_high": 2.78,
+    "daily_alert_high": 2.78
   },
   "Zeus x27 | Electric Blue (Field-Tested)": {
     "history": []
@@ -475,24 +527,32 @@
       {
         "time": "11:01",
         "price": 0.83
+      },
+      {
+        "time": "14:01",
+        "price": 0.88
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.83,
-    "historical_high": 0.83,
-    "daily_alert_high": 0.83
+    "last_price": 0.88,
+    "historical_high": 0.88,
+    "daily_alert_high": 0.88
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
       {
         "time": "10:31",
         "price": 0.77
+      },
+      {
+        "time": "14:01",
+        "price": 0.76
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.77,
-    "last_price": 0.77,
+    "last_price": 0.76,
     "historical_high": 0.77,
     "daily_alert_high": 0.77
   },
@@ -516,13 +576,17 @@
       {
         "time": "10:31",
         "price": 61.11
+      },
+      {
+        "time": "14:01",
+        "price": 61.92
       }
     ],
     "csqaq_id": 20826,
     "start_price": 61.11,
-    "last_price": 61.11,
-    "historical_high": 61.11,
-    "daily_alert_high": 61.11
+    "last_price": 61.92,
+    "historical_high": 61.92,
+    "daily_alert_high": 61.92
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
