@@ -12,13 +12,17 @@
       {
         "time": "15:01",
         "price": 1.72
+      },
+      {
+        "time": "17:01",
+        "price": 1.75
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.64,
-    "last_price": 1.72,
-    "historical_high": 1.72,
-    "daily_alert_high": 1.72
+    "last_price": 1.75,
+    "historical_high": 1.75,
+    "daily_alert_high": 1.75
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -89,13 +93,17 @@
       {
         "time": "10:31",
         "price": 1.78
+      },
+      {
+        "time": "17:01",
+        "price": 1.85
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.78,
-    "last_price": 1.78,
-    "historical_high": 1.78,
-    "daily_alert_high": 1.78
+    "last_price": 1.85,
+    "historical_high": 1.85,
+    "daily_alert_high": 1.85
   },
   "Sealed Graffiti | GGWP (Wire Blue)": {
     "history": []
@@ -123,7 +131,7 @@
         "price": 3.05
       }
     ],
-    "csqaq_id": 20658,
+    "csqaq_id": null,
     "start_price": 3.28,
     "last_price": 3.05,
     "historical_high": 3.28,
@@ -155,11 +163,15 @@
       {
         "time": "11:01",
         "price": 4.5
+      },
+      {
+        "time": "17:01",
+        "price": 4.49
       }
     ],
     "csqaq_id": 17916,
     "start_price": 4.66,
-    "last_price": 4.5,
+    "last_price": 4.49,
     "historical_high": 4.66,
     "daily_alert_high": 4.66
   },
@@ -258,11 +270,15 @@
       {
         "time": "16:01",
         "price": 0.68
+      },
+      {
+        "time": "17:01",
+        "price": 0.6
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.63,
-    "last_price": 0.68,
+    "last_price": 0.6,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -278,13 +294,17 @@
       {
         "time": "14:01",
         "price": 3.45
+      },
+      {
+        "time": "17:01",
+        "price": 3.57
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.36,
-    "last_price": 3.45,
-    "historical_high": 3.45,
-    "daily_alert_high": 3.45
+    "last_price": 3.57,
+    "historical_high": 3.57,
+    "daily_alert_high": 3.57
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -366,11 +386,15 @@
       {
         "time": "12:01",
         "price": 4.22
+      },
+      {
+        "time": "17:01",
+        "price": 4.16
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.11,
-    "last_price": 4.22,
+    "last_price": 4.16,
     "historical_high": 4.22,
     "daily_alert_high": 4.22
   },
@@ -402,13 +426,17 @@
       {
         "time": "16:01",
         "price": 0.6
+      },
+      {
+        "time": "17:01",
+        "price": 0.71
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.6,
-    "historical_high": 0.6,
-    "daily_alert_high": 0.6
+    "last_price": 0.71,
+    "historical_high": 0.71,
+    "daily_alert_high": 0.71
   },
   "SSG 08 | Sans Comic (Field-Tested)": {
     "history": []
@@ -443,13 +471,17 @@
       {
         "time": "16:01",
         "price": 2.68
+      },
+      {
+        "time": "17:01",
+        "price": 2.78
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.71,
-    "last_price": 2.68,
-    "historical_high": 2.71,
-    "daily_alert_high": 2.71
+    "last_price": 2.78,
+    "historical_high": 2.78,
+    "daily_alert_high": 2.78
   },
   "Tec-9 | Citric Acid (Minimal Wear)": {
     "history": [
@@ -464,11 +496,15 @@
       {
         "time": "16:01",
         "price": 0.55
+      },
+      {
+        "time": "17:01",
+        "price": 0.53
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.53,
-    "last_price": 0.55,
+    "last_price": 0.53,
     "historical_high": 0.61,
     "daily_alert_high": 0.61
   },
@@ -521,11 +557,15 @@
       {
         "time": "16:01",
         "price": 2.7
+      },
+      {
+        "time": "17:01",
+        "price": 3.0
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.87,
-    "last_price": 2.7,
+    "last_price": 3.0,
     "historical_high": 3.04,
     "daily_alert_high": 3.04
   },
@@ -563,11 +603,15 @@
       {
         "time": "16:01",
         "price": 0.55
+      },
+      {
+        "time": "17:01",
+        "price": 0.67
       }
     ],
     "csqaq_id": 23476,
     "start_price": 0.67,
-    "last_price": 0.55,
+    "last_price": 0.67,
     "historical_high": 0.67,
     "daily_alert_high": 0.67
   },
@@ -607,11 +651,15 @@
       {
         "time": "16:01",
         "price": 2.73
+      },
+      {
+        "time": "17:01",
+        "price": 2.6
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.66,
-    "last_price": 2.73,
+    "last_price": 2.6,
     "historical_high": 2.78,
     "daily_alert_high": 2.78
   },
@@ -639,11 +687,15 @@
       {
         "time": "16:01",
         "price": 0.76
+      },
+      {
+        "time": "17:01",
+        "price": 0.83
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.76,
+    "last_price": 0.83,
     "historical_high": 0.89,
     "daily_alert_high": 0.89
   },
@@ -660,11 +712,15 @@
       {
         "time": "15:01",
         "price": 0.78
+      },
+      {
+        "time": "17:01",
+        "price": 0.7
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.77,
-    "last_price": 0.78,
+    "last_price": 0.7,
     "historical_high": 0.78,
     "daily_alert_high": 0.78
   },
