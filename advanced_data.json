@@ -4,7 +4,17 @@
     "history": []
   },
   "Kilowatt Case": {
-    "history": []
+    "history": [
+      {
+        "time": "11:01",
+        "price": 1.64
+      }
+    ],
+    "csqaq_id": 19521,
+    "start_price": 1.64,
+    "last_price": 1.64,
+    "historical_high": 1.64,
+    "daily_alert_high": 1.64
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -46,7 +56,17 @@
     "daily_alert_high": 8.68
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
-    "history": []
+    "history": [
+      {
+        "time": "11:01",
+        "price": 2.78
+      }
+    ],
+    "csqaq_id": 3996,
+    "start_price": 2.78,
+    "last_price": 2.78,
+    "historical_high": 2.78,
+    "daily_alert_high": 2.78
   },
   "StatTrak™ G3SG1 | Hunter (Battle-Scarred)": {
     "history": [
@@ -95,11 +115,15 @@
       {
         "time": "10:31",
         "price": 4.66
+      },
+      {
+        "time": "11:01",
+        "price": 4.5
       }
     ],
     "csqaq_id": 17916,
     "start_price": 4.66,
-    "last_price": 4.66,
+    "last_price": 4.5,
     "historical_high": 4.66,
     "daily_alert_high": 4.66
   },
@@ -166,13 +190,17 @@
       {
         "time": "10:31",
         "price": 0.63
+      },
+      {
+        "time": "11:01",
+        "price": 0.67
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.63,
-    "last_price": 0.63,
-    "historical_high": 0.63,
-    "daily_alert_high": 0.63
+    "last_price": 0.67,
+    "historical_high": 0.67,
+    "daily_alert_high": 0.67
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -204,7 +232,17 @@
     "daily_alert_high": 3.36
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
-    "history": []
+    "history": [
+      {
+        "time": "11:01",
+        "price": 0.83
+      }
+    ],
+    "csqaq_id": 22167,
+    "start_price": 0.83,
+    "last_price": 0.83,
+    "historical_high": 0.83,
+    "daily_alert_high": 0.83
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -240,13 +278,17 @@
       {
         "time": "10:31",
         "price": 0.55
+      },
+      {
+        "time": "11:01",
+        "price": 0.6
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.55,
-    "historical_high": 0.55,
-    "daily_alert_high": 0.55
+    "last_price": 0.6,
+    "historical_high": 0.6,
+    "daily_alert_high": 0.6
   },
   "SSG 08 | Sans Comic (Field-Tested)": {
     "history": []
@@ -269,11 +311,15 @@
       {
         "time": "10:31",
         "price": 2.71
+      },
+      {
+        "time": "11:01",
+        "price": 2.73
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.71,
-    "last_price": 2.71,
+    "last_price": 2.73,
     "historical_high": 2.71,
     "daily_alert_high": 2.71
   },
@@ -295,11 +341,15 @@
       {
         "time": "10:31",
         "price": 2.42
+      },
+      {
+        "time": "11:01",
+        "price": 2.33
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.42,
-    "last_price": 2.42,
+    "last_price": 2.33,
     "historical_high": 2.42,
     "daily_alert_high": 2.42
   },
@@ -324,11 +374,15 @@
       {
         "time": "10:31",
         "price": 2.6
+      },
+      {
+        "time": "11:01",
+        "price": 2.59
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.6,
-    "last_price": 2.6,
+    "last_price": 2.59,
     "historical_high": 2.6,
     "daily_alert_high": 2.6
   },
@@ -365,11 +419,15 @@
       {
         "time": "10:31",
         "price": 2.66
+      },
+      {
+        "time": "11:01",
+        "price": 2.62
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.66,
-    "last_price": 2.66,
+    "last_price": 2.62,
     "historical_high": 2.66,
     "daily_alert_high": 2.66
   },
@@ -381,13 +439,17 @@
       {
         "time": "10:31",
         "price": 0.78
+      },
+      {
+        "time": "11:01",
+        "price": 0.83
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.78,
-    "historical_high": 0.78,
-    "daily_alert_high": 0.78
+    "last_price": 0.83,
+    "historical_high": 0.83,
+    "daily_alert_high": 0.83
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -444,6 +506,16 @@
     "daily_alert_high": 2.49
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
-    "history": []
+    "history": [
+      {
+        "time": "11:01",
+        "price": 0.6
+      }
+    ],
+    "csqaq_id": 17156,
+    "start_price": 0.6,
+    "last_price": 0.6,
+    "historical_high": 0.6,
+    "daily_alert_high": 0.6
   }
 }
