@@ -117,11 +117,15 @@
       {
         "time": "15:01",
         "price": 3.01
+      },
+      {
+        "time": "16:01",
+        "price": 3.05
       }
     ],
     "csqaq_id": 20658,
     "start_price": 3.28,
-    "last_price": 3.01,
+    "last_price": 3.05,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
   },
@@ -184,13 +188,17 @@
       {
         "time": "10:31",
         "price": 2.11
+      },
+      {
+        "time": "16:01",
+        "price": 2.14
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.11,
-    "last_price": 2.11,
-    "historical_high": 2.11,
-    "daily_alert_high": 2.11
+    "last_price": 2.14,
+    "historical_high": 2.14,
+    "daily_alert_high": 2.14
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
@@ -201,13 +209,17 @@
       {
         "time": "14:01",
         "price": 2.11
+      },
+      {
+        "time": "16:01",
+        "price": 2.24
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.0,
-    "last_price": 2.11,
-    "historical_high": 2.11,
-    "daily_alert_high": 2.11
+    "last_price": 2.24,
+    "historical_high": 2.24,
+    "daily_alert_high": 2.24
   },
   "MP9 | Pine (Factory New)": {
     "history": []
@@ -242,11 +254,15 @@
       {
         "time": "15:01",
         "price": 0.69
+      },
+      {
+        "time": "16:01",
+        "price": 0.68
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.63,
-    "last_price": 0.69,
+    "last_price": 0.68,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -300,11 +316,15 @@
       {
         "time": "11:01",
         "price": 0.83
+      },
+      {
+        "time": "16:01",
+        "price": 0.82
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.83,
-    "last_price": 0.83,
+    "last_price": 0.82,
     "historical_high": 0.83,
     "daily_alert_high": 0.83
   },
@@ -325,13 +345,17 @@
       {
         "time": "15:01",
         "price": 3.59
+      },
+      {
+        "time": "16:01",
+        "price": 3.91
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.76,
-    "last_price": 3.59,
-    "historical_high": 3.86,
-    "daily_alert_high": 3.86
+    "last_price": 3.91,
+    "historical_high": 3.91,
+    "daily_alert_high": 3.91
   },
   "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
     "history": [
@@ -374,11 +398,15 @@
       {
         "time": "15:01",
         "price": 0.58
+      },
+      {
+        "time": "16:01",
+        "price": 0.6
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.58,
+    "last_price": 0.6,
     "historical_high": 0.6,
     "daily_alert_high": 0.6
   },
@@ -411,11 +439,15 @@
       {
         "time": "14:01",
         "price": 2.71
+      },
+      {
+        "time": "16:01",
+        "price": 2.68
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.71,
-    "last_price": 2.71,
+    "last_price": 2.68,
     "historical_high": 2.71,
     "daily_alert_high": 2.71
   },
@@ -428,11 +460,15 @@
       {
         "time": "15:01",
         "price": 0.61
+      },
+      {
+        "time": "16:01",
+        "price": 0.55
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.53,
-    "last_price": 0.61,
+    "last_price": 0.55,
     "historical_high": 0.61,
     "daily_alert_high": 0.61
   },
@@ -481,11 +517,15 @@
       {
         "time": "15:01",
         "price": 3.04
+      },
+      {
+        "time": "16:01",
+        "price": 2.7
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.87,
-    "last_price": 3.04,
+    "last_price": 2.7,
     "historical_high": 3.04,
     "daily_alert_high": 3.04
   },
@@ -519,11 +559,15 @@
       {
         "time": "10:31",
         "price": 0.67
+      },
+      {
+        "time": "16:01",
+        "price": 0.55
       }
     ],
     "csqaq_id": 23476,
     "start_price": 0.67,
-    "last_price": 0.67,
+    "last_price": 0.55,
     "historical_high": 0.67,
     "daily_alert_high": 0.67
   },
@@ -559,11 +603,15 @@
       {
         "time": "15:01",
         "price": 2.66
+      },
+      {
+        "time": "16:01",
+        "price": 2.73
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.66,
-    "last_price": 2.66,
+    "last_price": 2.73,
     "historical_high": 2.78,
     "daily_alert_high": 2.78
   },
@@ -587,11 +635,15 @@
       {
         "time": "15:01",
         "price": 0.89
+      },
+      {
+        "time": "16:01",
+        "price": 0.76
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.89,
+    "last_price": 0.76,
     "historical_high": 0.89,
     "daily_alert_high": 0.89
   },
@@ -680,11 +732,15 @@
       {
         "time": "11:01",
         "price": 0.6
+      },
+      {
+        "time": "16:01",
+        "price": 0.58
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.6,
-    "last_price": 0.6,
+    "last_price": 0.58,
     "historical_high": 0.6,
     "daily_alert_high": 0.6
   }
