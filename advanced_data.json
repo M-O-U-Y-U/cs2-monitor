@@ -99,11 +99,15 @@
       {
         "time": "02:01",
         "price": 1.61
+      },
+      {
+        "time": "03:01",
+        "price": 1.67
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.77,
-    "last_price": 1.61,
+    "last_price": 1.67,
     "historical_high": 1.85,
     "daily_alert_high": 1.85
   },
@@ -136,11 +140,15 @@
       {
         "time": "02:01",
         "price": 2.33
+      },
+      {
+        "time": "03:01",
+        "price": 2.39
       }
     ],
     "csqaq_id": 18114,
     "start_price": 2.39,
-    "last_price": 2.33,
+    "last_price": 2.39,
     "historical_high": 2.39,
     "daily_alert_high": 2.39
   },
@@ -186,11 +194,15 @@
       {
         "time": "02:01",
         "price": 2.19
+      },
+      {
+        "time": "03:01",
+        "price": 2.21
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.14,
-    "last_price": 2.19,
+    "last_price": 2.21,
     "historical_high": 2.19,
     "daily_alert_high": 2.19
   },
@@ -290,11 +302,15 @@
       {
         "time": "02:01",
         "price": 0.88
+      },
+      {
+        "time": "03:01",
+        "price": 0.75
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.82,
-    "last_price": 0.88,
+    "last_price": 0.75,
     "historical_high": 0.88,
     "daily_alert_high": 0.88
   },
@@ -307,11 +323,15 @@
       {
         "time": "02:01",
         "price": 3.76
+      },
+      {
+        "time": "03:01",
+        "price": 3.65
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.83,
-    "last_price": 3.76,
+    "last_price": 3.65,
     "historical_high": 3.91,
     "daily_alert_high": 3.91
   },
@@ -381,11 +401,15 @@
       {
         "time": "02:01",
         "price": 2.81
+      },
+      {
+        "time": "03:01",
+        "price": 2.73
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.9,
-    "last_price": 2.81,
+    "last_price": 2.73,
     "historical_high": 2.9,
     "daily_alert_high": 2.9
   },
@@ -394,11 +418,15 @@
       {
         "time": "昨日收盘",
         "price": 0.52
+      },
+      {
+        "time": "03:01",
+        "price": 0.53
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.52,
-    "last_price": 0.52,
+    "last_price": 0.53,
     "historical_high": 0.61,
     "daily_alert_high": 0.61
   },
@@ -411,13 +439,17 @@
       {
         "time": "02:01",
         "price": 2.32
+      },
+      {
+        "time": "03:01",
+        "price": 2.43
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.35,
-    "last_price": 2.32,
-    "historical_high": 2.42,
-    "daily_alert_high": 2.42
+    "last_price": 2.43,
+    "historical_high": 2.43,
+    "daily_alert_high": 2.43
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -431,11 +463,15 @@
       {
         "time": "02:01",
         "price": 2.89
+      },
+      {
+        "time": "03:01",
+        "price": 2.71
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.96,
-    "last_price": 2.89,
+    "last_price": 2.71,
     "historical_high": 3.04,
     "daily_alert_high": 3.04
   },
@@ -493,11 +529,15 @@
       {
         "time": "02:01",
         "price": 2.66
+      },
+      {
+        "time": "03:01",
+        "price": 2.65
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.8,
-    "last_price": 2.66,
+    "last_price": 2.65,
     "historical_high": 2.8,
     "daily_alert_high": 2.8
   },
@@ -513,11 +553,15 @@
       {
         "time": "02:01",
         "price": 0.77
+      },
+      {
+        "time": "03:01",
+        "price": 0.81
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.71,
-    "last_price": 0.77,
+    "last_price": 0.81,
     "historical_high": 0.89,
     "daily_alert_high": 0.89
   },
@@ -572,11 +616,15 @@
       {
         "time": "02:01",
         "price": 61.15
+      },
+      {
+        "time": "03:01",
+        "price": 60.23
       }
     ],
     "csqaq_id": 20826,
     "start_price": 62.42,
-    "last_price": 61.15,
+    "last_price": 60.23,
     "historical_high": 61.92,
     "daily_alert_high": 61.92
   },
@@ -589,11 +637,15 @@
       {
         "time": "02:01",
         "price": 2.19
+      },
+      {
+        "time": "03:01",
+        "price": 2.42
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.49,
-    "last_price": 2.19,
+    "last_price": 2.42,
     "historical_high": 2.49,
     "daily_alert_high": 2.49
   },
@@ -602,13 +654,17 @@
       {
         "time": "昨日收盘",
         "price": 0.58
+      },
+      {
+        "time": "03:01",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.58,
-    "last_price": 0.58,
-    "historical_high": 0.6,
-    "daily_alert_high": 0.6
+    "last_price": 0.62,
+    "historical_high": 0.62,
+    "daily_alert_high": 0.62
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
