@@ -47,13 +47,17 @@
       {
         "time": "10:31",
         "price": 8.68
+      },
+      {
+        "time": "12:01",
+        "price": 8.77
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.68,
-    "last_price": 8.68,
-    "historical_high": 8.68,
-    "daily_alert_high": 8.68
+    "last_price": 8.77,
+    "historical_high": 8.77,
+    "daily_alert_high": 8.77
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
@@ -89,11 +93,15 @@
       {
         "time": "10:31",
         "price": 3.28
+      },
+      {
+        "time": "12:01",
+        "price": 3.01
       }
     ],
     "csqaq_id": 20658,
     "start_price": 3.28,
-    "last_price": 3.28,
+    "last_price": 3.01,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
   },
@@ -194,11 +202,15 @@
       {
         "time": "11:01",
         "price": 0.67
+      },
+      {
+        "time": "12:01",
+        "price": 0.64
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.63,
-    "last_price": 0.67,
+    "last_price": 0.64,
     "historical_high": 0.67,
     "daily_alert_high": 0.67
   },
@@ -223,13 +235,17 @@
       {
         "time": "10:31",
         "price": 3.36
+      },
+      {
+        "time": "12:01",
+        "price": 3.6
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.36,
-    "last_price": 3.36,
-    "historical_high": 3.36,
-    "daily_alert_high": 3.36
+    "last_price": 3.6,
+    "historical_high": 3.6,
+    "daily_alert_high": 3.6
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
     "history": [
@@ -249,11 +265,15 @@
       {
         "time": "10:31",
         "price": 3.76
+      },
+      {
+        "time": "12:01",
+        "price": 3.68
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.76,
-    "last_price": 3.76,
+    "last_price": 3.68,
     "historical_high": 3.76,
     "daily_alert_high": 3.76
   },
@@ -262,13 +282,17 @@
       {
         "time": "10:31",
         "price": 4.11
+      },
+      {
+        "time": "12:01",
+        "price": 4.22
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.11,
-    "last_price": 4.11,
-    "historical_high": 4.11,
-    "daily_alert_high": 4.11
+    "last_price": 4.22,
+    "historical_high": 4.22,
+    "daily_alert_high": 4.22
   },
   "P250 | Plum Netting (Battle-Scarred)": {
     "history": []
@@ -282,11 +306,15 @@
       {
         "time": "11:01",
         "price": 0.6
+      },
+      {
+        "time": "12:01",
+        "price": 0.52
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.6,
+    "last_price": 0.52,
     "historical_high": 0.6,
     "daily_alert_high": 0.6
   },
@@ -345,11 +373,15 @@
       {
         "time": "11:01",
         "price": 2.33
+      },
+      {
+        "time": "12:01",
+        "price": 2.35
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.42,
-    "last_price": 2.33,
+    "last_price": 2.35,
     "historical_high": 2.42,
     "daily_alert_high": 2.42
   },
