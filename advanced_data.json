@@ -1,33 +1,19 @@
 {
-  "_meta": {},
+  "_meta": {
+    "last_report_date": "2026-07-15"
+  },
   "MAG-7 | Copper Oxide (Field-Tested)": {
     "history": []
   },
   "Kilowatt Case": {
     "history": [
       {
-        "time": "11:01",
-        "price": 1.64
-      },
-      {
-        "time": "15:01",
-        "price": 1.72
-      },
-      {
-        "time": "17:01",
-        "price": 1.75
-      },
-      {
-        "time": "18:01",
-        "price": 1.74
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 1.72
       }
     ],
     "csqaq_id": 19521,
-    "start_price": 1.64,
+    "start_price": 1.72,
     "last_price": 1.72,
     "historical_high": 1.75,
     "daily_alert_high": 1.75
@@ -35,16 +21,12 @@
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 19.24
-      },
-      {
-        "time": "18:01",
+        "time": "昨日收盘",
         "price": 19.16
       }
     ],
     "csqaq_id": 4128,
-    "start_price": 19.24,
+    "start_price": 19.16,
     "last_price": 19.16,
     "historical_high": 19.24,
     "daily_alert_high": 19.24
@@ -52,16 +34,12 @@
   "G3SG1 | Orange Crash (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 3.19
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 3.18
       }
     ],
     "csqaq_id": 959,
-    "start_price": 3.19,
+    "start_price": 3.18,
     "last_price": 3.18,
     "historical_high": 3.19,
     "daily_alert_high": 3.19
@@ -69,24 +47,12 @@
   "Gallery Case": {
     "history": [
       {
-        "time": "10:31",
-        "price": 8.68
-      },
-      {
-        "time": "12:01",
-        "price": 8.77
-      },
-      {
-        "time": "15:01",
-        "price": 8.6
-      },
-      {
-        "time": "18:01",
+        "time": "昨日收盘",
         "price": 8.69
       }
     ],
     "csqaq_id": 20769,
-    "start_price": 8.68,
+    "start_price": 8.69,
     "last_price": 8.69,
     "historical_high": 8.77,
     "daily_alert_high": 8.77
@@ -94,16 +60,12 @@
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
       {
-        "time": "11:01",
-        "price": 2.78
-      },
-      {
-        "time": "14:01",
+        "time": "昨日收盘",
         "price": 2.87
       }
     ],
     "csqaq_id": 3996,
-    "start_price": 2.78,
+    "start_price": 2.87,
     "last_price": 2.87,
     "historical_high": 2.87,
     "daily_alert_high": 2.87
@@ -111,20 +73,12 @@
   "StatTrak™ G3SG1 | Hunter (Battle-Scarred)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 1.78
-      },
-      {
-        "time": "17:01",
-        "price": 1.85
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 1.77
       }
     ],
     "csqaq_id": 3293,
-    "start_price": 1.78,
+    "start_price": 1.77,
     "last_price": 1.77,
     "historical_high": 1.85,
     "daily_alert_high": 1.85
@@ -135,36 +89,12 @@
   "MAG-7 | Wildwood (Factory New)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 3.28
-      },
-      {
-        "time": "12:01",
-        "price": 3.01
-      },
-      {
-        "time": "14:01",
-        "price": 3.0
-      },
-      {
-        "time": "15:01",
-        "price": 3.01
-      },
-      {
-        "time": "16:01",
-        "price": 3.05
-      },
-      {
-        "time": "18:01",
-        "price": 3.0
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 3.05
       }
     ],
     "csqaq_id": 20658,
-    "start_price": 3.28,
+    "start_price": 3.05,
     "last_price": 3.05,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
@@ -172,20 +102,12 @@
   "StatTrak™ Nova | Wood Fired (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.26
-      },
-      {
-        "time": "14:01",
-        "price": 2.35
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 2.39
       }
     ],
     "csqaq_id": 18114,
-    "start_price": 2.26,
+    "start_price": 2.39,
     "last_price": 2.39,
     "historical_high": 2.39,
     "daily_alert_high": 2.39
@@ -193,20 +115,12 @@
   "Sawed-Off | Black Sand (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 4.66
-      },
-      {
-        "time": "11:01",
-        "price": 4.5
-      },
-      {
-        "time": "17:01",
+        "time": "昨日收盘",
         "price": 4.49
       }
     ],
     "csqaq_id": 17916,
-    "start_price": 4.66,
+    "start_price": 4.49,
     "last_price": 4.49,
     "historical_high": 4.66,
     "daily_alert_high": 4.66
@@ -217,20 +131,12 @@
   "Sealed Genesis Terminal": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.92
-      },
-      {
-        "time": "15:01",
-        "price": 0.98
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.99
       }
     ],
     "csqaq_id": 23870,
-    "start_price": 0.92,
+    "start_price": 0.99,
     "last_price": 0.99,
     "historical_high": 0.99,
     "daily_alert_high": 0.99
@@ -238,16 +144,12 @@
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.11
-      },
-      {
-        "time": "16:01",
+        "time": "昨日收盘",
         "price": 2.14
       }
     ],
     "csqaq_id": 22213,
-    "start_price": 2.11,
+    "start_price": 2.14,
     "last_price": 2.14,
     "historical_high": 2.14,
     "daily_alert_high": 2.14
@@ -255,19 +157,7 @@
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.0
-      },
-      {
-        "time": "14:01",
-        "price": 2.11
-      },
-      {
-        "time": "16:01",
-        "price": 2.24
-      },
-      {
-        "time": "18:01",
+        "time": "昨日收盘",
         "price": 2.0
       }
     ],
@@ -283,7 +173,7 @@
   "StatTrak™ PP-Bizon | Space Cat (Well-Worn)": {
     "history": [
       {
-        "time": "10:31",
+        "time": "昨日收盘",
         "price": 5.47
       }
     ],
@@ -296,40 +186,12 @@
   "Sawed-Off | Spirit Board (Well-Worn)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.63
-      },
-      {
-        "time": "11:01",
-        "price": 0.67
-      },
-      {
-        "time": "12:01",
-        "price": 0.64
-      },
-      {
-        "time": "15:01",
-        "price": 0.69
-      },
-      {
-        "time": "16:01",
-        "price": 0.68
-      },
-      {
-        "time": "17:01",
-        "price": 0.6
-      },
-      {
-        "time": "18:01",
-        "price": 0.59
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.69
       }
     ],
     "csqaq_id": 17946,
-    "start_price": 0.63,
+    "start_price": 0.69,
     "last_price": 0.69,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
@@ -340,24 +202,12 @@
   "R8 Revolver | Junk Yard (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 3.36
-      },
-      {
-        "time": "14:01",
-        "price": 3.45
-      },
-      {
-        "time": "17:01",
-        "price": 3.57
-      },
-      {
-        "time": "18:01",
+        "time": "昨日收盘",
         "price": 3.54
       }
     ],
     "csqaq_id": 13187,
-    "start_price": 3.36,
+    "start_price": 3.54,
     "last_price": 3.54,
     "historical_high": 3.57,
     "daily_alert_high": 3.57
@@ -365,28 +215,12 @@
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 3.36
-      },
-      {
-        "time": "12:01",
-        "price": 3.6
-      },
-      {
-        "time": "14:01",
-        "price": 3.13
-      },
-      {
-        "time": "15:01",
-        "price": 3.19
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 3.71
       }
     ],
     "csqaq_id": 539,
-    "start_price": 3.36,
+    "start_price": 3.71,
     "last_price": 3.71,
     "historical_high": 3.71,
     "daily_alert_high": 3.71
@@ -394,24 +228,12 @@
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
     "history": [
       {
-        "time": "11:01",
-        "price": 0.83
-      },
-      {
-        "time": "16:01",
-        "price": 0.82
-      },
-      {
-        "time": "18:01",
-        "price": 0.71
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.82
       }
     ],
     "csqaq_id": 22167,
-    "start_price": 0.83,
+    "start_price": 0.82,
     "last_price": 0.82,
     "historical_high": 0.83,
     "daily_alert_high": 0.83
@@ -419,36 +241,12 @@
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 3.76
-      },
-      {
-        "time": "12:01",
-        "price": 3.68
-      },
-      {
-        "time": "14:01",
-        "price": 3.86
-      },
-      {
-        "time": "15:01",
-        "price": 3.59
-      },
-      {
-        "time": "16:01",
-        "price": 3.91
-      },
-      {
-        "time": "18:01",
-        "price": 3.76
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 3.83
       }
     ],
     "csqaq_id": 22026,
-    "start_price": 3.76,
+    "start_price": 3.83,
     "last_price": 3.83,
     "historical_high": 3.91,
     "daily_alert_high": 3.91
@@ -456,28 +254,12 @@
   "StatTrak™ Dual Berettas | Shred (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 4.11
-      },
-      {
-        "time": "12:01",
-        "price": 4.22
-      },
-      {
-        "time": "17:01",
-        "price": 4.16
-      },
-      {
-        "time": "18:01",
-        "price": 4.11
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 4.16
       }
     ],
     "csqaq_id": 8530,
-    "start_price": 4.11,
+    "start_price": 4.16,
     "last_price": 4.16,
     "historical_high": 4.22,
     "daily_alert_high": 4.22
@@ -488,44 +270,12 @@
   "P250 | Sedimentary (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.55
-      },
-      {
-        "time": "11:01",
-        "price": 0.6
-      },
-      {
-        "time": "12:01",
-        "price": 0.52
-      },
-      {
-        "time": "14:01",
-        "price": 0.55
-      },
-      {
-        "time": "15:01",
-        "price": 0.58
-      },
-      {
-        "time": "16:01",
-        "price": 0.6
-      },
-      {
-        "time": "17:01",
-        "price": 0.71
-      },
-      {
-        "time": "18:01",
-        "price": 0.55
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.6
       }
     ],
     "csqaq_id": 22033,
-    "start_price": 0.55,
+    "start_price": 0.6,
     "last_price": 0.6,
     "historical_high": 0.71,
     "daily_alert_high": 0.71
@@ -536,16 +286,12 @@
   "Nova | Windblown (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 3.49
-      },
-      {
-        "time": "18:01",
+        "time": "昨日收盘",
         "price": 3.5
       }
     ],
     "csqaq_id": 18120,
-    "start_price": 3.49,
+    "start_price": 3.5,
     "last_price": 3.5,
     "historical_high": 3.49,
     "daily_alert_high": 3.49
@@ -553,36 +299,12 @@
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.71
-      },
-      {
-        "time": "11:01",
-        "price": 2.73
-      },
-      {
-        "time": "14:01",
-        "price": 2.71
-      },
-      {
-        "time": "16:01",
-        "price": 2.68
-      },
-      {
-        "time": "17:01",
-        "price": 2.78
-      },
-      {
-        "time": "18:01",
-        "price": 2.61
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 2.9
       }
     ],
     "csqaq_id": 13178,
-    "start_price": 2.71,
+    "start_price": 2.9,
     "last_price": 2.9,
     "historical_high": 2.9,
     "daily_alert_high": 2.9
@@ -590,32 +312,12 @@
   "Tec-9 | Citric Acid (Minimal Wear)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.53
-      },
-      {
-        "time": "15:01",
-        "price": 0.61
-      },
-      {
-        "time": "16:01",
-        "price": 0.55
-      },
-      {
-        "time": "17:01",
-        "price": 0.53
-      },
-      {
-        "time": "18:01",
-        "price": 0.6
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.52
       }
     ],
     "csqaq_id": 22038,
-    "start_price": 0.53,
+    "start_price": 0.52,
     "last_price": 0.52,
     "historical_high": 0.61,
     "daily_alert_high": 0.61
@@ -623,28 +325,12 @@
   "FAMAS | Yeti Camo (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.42
-      },
-      {
-        "time": "11:01",
-        "price": 2.33
-      },
-      {
-        "time": "12:01",
-        "price": 2.35
-      },
-      {
-        "time": "14:01",
-        "price": 2.33
-      },
-      {
-        "time": "15:01",
+        "time": "昨日收盘",
         "price": 2.35
       }
     ],
     "csqaq_id": 21900,
-    "start_price": 2.42,
+    "start_price": 2.35,
     "last_price": 2.35,
     "historical_high": 2.42,
     "daily_alert_high": 2.42
@@ -655,36 +341,12 @@
   "USP-S | Tropical Breeze (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.87
-      },
-      {
-        "time": "14:01",
-        "price": 2.81
-      },
-      {
-        "time": "15:01",
-        "price": 3.04
-      },
-      {
-        "time": "16:01",
-        "price": 2.7
-      },
-      {
-        "time": "17:01",
-        "price": 3.0
-      },
-      {
-        "time": "18:01",
-        "price": 2.71
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 2.96
       }
     ],
     "csqaq_id": 21512,
-    "start_price": 2.87,
+    "start_price": 2.96,
     "last_price": 2.96,
     "historical_high": 3.04,
     "daily_alert_high": 3.04
@@ -692,28 +354,12 @@
   "Revolution Case": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.6
-      },
-      {
-        "time": "11:01",
-        "price": 2.59
-      },
-      {
-        "time": "14:01",
-        "price": 2.6
-      },
-      {
-        "time": "15:01",
-        "price": 2.61
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 2.54
       }
     ],
     "csqaq_id": 16283,
-    "start_price": 2.6,
+    "start_price": 2.54,
     "last_price": 2.54,
     "historical_high": 2.6,
     "daily_alert_high": 2.6
@@ -721,15 +367,7 @@
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.67
-      },
-      {
-        "time": "16:01",
-        "price": 0.55
-      },
-      {
-        "time": "17:01",
+        "time": "昨日收盘",
         "price": 0.67
       }
     ],
@@ -757,40 +395,12 @@
   "Galil AR | Sky Mandala (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.66
-      },
-      {
-        "time": "11:01",
-        "price": 2.62
-      },
-      {
-        "time": "14:01",
-        "price": 2.78
-      },
-      {
-        "time": "15:01",
-        "price": 2.66
-      },
-      {
-        "time": "16:01",
-        "price": 2.73
-      },
-      {
-        "time": "17:01",
-        "price": 2.6
-      },
-      {
-        "time": "18:01",
-        "price": 2.61
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 2.8
       }
     ],
     "csqaq_id": 24925,
-    "start_price": 2.66,
+    "start_price": 2.8,
     "last_price": 2.8,
     "historical_high": 2.8,
     "daily_alert_high": 2.8
@@ -801,40 +411,12 @@
   "StatTrak™ MAC-10 | Ensnared (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.78
-      },
-      {
-        "time": "11:01",
-        "price": 0.83
-      },
-      {
-        "time": "14:01",
-        "price": 0.88
-      },
-      {
-        "time": "15:01",
-        "price": 0.89
-      },
-      {
-        "time": "16:01",
-        "price": 0.76
-      },
-      {
-        "time": "17:01",
-        "price": 0.83
-      },
-      {
-        "time": "18:01",
-        "price": 0.75
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.71
       }
     ],
     "csqaq_id": 14742,
-    "start_price": 0.78,
+    "start_price": 0.71,
     "last_price": 0.71,
     "historical_high": 0.89,
     "daily_alert_high": 0.89
@@ -842,32 +424,12 @@
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 0.77
-      },
-      {
-        "time": "14:01",
-        "price": 0.76
-      },
-      {
-        "time": "15:01",
-        "price": 0.78
-      },
-      {
-        "time": "17:01",
-        "price": 0.7
-      },
-      {
-        "time": "18:01",
-        "price": 0.78
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 0.79
       }
     ],
     "csqaq_id": 18780,
-    "start_price": 0.77,
+    "start_price": 0.79,
     "last_price": 0.79,
     "historical_high": 0.79,
     "daily_alert_high": 0.79
@@ -884,7 +446,7 @@
   "AUG | Storm (Field-Tested)": {
     "history": [
       {
-        "time": "15:01",
+        "time": "昨日收盘",
         "price": 0.68
       }
     ],
@@ -900,28 +462,12 @@
   "StatTrak™ Music Kit | Perfect World, Ay Hey": {
     "history": [
       {
-        "time": "10:31",
-        "price": 61.11
-      },
-      {
-        "time": "14:01",
-        "price": 61.92
-      },
-      {
-        "time": "15:01",
-        "price": 62.0
-      },
-      {
-        "time": "18:01",
-        "price": 62.26
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 62.42
       }
     ],
     "csqaq_id": 20826,
-    "start_price": 61.11,
+    "start_price": 62.42,
     "last_price": 62.42,
     "historical_high": 61.92,
     "daily_alert_high": 61.92
@@ -929,15 +475,7 @@
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
       {
-        "time": "10:31",
-        "price": 2.49
-      },
-      {
-        "time": "18:01",
-        "price": 2.39
-      },
-      {
-        "time": "19:01",
+        "time": "昨日收盘",
         "price": 2.49
       }
     ],
@@ -950,18 +488,17 @@
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
       {
-        "time": "11:01",
-        "price": 0.6
-      },
-      {
-        "time": "16:01",
+        "time": "昨日收盘",
         "price": 0.58
       }
     ],
     "csqaq_id": 17156,
-    "start_price": 0.6,
+    "start_price": 0.58,
     "last_price": 0.58,
     "historical_high": 0.6,
     "daily_alert_high": 0.6
+  },
+  "Galil AR | Robin's Egg (Field-Tested)": {
+    "history": []
   }
 }
