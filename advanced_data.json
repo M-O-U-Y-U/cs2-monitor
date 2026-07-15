@@ -20,11 +20,15 @@
       {
         "time": "18:01",
         "price": 1.74
+      },
+      {
+        "time": "19:01",
+        "price": 1.72
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.64,
-    "last_price": 1.74,
+    "last_price": 1.72,
     "historical_high": 1.75,
     "daily_alert_high": 1.75
   },
@@ -50,11 +54,15 @@
       {
         "time": "10:31",
         "price": 3.19
+      },
+      {
+        "time": "19:01",
+        "price": 3.18
       }
     ],
     "csqaq_id": 959,
     "start_price": 3.19,
-    "last_price": 3.19,
+    "last_price": 3.18,
     "historical_high": 3.19,
     "daily_alert_high": 3.19
   },
@@ -109,11 +117,15 @@
       {
         "time": "17:01",
         "price": 1.85
+      },
+      {
+        "time": "19:01",
+        "price": 1.77
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.78,
-    "last_price": 1.85,
+    "last_price": 1.77,
     "historical_high": 1.85,
     "daily_alert_high": 1.85
   },
@@ -145,11 +157,15 @@
       {
         "time": "18:01",
         "price": 3.0
+      },
+      {
+        "time": "19:01",
+        "price": 3.05
       }
     ],
     "csqaq_id": 20658,
     "start_price": 3.28,
-    "last_price": 3.0,
+    "last_price": 3.05,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
   },
@@ -162,13 +178,17 @@
       {
         "time": "14:01",
         "price": 2.35
+      },
+      {
+        "time": "19:01",
+        "price": 2.39
       }
     ],
     "csqaq_id": 18114,
     "start_price": 2.26,
-    "last_price": 2.35,
-    "historical_high": 2.35,
-    "daily_alert_high": 2.35
+    "last_price": 2.39,
+    "historical_high": 2.39,
+    "daily_alert_high": 2.39
   },
   "Sawed-Off | Black Sand (Minimal Wear)": {
     "history": [
@@ -203,13 +223,17 @@
       {
         "time": "15:01",
         "price": 0.98
+      },
+      {
+        "time": "19:01",
+        "price": 0.99
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.92,
-    "last_price": 0.98,
-    "historical_high": 0.98,
-    "daily_alert_high": 0.98
+    "last_price": 0.99,
+    "historical_high": 0.99,
+    "daily_alert_high": 0.99
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -298,11 +322,15 @@
       {
         "time": "18:01",
         "price": 0.59
+      },
+      {
+        "time": "19:01",
+        "price": 0.69
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.63,
-    "last_price": 0.59,
+    "last_price": 0.69,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -351,13 +379,17 @@
       {
         "time": "15:01",
         "price": 3.19
+      },
+      {
+        "time": "19:01",
+        "price": 3.71
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.36,
-    "last_price": 3.19,
-    "historical_high": 3.6,
-    "daily_alert_high": 3.6
+    "last_price": 3.71,
+    "historical_high": 3.71,
+    "daily_alert_high": 3.71
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
     "history": [
@@ -372,11 +404,15 @@
       {
         "time": "18:01",
         "price": 0.71
+      },
+      {
+        "time": "19:01",
+        "price": 0.82
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.83,
-    "last_price": 0.71,
+    "last_price": 0.82,
     "historical_high": 0.83,
     "daily_alert_high": 0.83
   },
@@ -405,11 +441,15 @@
       {
         "time": "18:01",
         "price": 3.76
+      },
+      {
+        "time": "19:01",
+        "price": 3.83
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.76,
-    "last_price": 3.76,
+    "last_price": 3.83,
     "historical_high": 3.91,
     "daily_alert_high": 3.91
   },
@@ -430,11 +470,15 @@
       {
         "time": "18:01",
         "price": 4.11
+      },
+      {
+        "time": "19:01",
+        "price": 4.16
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.11,
-    "last_price": 4.11,
+    "last_price": 4.16,
     "historical_high": 4.22,
     "daily_alert_high": 4.22
   },
@@ -474,11 +518,15 @@
       {
         "time": "18:01",
         "price": 0.55
+      },
+      {
+        "time": "19:01",
+        "price": 0.6
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.55,
+    "last_price": 0.6,
     "historical_high": 0.71,
     "daily_alert_high": 0.71
   },
@@ -527,13 +575,17 @@
       {
         "time": "18:01",
         "price": 2.61
+      },
+      {
+        "time": "19:01",
+        "price": 2.9
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.71,
-    "last_price": 2.61,
-    "historical_high": 2.78,
-    "daily_alert_high": 2.78
+    "last_price": 2.9,
+    "historical_high": 2.9,
+    "daily_alert_high": 2.9
   },
   "Tec-9 | Citric Acid (Minimal Wear)": {
     "history": [
@@ -556,11 +608,15 @@
       {
         "time": "18:01",
         "price": 0.6
+      },
+      {
+        "time": "19:01",
+        "price": 0.52
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.53,
-    "last_price": 0.6,
+    "last_price": 0.52,
     "historical_high": 0.61,
     "daily_alert_high": 0.61
   },
@@ -621,11 +677,15 @@
       {
         "time": "18:01",
         "price": 2.71
+      },
+      {
+        "time": "19:01",
+        "price": 2.96
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 21512,
     "start_price": 2.87,
-    "last_price": 2.71,
+    "last_price": 2.96,
     "historical_high": 3.04,
     "daily_alert_high": 3.04
   },
@@ -646,11 +706,15 @@
       {
         "time": "15:01",
         "price": 2.61
+      },
+      {
+        "time": "19:01",
+        "price": 2.54
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.6,
-    "last_price": 2.61,
+    "last_price": 2.54,
     "historical_high": 2.6,
     "daily_alert_high": 2.6
   },
@@ -719,13 +783,17 @@
       {
         "time": "18:01",
         "price": 2.61
+      },
+      {
+        "time": "19:01",
+        "price": 2.8
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.66,
-    "last_price": 2.61,
-    "historical_high": 2.78,
-    "daily_alert_high": 2.78
+    "last_price": 2.8,
+    "historical_high": 2.8,
+    "daily_alert_high": 2.8
   },
   "Zeus x27 | Electric Blue (Field-Tested)": {
     "history": []
@@ -759,11 +827,15 @@
       {
         "time": "18:01",
         "price": 0.75
+      },
+      {
+        "time": "19:01",
+        "price": 0.71
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.75,
+    "last_price": 0.71,
     "historical_high": 0.89,
     "daily_alert_high": 0.89
   },
@@ -788,13 +860,17 @@
       {
         "time": "18:01",
         "price": 0.78
+      },
+      {
+        "time": "19:01",
+        "price": 0.79
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.77,
-    "last_price": 0.78,
-    "historical_high": 0.78,
-    "daily_alert_high": 0.78
+    "last_price": 0.79,
+    "historical_high": 0.79,
+    "daily_alert_high": 0.79
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -838,11 +914,15 @@
       {
         "time": "18:01",
         "price": 62.26
+      },
+      {
+        "time": "19:01",
+        "price": 62.42
       }
     ],
     "csqaq_id": 20826,
     "start_price": 61.11,
-    "last_price": 62.26,
+    "last_price": 62.42,
     "historical_high": 61.92,
     "daily_alert_high": 61.92
   },
@@ -855,11 +935,15 @@
       {
         "time": "18:01",
         "price": 2.39
+      },
+      {
+        "time": "19:01",
+        "price": 2.49
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.49,
-    "last_price": 2.39,
+    "last_price": 2.49,
     "historical_high": 2.49,
     "daily_alert_high": 2.49
   },
