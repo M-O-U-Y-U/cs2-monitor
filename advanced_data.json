@@ -8,13 +8,17 @@
       {
         "time": "11:01",
         "price": 1.64
+      },
+      {
+        "time": "15:01",
+        "price": 1.72
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.64,
-    "last_price": 1.64,
-    "historical_high": 1.64,
-    "daily_alert_high": 1.64
+    "last_price": 1.72,
+    "historical_high": 1.72,
+    "daily_alert_high": 1.72
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -51,11 +55,15 @@
       {
         "time": "12:01",
         "price": 8.77
+      },
+      {
+        "time": "15:01",
+        "price": 8.6
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.68,
-    "last_price": 8.77,
+    "last_price": 8.6,
     "historical_high": 8.77,
     "daily_alert_high": 8.77
   },
@@ -105,11 +113,15 @@
       {
         "time": "14:01",
         "price": 3.0
+      },
+      {
+        "time": "15:01",
+        "price": 3.01
       }
     ],
     "csqaq_id": 20658,
     "start_price": 3.28,
-    "last_price": 3.0,
+    "last_price": 3.01,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
   },
@@ -155,13 +167,17 @@
       {
         "time": "10:31",
         "price": 0.92
+      },
+      {
+        "time": "15:01",
+        "price": 0.98
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.92,
-    "last_price": 0.92,
-    "historical_high": 0.92,
-    "daily_alert_high": 0.92
+    "last_price": 0.98,
+    "historical_high": 0.98,
+    "daily_alert_high": 0.98
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -222,13 +238,17 @@
       {
         "time": "12:01",
         "price": 0.64
+      },
+      {
+        "time": "15:01",
+        "price": 0.69
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.63,
-    "last_price": 0.64,
-    "historical_high": 0.67,
-    "daily_alert_high": 0.67
+    "last_price": 0.69,
+    "historical_high": 0.69,
+    "daily_alert_high": 0.69
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -263,11 +283,15 @@
       {
         "time": "14:01",
         "price": 3.13
+      },
+      {
+        "time": "15:01",
+        "price": 3.19
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.36,
-    "last_price": 3.13,
+    "last_price": 3.19,
     "historical_high": 3.6,
     "daily_alert_high": 3.6
   },
@@ -297,11 +321,15 @@
       {
         "time": "14:01",
         "price": 3.86
+      },
+      {
+        "time": "15:01",
+        "price": 3.59
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.76,
-    "last_price": 3.86,
+    "last_price": 3.59,
     "historical_high": 3.86,
     "daily_alert_high": 3.86
   },
@@ -342,11 +370,15 @@
       {
         "time": "14:01",
         "price": 0.55
+      },
+      {
+        "time": "15:01",
+        "price": 0.58
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.55,
+    "last_price": 0.58,
     "historical_high": 0.6,
     "daily_alert_high": 0.6
   },
@@ -392,13 +424,17 @@
       {
         "time": "10:31",
         "price": 0.53
+      },
+      {
+        "time": "15:01",
+        "price": 0.61
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.53,
-    "last_price": 0.53,
-    "historical_high": 0.53,
-    "daily_alert_high": 0.53
+    "last_price": 0.61,
+    "historical_high": 0.61,
+    "daily_alert_high": 0.61
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "history": [
@@ -417,11 +453,15 @@
       {
         "time": "14:01",
         "price": 2.33
+      },
+      {
+        "time": "15:01",
+        "price": 2.35
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.42,
-    "last_price": 2.33,
+    "last_price": 2.35,
     "historical_high": 2.42,
     "daily_alert_high": 2.42
   },
@@ -437,13 +477,17 @@
       {
         "time": "14:01",
         "price": 2.81
+      },
+      {
+        "time": "15:01",
+        "price": 3.04
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.87,
-    "last_price": 2.81,
-    "historical_high": 2.87,
-    "daily_alert_high": 2.87
+    "last_price": 3.04,
+    "historical_high": 3.04,
+    "daily_alert_high": 3.04
   },
   "Revolution Case": {
     "history": [
@@ -458,11 +502,15 @@
       {
         "time": "14:01",
         "price": 2.6
+      },
+      {
+        "time": "15:01",
+        "price": 2.61
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.6,
-    "last_price": 2.6,
+    "last_price": 2.61,
     "historical_high": 2.6,
     "daily_alert_high": 2.6
   },
@@ -507,11 +555,15 @@
       {
         "time": "14:01",
         "price": 2.78
+      },
+      {
+        "time": "15:01",
+        "price": 2.66
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.66,
-    "last_price": 2.78,
+    "last_price": 2.66,
     "historical_high": 2.78,
     "daily_alert_high": 2.78
   },
@@ -531,13 +583,17 @@
       {
         "time": "14:01",
         "price": 0.88
+      },
+      {
+        "time": "15:01",
+        "price": 0.89
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.88,
-    "historical_high": 0.88,
-    "daily_alert_high": 0.88
+    "last_price": 0.89,
+    "historical_high": 0.89,
+    "daily_alert_high": 0.89
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -548,13 +604,17 @@
       {
         "time": "14:01",
         "price": 0.76
+      },
+      {
+        "time": "15:01",
+        "price": 0.78
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.77,
-    "last_price": 0.76,
-    "historical_high": 0.77,
-    "daily_alert_high": 0.77
+    "last_price": 0.78,
+    "historical_high": 0.78,
+    "daily_alert_high": 0.78
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -566,7 +626,17 @@
     "history": []
   },
   "AUG | Storm (Field-Tested)": {
-    "history": []
+    "history": [
+      {
+        "time": "15:01",
+        "price": 0.68
+      }
+    ],
+    "csqaq_id": 215,
+    "start_price": 0.68,
+    "last_price": 0.68,
+    "historical_high": 0.68,
+    "daily_alert_high": 0.68
   },
   "Tec-9 | Army Mesh (Field-Tested)": {
     "history": []
@@ -580,11 +650,15 @@
       {
         "time": "14:01",
         "price": 61.92
+      },
+      {
+        "time": "15:01",
+        "price": 62.0
       }
     ],
     "csqaq_id": 20826,
     "start_price": 61.11,
-    "last_price": 61.92,
+    "last_price": 62.0,
     "historical_high": 61.92,
     "daily_alert_high": 61.92
   },
