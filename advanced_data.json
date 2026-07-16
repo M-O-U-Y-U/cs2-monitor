@@ -121,11 +121,15 @@
       {
         "time": "17:01",
         "price": 8.56
+      },
+      {
+        "time": "18:01",
+        "price": 8.6
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.69,
-    "last_price": 8.56,
+    "last_price": 8.6,
     "historical_high": 8.8,
     "daily_alert_high": 8.8
   },
@@ -163,11 +167,15 @@
       {
         "time": "03:01",
         "price": 1.67
+      },
+      {
+        "time": "18:01",
+        "price": 1.69
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.77,
-    "last_price": 1.67,
+    "last_price": 1.69,
     "historical_high": 1.85,
     "daily_alert_high": 1.85
   },
@@ -205,7 +213,7 @@
         "price": 2.91
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 20658,
     "start_price": 3.05,
     "last_price": 2.91,
     "historical_high": 3.28,
@@ -240,13 +248,17 @@
       {
         "time": "07:01",
         "price": 2.34
+      },
+      {
+        "time": "18:01",
+        "price": 2.83
       }
     ],
     "csqaq_id": 18114,
     "start_price": 2.39,
-    "last_price": 2.34,
-    "historical_high": 2.44,
-    "daily_alert_high": 2.44
+    "last_price": 2.83,
+    "historical_high": 2.83,
+    "daily_alert_high": 2.83
   },
   "Sawed-Off | Black Sand (Minimal Wear)": {
     "history": [
@@ -334,11 +346,15 @@
       {
         "time": "17:01",
         "price": 1.99
+      },
+      {
+        "time": "18:01",
+        "price": 2.15
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.14,
-    "last_price": 1.99,
+    "last_price": 2.15,
     "historical_high": 2.23,
     "daily_alert_high": 2.23
   },
@@ -428,11 +444,15 @@
       {
         "time": "17:01",
         "price": 0.58
+      },
+      {
+        "time": "18:01",
+        "price": 0.53
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.69,
-    "last_price": 0.58,
+    "last_price": 0.53,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -546,11 +566,15 @@
       {
         "time": "17:01",
         "price": 0.76
+      },
+      {
+        "time": "18:01",
+        "price": 0.69
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.82,
-    "last_price": 0.76,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.88
   },
@@ -595,11 +619,15 @@
       {
         "time": "17:01",
         "price": 3.73
+      },
+      {
+        "time": "18:01",
+        "price": 3.65
       }
     ],
     "csqaq_id": 22026,
     "start_price": 3.83,
-    "last_price": 3.73,
+    "last_price": 3.65,
     "historical_high": 4.22,
     "daily_alert_high": 4.22
   },
@@ -636,11 +664,15 @@
       {
         "time": "17:01",
         "price": 3.93
+      },
+      {
+        "time": "18:01",
+        "price": 4.0
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.16,
-    "last_price": 3.93,
+    "last_price": 4.0,
     "historical_high": 4.22,
     "daily_alert_high": 4.22
   },
@@ -676,11 +708,15 @@
       {
         "time": "17:01",
         "price": 0.54
+      },
+      {
+        "time": "18:01",
+        "price": 0.55
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.6,
-    "last_price": 0.54,
+    "last_price": 0.55,
     "historical_high": 0.71,
     "daily_alert_high": 0.71
   },
@@ -712,11 +748,15 @@
       {
         "time": "17:01",
         "price": 3.3
+      },
+      {
+        "time": "18:01",
+        "price": 3.1
       }
     ],
     "csqaq_id": 18120,
     "start_price": 3.5,
-    "last_price": 3.3,
+    "last_price": 3.1,
     "historical_high": 3.49,
     "daily_alert_high": 3.49
   },
@@ -757,11 +797,15 @@
       {
         "time": "16:01",
         "price": 2.49
+      },
+      {
+        "time": "18:01",
+        "price": 2.59
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.9,
-    "last_price": 2.49,
+    "last_price": 2.59,
     "historical_high": 2.9,
     "daily_alert_high": 2.9
   },
@@ -802,11 +846,15 @@
       {
         "time": "17:01",
         "price": 0.51
+      },
+      {
+        "time": "18:01",
+        "price": 0.53
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.52,
-    "last_price": 0.51,
+    "last_price": 0.53,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -907,11 +955,15 @@
       {
         "time": "17:01",
         "price": 2.95
+      },
+      {
+        "time": "18:01",
+        "price": 2.81
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.96,
-    "last_price": 2.95,
+    "last_price": 2.81,
     "historical_high": 3.06,
     "daily_alert_high": 3.06
   },
@@ -948,11 +1000,15 @@
       {
         "time": "17:01",
         "price": 2.62
+      },
+      {
+        "time": "18:01",
+        "price": 2.59
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.54,
-    "last_price": 2.62,
+    "last_price": 2.59,
     "historical_high": 2.62,
     "daily_alert_high": 2.62
   },
@@ -1029,11 +1085,15 @@
       {
         "time": "17:01",
         "price": 2.77
+      },
+      {
+        "time": "18:01",
+        "price": 2.72
       }
     ],
     "csqaq_id": 24925,
     "start_price": 2.8,
-    "last_price": 2.77,
+    "last_price": 2.72,
     "historical_high": 2.96,
     "daily_alert_high": 2.96
   },
@@ -1081,11 +1141,15 @@
       {
         "time": "17:01",
         "price": 0.8
+      },
+      {
+        "time": "18:01",
+        "price": 0.89
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 14742,
     "start_price": 0.71,
-    "last_price": 0.8,
+    "last_price": 0.89,
     "historical_high": 0.91,
     "daily_alert_high": 0.91
   },
@@ -1114,11 +1178,15 @@
       {
         "time": "17:01",
         "price": 0.8
+      },
+      {
+        "time": "18:01",
+        "price": 0.81
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.79,
-    "last_price": 0.8,
+    "last_price": 0.81,
     "historical_high": 0.88,
     "daily_alert_high": 0.88
   },
@@ -1225,11 +1293,15 @@
       {
         "time": "17:01",
         "price": 2.48
+      },
+      {
+        "time": "18:01",
+        "price": 2.26
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.49,
-    "last_price": 2.48,
+    "last_price": 2.26,
     "historical_high": 2.49,
     "daily_alert_high": 2.49
   },
