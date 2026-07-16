@@ -34,11 +34,15 @@
       {
         "time": "17:01",
         "price": 1.64
+      },
+      {
+        "time": "20:01",
+        "price": 1.59
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.72,
-    "last_price": 1.64,
+    "last_price": 1.59,
     "historical_high": 1.75,
     "daily_alert_high": 1.75
   },
@@ -215,11 +219,15 @@
       {
         "time": "17:01",
         "price": 2.91
+      },
+      {
+        "time": "20:01",
+        "price": 2.94
       }
     ],
     "csqaq_id": 20658,
     "start_price": 3.05,
-    "last_price": 2.91,
+    "last_price": 2.94,
     "historical_high": 3.28,
     "daily_alert_high": 3.28
   },
@@ -358,11 +366,15 @@
       {
         "time": "19:01",
         "price": 2.14
+      },
+      {
+        "time": "20:01",
+        "price": 2.1
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.14,
-    "last_price": 2.14,
+    "last_price": 2.1,
     "historical_high": 2.23,
     "daily_alert_high": 2.23
   },
@@ -395,11 +407,15 @@
       {
         "time": "17:01",
         "price": 2.24
+      },
+      {
+        "time": "20:01",
+        "price": 2.1
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.0,
-    "last_price": 2.24,
+    "last_price": 2.1,
     "historical_high": 2.24,
     "daily_alert_high": 2.24
   },
@@ -460,11 +476,15 @@
       {
         "time": "19:01",
         "price": 0.61
+      },
+      {
+        "time": "20:01",
+        "price": 0.69
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.69,
-    "last_price": 0.61,
+    "last_price": 0.69,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
