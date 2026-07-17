@@ -10,11 +10,15 @@
       {
         "time": "昨日收盘",
         "price": 1.69
+      },
+      {
+        "time": "04:00",
+        "price": 1.7
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.69,
-    "last_price": 1.69,
+    "last_price": 1.7,
     "historical_high": 1.75,
     "daily_alert_high": 1.75
   },
@@ -23,11 +27,15 @@
       {
         "time": "昨日收盘",
         "price": 18.44
+      },
+      {
+        "time": "04:00",
+        "price": 19.23
       }
     ],
     "csqaq_id": 4128,
     "start_price": 18.44,
-    "last_price": 18.44,
+    "last_price": 19.23,
     "historical_high": 19.24,
     "daily_alert_high": 19.24
   },
@@ -36,11 +44,15 @@
       {
         "time": "昨日收盘",
         "price": 3.45
+      },
+      {
+        "time": "04:00",
+        "price": 3.3
       }
     ],
     "csqaq_id": 959,
     "start_price": 3.45,
-    "last_price": 3.45,
+    "last_price": 3.3,
     "historical_high": 3.42,
     "daily_alert_high": 3.42
   },
@@ -49,11 +61,15 @@
       {
         "time": "昨日收盘",
         "price": 8.7
+      },
+      {
+        "time": "04:00",
+        "price": 8.67
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.7,
-    "last_price": 8.7,
+    "last_price": 8.67,
     "historical_high": 8.8,
     "daily_alert_high": 8.8
   },
@@ -62,24 +78,32 @@
       {
         "time": "昨日收盘",
         "price": 2.91
+      },
+      {
+        "time": "04:00",
+        "price": 3.28
       }
     ],
     "csqaq_id": 3996,
     "start_price": 2.91,
-    "last_price": 2.91,
-    "historical_high": 2.91,
-    "daily_alert_high": 2.91
+    "last_price": 3.28,
+    "historical_high": 3.28,
+    "daily_alert_high": 3.28
   },
   "StatTrak™ G3SG1 | Hunter (Battle-Scarred)": {
     "history": [
       {
         "time": "昨日收盘",
         "price": 1.5
+      },
+      {
+        "time": "04:00",
+        "price": 1.47
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.5,
-    "last_price": 1.5,
+    "last_price": 1.47,
     "historical_high": 1.85,
     "daily_alert_high": 1.85
   },
@@ -182,11 +206,15 @@
       {
         "time": "昨日收盘",
         "price": 2.18
+      },
+      {
+        "time": "04:00",
+        "price": 2.26
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.18,
-    "last_price": 2.18,
+    "last_price": 2.26,
     "historical_high": 2.26,
     "daily_alert_high": 2.26
   },
@@ -195,11 +223,15 @@
       {
         "time": "昨日收盘",
         "price": 1.86
+      },
+      {
+        "time": "04:00",
+        "price": 2.2
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.86,
-    "last_price": 1.86,
+    "last_price": 2.2,
     "historical_high": 2.24,
     "daily_alert_high": 2.24
   },
@@ -224,11 +256,15 @@
       {
         "time": "昨日收盘",
         "price": 0.59
+      },
+      {
+        "time": "04:00",
+        "price": 0.58
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.59,
-    "last_price": 0.59,
+    "last_price": 0.58,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -240,11 +276,15 @@
       {
         "time": "昨日收盘",
         "price": 3.22
+      },
+      {
+        "time": "04:00",
+        "price": 3.19
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.22,
-    "last_price": 3.22,
+    "last_price": 3.19,
     "historical_high": 3.57,
     "daily_alert_high": 3.57
   },
@@ -253,11 +293,15 @@
       {
         "time": "昨日收盘",
         "price": 3.31
+      },
+      {
+        "time": "04:00",
+        "price": 3.49
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.31,
-    "last_price": 3.31,
+    "last_price": 3.49,
     "historical_high": 3.71,
     "daily_alert_high": 3.71
   },
@@ -266,11 +310,15 @@
       {
         "time": "昨日收盘",
         "price": 0.85
+      },
+      {
+        "time": "04:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.85,
-    "last_price": 0.85,
+    "last_price": 0.82,
     "historical_high": 0.88,
     "daily_alert_high": 0.88
   },
@@ -308,11 +356,15 @@
       {
         "time": "昨日收盘",
         "price": 3.68
+      },
+      {
+        "time": "04:00",
+        "price": 3.94
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.68,
-    "last_price": 3.68,
+    "last_price": 3.94,
     "historical_high": 4.22,
     "daily_alert_high": 4.22
   },
@@ -324,11 +376,15 @@
       {
         "time": "昨日收盘",
         "price": 0.57
+      },
+      {
+        "time": "04:00",
+        "price": 0.58
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.57,
-    "last_price": 0.57,
+    "last_price": 0.58,
     "historical_high": 0.71,
     "daily_alert_high": 0.71
   },
@@ -340,11 +396,15 @@
       {
         "time": "昨日收盘",
         "price": 3.04
+      },
+      {
+        "time": "04:00",
+        "price": 2.87
       }
     ],
     "csqaq_id": 18120,
     "start_price": 3.04,
-    "last_price": 3.04,
+    "last_price": 2.87,
     "historical_high": 3.49,
     "daily_alert_high": 3.49
   },
@@ -353,11 +413,15 @@
       {
         "time": "昨日收盘",
         "price": 2.93
+      },
+      {
+        "time": "04:00",
+        "price": 2.58
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.93,
-    "last_price": 2.93,
+    "last_price": 2.58,
     "historical_high": 2.94,
     "daily_alert_high": 2.94
   },
@@ -366,11 +430,15 @@
       {
         "time": "昨日收盘",
         "price": 0.54
+      },
+      {
+        "time": "04:00",
+        "price": 0.6
       }
     ],
-    "csqaq_id": 22038,
+    "csqaq_id": null,
     "start_price": 0.54,
-    "last_price": 0.54,
+    "last_price": 0.6,
     "historical_high": 0.69,
     "daily_alert_high": 0.69
   },
@@ -379,11 +447,15 @@
       {
         "time": "昨日收盘",
         "price": 2.39
+      },
+      {
+        "time": "04:00",
+        "price": 2.42
       }
     ],
-    "csqaq_id": 21900,
+    "csqaq_id": null,
     "start_price": 2.39,
-    "last_price": 2.39,
+    "last_price": 2.42,
     "historical_high": 2.43,
     "daily_alert_high": 2.43
   },
@@ -395,11 +467,15 @@
       {
         "time": "昨日收盘",
         "price": 2.96
+      },
+      {
+        "time": "04:00",
+        "price": 3.06
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.96,
-    "last_price": 2.96,
+    "last_price": 3.06,
     "historical_high": 3.12,
     "daily_alert_high": 3.12
   },
@@ -408,13 +484,17 @@
       {
         "time": "昨日收盘",
         "price": 2.58
+      },
+      {
+        "time": "04:00",
+        "price": 2.79
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.58,
-    "last_price": 2.58,
-    "historical_high": 2.73,
-    "daily_alert_high": 2.73
+    "last_price": 2.79,
+    "historical_high": 2.79,
+    "daily_alert_high": 2.79
   },
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
     "history": [
@@ -498,11 +578,15 @@
       {
         "time": "昨日收盘",
         "price": 0.69
+      },
+      {
+        "time": "04:00",
+        "price": 0.75
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.69,
-    "last_price": 0.69,
+    "last_price": 0.75,
     "historical_high": 0.88,
     "daily_alert_high": 0.88
   },
@@ -536,11 +620,15 @@
       {
         "time": "昨日收盘",
         "price": 51.0
+      },
+      {
+        "time": "04:00",
+        "price": 54.77
       }
     ],
     "csqaq_id": 20826,
     "start_price": 51.0,
-    "last_price": 51.0,
+    "last_price": 54.77,
     "historical_high": 62.34,
     "daily_alert_high": 62.34
   },
@@ -549,11 +637,15 @@
       {
         "time": "昨日收盘",
         "price": 2.26
+      },
+      {
+        "time": "04:00",
+        "price": 2.33
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.26,
-    "last_price": 2.26,
+    "last_price": 2.33,
     "historical_high": 2.49,
     "daily_alert_high": 2.49
   },
@@ -562,11 +654,15 @@
       {
         "time": "昨日收盘",
         "price": 0.6
+      },
+      {
+        "time": "04:00",
+        "price": 0.57
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.6,
-    "last_price": 0.6,
+    "last_price": 0.57,
     "historical_high": 0.62,
     "daily_alert_high": 0.62
   },
