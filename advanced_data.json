@@ -10,13 +10,17 @@
       {
         "time": "22:01",
         "price": 1.64
+      },
+      {
+        "time": "02:01",
+        "price": 1.69
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.64,
-    "last_price": 1.64,
+    "last_price": 1.69,
     "historical_high": 1.75,
-    "daily_alert_high": 1.64
+    "daily_alert_high": 1.69
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -49,13 +53,17 @@
       {
         "time": "22:01",
         "price": 8.6
+      },
+      {
+        "time": "02:01",
+        "price": 8.76
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.6,
-    "last_price": 8.6,
+    "last_price": 8.76,
     "historical_high": 8.82,
-    "daily_alert_high": 8.6
+    "daily_alert_high": 8.76
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
@@ -186,13 +194,17 @@
       {
         "time": "22:01",
         "price": 2.11
+      },
+      {
+        "time": "02:01",
+        "price": 2.34
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.11,
-    "last_price": 2.11,
+    "last_price": 2.34,
     "historical_high": 2.36,
-    "daily_alert_high": 2.11
+    "daily_alert_high": 2.34
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
@@ -236,11 +248,15 @@
       {
         "time": "00:00",
         "price": 0.58
+      },
+      {
+        "time": "02:01",
+        "price": 0.6
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.61,
-    "last_price": 0.58,
+    "last_price": 0.6,
     "historical_high": 0.69,
     "daily_alert_high": 0.61
   },
@@ -252,11 +268,15 @@
       {
         "time": "昨日收盘",
         "price": 3.0
+      },
+      {
+        "time": "02:01",
+        "price": 3.19
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.0,
-    "last_price": 3.0,
+    "last_price": 3.19,
     "historical_high": 3.57,
     "daily_alert_high": 3.57
   },
@@ -269,11 +289,15 @@
       {
         "time": "00:00",
         "price": 3.45
+      },
+      {
+        "time": "02:01",
+        "price": 3.36
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.34,
-    "last_price": 3.45,
+    "last_price": 3.36,
     "historical_high": 3.71,
     "daily_alert_high": 3.45
   },
@@ -282,11 +306,15 @@
       {
         "time": "22:01",
         "price": 0.86
+      },
+      {
+        "time": "02:01",
+        "price": 0.77
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.86,
-    "last_price": 0.86,
+    "last_price": 0.77,
     "historical_high": 0.88,
     "daily_alert_high": 0.86
   },
@@ -328,13 +356,17 @@
       {
         "time": "00:00",
         "price": 3.83
+      },
+      {
+        "time": "02:01",
+        "price": 3.93
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.57,
-    "last_price": 3.83,
+    "last_price": 3.93,
     "historical_high": 4.22,
-    "daily_alert_high": 3.83
+    "daily_alert_high": 3.93
   },
   "P250 | Plum Netting (Battle-Scarred)": {
     "history": []
@@ -348,11 +380,15 @@
       {
         "time": "00:00",
         "price": 0.58
+      },
+      {
+        "time": "02:01",
+        "price": 0.57
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.57,
-    "last_price": 0.58,
+    "last_price": 0.57,
     "historical_high": 0.71,
     "daily_alert_high": 0.58
   },
@@ -385,37 +421,49 @@
       {
         "time": "00:00",
         "price": 2.68
+      },
+      {
+        "time": "02:01",
+        "price": 2.96
       }
     ],
-    "csqaq_id": 13178,
+    "csqaq_id": null,
     "start_price": 2.77,
-    "last_price": 2.68,
-    "historical_high": 2.94,
-    "daily_alert_high": 2.77
+    "last_price": 2.96,
+    "historical_high": 2.96,
+    "daily_alert_high": 2.96
   },
   "Tec-9 | Citric Acid (Minimal Wear)": {
     "history": [
       {
         "time": "22:01",
         "price": 0.58
+      },
+      {
+        "time": "02:01",
+        "price": 0.61
       }
     ],
-    "csqaq_id": 22038,
+    "csqaq_id": null,
     "start_price": 0.58,
-    "last_price": 0.58,
+    "last_price": 0.61,
     "historical_high": 0.69,
-    "daily_alert_high": 0.58
+    "daily_alert_high": 0.61
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "history": [
       {
         "time": "22:01",
         "price": 2.41
+      },
+      {
+        "time": "02:01",
+        "price": 2.34
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 21900,
     "start_price": 2.41,
-    "last_price": 2.41,
+    "last_price": 2.34,
     "historical_high": 2.43,
     "daily_alert_high": 2.41
   },
@@ -431,11 +479,15 @@
       {
         "time": "00:00",
         "price": 3.08
+      },
+      {
+        "time": "02:01",
+        "price": 2.8
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.91,
-    "last_price": 3.08,
+    "last_price": 2.8,
     "historical_high": 3.12,
     "daily_alert_high": 3.08
   },
@@ -448,11 +500,15 @@
       {
         "time": "00:00",
         "price": 2.61
+      },
+      {
+        "time": "02:01",
+        "price": 2.59
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.89,
-    "last_price": 2.61,
+    "last_price": 2.59,
     "historical_high": 2.89,
     "daily_alert_high": 2.89
   },
@@ -584,11 +640,15 @@
       {
         "time": "00:00",
         "price": 52.41
+      },
+      {
+        "time": "02:01",
+        "price": 46.0
       }
     ],
     "csqaq_id": 20826,
     "start_price": 49.99,
-    "last_price": 52.41,
+    "last_price": 46.0,
     "historical_high": 62.34,
     "daily_alert_high": 52.41
   },
@@ -601,13 +661,17 @@
       {
         "time": "00:00",
         "price": 2.34
+      },
+      {
+        "time": "02:01",
+        "price": 2.38
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.32,
-    "last_price": 2.34,
+    "last_price": 2.38,
     "historical_high": 2.49,
-    "daily_alert_high": 2.32
+    "daily_alert_high": 2.38
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
