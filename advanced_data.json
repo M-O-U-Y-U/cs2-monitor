@@ -91,11 +91,15 @@
       {
         "time": "22:01",
         "price": 2.85
+      },
+      {
+        "time": "00:00",
+        "price": 2.81
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.85,
-    "last_price": 2.85,
+    "last_price": 2.81,
     "historical_high": 3.28,
     "daily_alert_high": 2.85
   },
@@ -195,13 +199,17 @@
       {
         "time": "22:01",
         "price": 2.12
+      },
+      {
+        "time": "00:00",
+        "price": 2.22
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.12,
-    "last_price": 2.12,
+    "last_price": 2.22,
     "historical_high": 2.24,
-    "daily_alert_high": 2.12
+    "daily_alert_high": 2.22
   },
   "MP9 | Pine (Factory New)": {
     "history": []
@@ -224,11 +232,15 @@
       {
         "time": "22:01",
         "price": 0.61
+      },
+      {
+        "time": "00:00",
+        "price": 0.58
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.61,
-    "last_price": 0.61,
+    "last_price": 0.58,
     "historical_high": 0.69,
     "daily_alert_high": 0.61
   },
@@ -253,13 +265,17 @@
       {
         "time": "22:01",
         "price": 3.34
+      },
+      {
+        "time": "00:00",
+        "price": 3.45
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.34,
-    "last_price": 3.34,
+    "last_price": 3.45,
     "historical_high": 3.71,
-    "daily_alert_high": 3.34
+    "daily_alert_high": 3.45
   },
   "StatTrak™ M4A4 | Choppa (Battle-Scarred)": {
     "history": [
@@ -308,13 +324,17 @@
       {
         "time": "22:01",
         "price": 3.57
+      },
+      {
+        "time": "00:00",
+        "price": 3.83
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.57,
-    "last_price": 3.57,
+    "last_price": 3.83,
     "historical_high": 4.22,
-    "daily_alert_high": 3.57
+    "daily_alert_high": 3.83
   },
   "P250 | Plum Netting (Battle-Scarred)": {
     "history": []
@@ -324,13 +344,17 @@
       {
         "time": "22:01",
         "price": 0.57
+      },
+      {
+        "time": "00:00",
+        "price": 0.58
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.57,
-    "last_price": 0.57,
+    "last_price": 0.58,
     "historical_high": 0.71,
-    "daily_alert_high": 0.57
+    "daily_alert_high": 0.58
   },
   "SSG 08 | Sans Comic (Field-Tested)": {
     "history": []
@@ -340,11 +364,15 @@
       {
         "time": "22:01",
         "price": 2.93
+      },
+      {
+        "time": "00:00",
+        "price": 2.89
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.93,
-    "last_price": 2.93,
+    "last_price": 2.89,
     "historical_high": 3.49,
     "daily_alert_high": 2.93
   },
@@ -353,11 +381,15 @@
       {
         "time": "22:01",
         "price": 2.77
+      },
+      {
+        "time": "00:00",
+        "price": 2.68
       }
     ],
     "csqaq_id": 13178,
     "start_price": 2.77,
-    "last_price": 2.77,
+    "last_price": 2.68,
     "historical_high": 2.94,
     "daily_alert_high": 2.77
   },
@@ -381,7 +413,7 @@
         "price": 2.41
       }
     ],
-    "csqaq_id": 21900,
+    "csqaq_id": null,
     "start_price": 2.41,
     "last_price": 2.41,
     "historical_high": 2.43,
@@ -395,24 +427,32 @@
       {
         "time": "22:01",
         "price": 2.91
+      },
+      {
+        "time": "00:00",
+        "price": 3.08
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.91,
-    "last_price": 2.91,
+    "last_price": 3.08,
     "historical_high": 3.12,
-    "daily_alert_high": 2.91
+    "daily_alert_high": 3.08
   },
   "Revolution Case": {
     "history": [
       {
         "time": "昨日收盘",
         "price": 2.89
+      },
+      {
+        "time": "00:00",
+        "price": 2.61
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.89,
-    "last_price": 2.89,
+    "last_price": 2.61,
     "historical_high": 2.89,
     "daily_alert_high": 2.89
   },
@@ -485,13 +525,17 @@
       {
         "time": "22:01",
         "price": 0.84
+      },
+      {
+        "time": "00:00",
+        "price": 0.87
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.84,
-    "last_price": 0.84,
+    "last_price": 0.87,
     "historical_high": 0.91,
-    "daily_alert_high": 0.84
+    "daily_alert_high": 0.87
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -536,24 +580,32 @@
       {
         "time": "22:01",
         "price": 49.99
+      },
+      {
+        "time": "00:00",
+        "price": 52.41
       }
     ],
     "csqaq_id": 20826,
     "start_price": 49.99,
-    "last_price": 49.99,
+    "last_price": 52.41,
     "historical_high": 62.34,
-    "daily_alert_high": 49.99
+    "daily_alert_high": 52.41
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
       {
         "time": "22:01",
         "price": 2.32
+      },
+      {
+        "time": "00:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.32,
-    "last_price": 2.32,
+    "last_price": 2.34,
     "historical_high": 2.49,
     "daily_alert_high": 2.32
   },
@@ -562,13 +614,17 @@
       {
         "time": "22:01",
         "price": 0.6
+      },
+      {
+        "time": "00:00",
+        "price": 0.61
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.6,
-    "last_price": 0.6,
+    "last_price": 0.61,
     "historical_high": 0.62,
-    "daily_alert_high": 0.6
+    "daily_alert_high": 0.61
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
