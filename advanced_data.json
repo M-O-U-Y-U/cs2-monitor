@@ -10,11 +10,15 @@
       {
         "time": "22:00",
         "price": 1.68
+      },
+      {
+        "time": "08:00",
+        "price": 1.69
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.68,
-    "last_price": 1.68,
+    "last_price": 1.69,
     "historical_high": 1.75,
     "daily_alert_high": 1.68
   },
@@ -27,11 +31,15 @@
       {
         "time": "04:00",
         "price": 18.68
+      },
+      {
+        "time": "08:00",
+        "price": 17.28
       }
     ],
     "csqaq_id": 4128,
     "start_price": 17.3,
-    "last_price": 18.68,
+    "last_price": 17.28,
     "historical_high": 19.24,
     "daily_alert_high": 18.68
   },
@@ -69,11 +77,15 @@
       {
         "time": "06:00",
         "price": 8.74
+      },
+      {
+        "time": "08:00",
+        "price": 8.66
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.82,
-    "last_price": 8.74,
+    "last_price": 8.66,
     "historical_high": 8.85,
     "daily_alert_high": 8.85
   },
@@ -99,13 +111,17 @@
       {
         "time": "04:00",
         "price": 1.72
+      },
+      {
+        "time": "08:00",
+        "price": 1.76
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.69,
-    "last_price": 1.72,
+    "last_price": 1.76,
     "historical_high": 1.85,
-    "daily_alert_high": 1.72
+    "daily_alert_high": 1.76
   },
   "Sealed Graffiti | GGWP (Wire Blue)": {
     "history": []
@@ -222,11 +238,15 @@
       {
         "time": "06:00",
         "price": 2.42
+      },
+      {
+        "time": "08:00",
+        "price": 2.23
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.41,
-    "last_price": 2.42,
+    "last_price": 2.23,
     "historical_high": 2.41,
     "daily_alert_high": 2.41
   },
@@ -280,11 +300,15 @@
       {
         "time": "06:00",
         "price": 0.62
+      },
+      {
+        "time": "08:00",
+        "price": 0.61
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.6,
-    "last_price": 0.62,
+    "last_price": 0.61,
     "historical_high": 0.69,
     "daily_alert_high": 0.62
   },
@@ -325,11 +349,15 @@
       {
         "time": "06:00",
         "price": 3.48
+      },
+      {
+        "time": "08:00",
+        "price": 3.46
       }
     ],
     "csqaq_id": 539,
     "start_price": 3.65,
-    "last_price": 3.48,
+    "last_price": 3.46,
     "historical_high": 3.71,
     "daily_alert_high": 3.65
   },
@@ -342,11 +370,15 @@
       {
         "time": "04:00",
         "price": 0.82
+      },
+      {
+        "time": "08:00",
+        "price": 0.77
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.78,
-    "last_price": 0.82,
+    "last_price": 0.77,
     "historical_high": 0.88,
     "daily_alert_high": 0.82
   },
@@ -408,11 +440,15 @@
       {
         "time": "04:00",
         "price": 0.61
+      },
+      {
+        "time": "08:00",
+        "price": 0.58
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.58,
-    "last_price": 0.61,
+    "last_price": 0.58,
     "historical_high": 0.71,
     "daily_alert_high": 0.61
   },
@@ -432,11 +468,15 @@
       {
         "time": "06:00",
         "price": 2.93
+      },
+      {
+        "time": "08:00",
+        "price": 2.89
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.93,
-    "last_price": 2.93,
+    "last_price": 2.89,
     "historical_high": 3.49,
     "daily_alert_high": 2.96
   },
@@ -474,13 +514,17 @@
       {
         "time": "06:00",
         "price": 0.57
+      },
+      {
+        "time": "08:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.59,
-    "last_price": 0.57,
+    "last_price": 0.62,
     "historical_high": 0.69,
-    "daily_alert_high": 0.61
+    "daily_alert_high": 0.62
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "history": [
@@ -515,11 +559,15 @@
       {
         "time": "04:00",
         "price": 3.1
+      },
+      {
+        "time": "08:00",
+        "price": 2.82
       }
     ],
     "csqaq_id": 21512,
     "start_price": 3.05,
-    "last_price": 3.1,
+    "last_price": 2.82,
     "historical_high": 3.12,
     "daily_alert_high": 3.1
   },
@@ -638,11 +686,15 @@
       {
         "time": "22:00",
         "price": 0.81
+      },
+      {
+        "time": "08:00",
+        "price": 0.72
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.81,
-    "last_price": 0.81,
+    "last_price": 0.72,
     "historical_high": 0.88,
     "daily_alert_high": 0.81
   },
@@ -701,11 +753,15 @@
       {
         "time": "06:00",
         "price": 2.26
+      },
+      {
+        "time": "08:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.38,
-    "last_price": 2.26,
+    "last_price": 2.34,
     "historical_high": 2.49,
     "daily_alert_high": 2.38
   },
