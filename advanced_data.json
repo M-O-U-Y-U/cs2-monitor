@@ -61,11 +61,15 @@
       {
         "time": "22:00",
         "price": 8.7
+      },
+      {
+        "time": "06:00",
+        "price": 8.53
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.7,
-    "last_price": 8.7,
+    "last_price": 8.53,
     "historical_high": 8.92,
     "daily_alert_high": 8.7
   },
@@ -91,11 +95,15 @@
       {
         "time": "04:00",
         "price": 1.5
+      },
+      {
+        "time": "06:00",
+        "price": 1.51
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.68,
-    "last_price": 1.5,
+    "last_price": 1.51,
     "historical_high": 1.9,
     "daily_alert_high": 1.68
   },
@@ -107,11 +115,15 @@
       {
         "time": "22:00",
         "price": 2.58
+      },
+      {
+        "time": "06:00",
+        "price": 2.59
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.58,
-    "last_price": 2.58,
+    "last_price": 2.59,
     "historical_high": 3.28,
     "daily_alert_high": 2.58
   },
@@ -206,11 +218,15 @@
       {
         "time": "04:00",
         "price": 2.22
+      },
+      {
+        "time": "06:00",
+        "price": 2.13
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.18,
-    "last_price": 2.22,
+    "last_price": 2.13,
     "historical_high": 2.42,
     "daily_alert_high": 2.22
   },
@@ -240,11 +256,15 @@
       {
         "time": "04:00",
         "price": 0.51
+      },
+      {
+        "time": "06:00",
+        "price": 0.53
       }
     ],
     "csqaq_id": 21556,
     "start_price": 0.53,
-    "last_price": 0.51,
+    "last_price": 0.53,
     "historical_high": 0.54,
     "daily_alert_high": 0.53
   },
@@ -257,11 +277,15 @@
       {
         "time": "04:00",
         "price": 5.78
+      },
+      {
+        "time": "06:00",
+        "price": 5.46
       }
     ],
     "csqaq_id": 14751,
     "start_price": 5.86,
-    "last_price": 5.78,
+    "last_price": 5.46,
     "historical_high": 5.95,
     "daily_alert_high": 5.86
   },
@@ -290,13 +314,17 @@
       {
         "time": "22:00",
         "price": 2.8
+      },
+      {
+        "time": "06:00",
+        "price": 2.84
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.8,
-    "last_price": 2.8,
+    "last_price": 2.84,
     "historical_high": 3.57,
-    "daily_alert_high": 2.8
+    "daily_alert_high": 2.84
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -382,11 +410,15 @@
       {
         "time": "22:00",
         "price": 3.99
+      },
+      {
+        "time": "06:00",
+        "price": 3.48
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.99,
-    "last_price": 3.99,
+    "last_price": 3.48,
     "historical_high": 4.22,
     "daily_alert_high": 3.99
   },
@@ -402,11 +434,15 @@
       {
         "time": "04:00",
         "price": 0.61
+      },
+      {
+        "time": "06:00",
+        "price": 0.6
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.59,
-    "last_price": 0.61,
+    "last_price": 0.6,
     "historical_high": 0.71,
     "daily_alert_high": 0.61
   },
@@ -422,11 +458,15 @@
       {
         "time": "04:00",
         "price": 2.81
+      },
+      {
+        "time": "06:00",
+        "price": 2.79
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.77,
-    "last_price": 2.81,
+    "last_price": 2.79,
     "historical_high": 3.49,
     "daily_alert_high": 2.81
   },
@@ -473,11 +513,15 @@
       {
         "time": "22:00",
         "price": 2.25
+      },
+      {
+        "time": "06:00",
+        "price": 2.26
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.25,
-    "last_price": 2.25,
+    "last_price": 2.26,
     "historical_high": 2.49,
     "daily_alert_high": 2.25
   },
@@ -493,11 +537,15 @@
       {
         "time": "04:00",
         "price": 2.91
+      },
+      {
+        "time": "06:00",
+        "price": 2.96
       }
     ],
     "csqaq_id": 21512,
     "start_price": 3.13,
-    "last_price": 2.91,
+    "last_price": 2.96,
     "historical_high": 3.16,
     "daily_alert_high": 3.13
   },
@@ -595,11 +643,15 @@
       {
         "time": "04:00",
         "price": 0.82
+      },
+      {
+        "time": "06:00",
+        "price": 0.79
       }
     ],
-    "csqaq_id": 14742,
+    "csqaq_id": null,
     "start_price": 0.9,
-    "last_price": 0.82,
+    "last_price": 0.79,
     "historical_high": 0.91,
     "daily_alert_high": 0.9
   },
@@ -612,11 +664,15 @@
       {
         "time": "04:00",
         "price": 0.69
+      },
+      {
+        "time": "06:00",
+        "price": 0.75
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.79,
-    "last_price": 0.69,
+    "last_price": 0.75,
     "historical_high": 0.88,
     "daily_alert_high": 0.79
   },
@@ -654,11 +710,15 @@
       {
         "time": "04:00",
         "price": 51.37
+      },
+      {
+        "time": "06:00",
+        "price": 51.4
       }
     ],
     "csqaq_id": 20826,
     "start_price": 51.4,
-    "last_price": 51.37,
+    "last_price": 51.4,
     "historical_high": 62.34,
     "daily_alert_high": 51.4
   },
@@ -671,11 +731,15 @@
       {
         "time": "04:00",
         "price": 2.32
+      },
+      {
+        "time": "06:00",
+        "price": 2.2
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.34,
-    "last_price": 2.32,
+    "last_price": 2.2,
     "historical_high": 2.49,
     "daily_alert_high": 2.34
   },
@@ -684,13 +748,17 @@
       {
         "time": "22:00",
         "price": 0.61
+      },
+      {
+        "time": "06:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.61,
-    "last_price": 0.61,
+    "last_price": 0.62,
     "historical_high": 0.62,
-    "daily_alert_high": 0.61
+    "daily_alert_high": 0.62
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
