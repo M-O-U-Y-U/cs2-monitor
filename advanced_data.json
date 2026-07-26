@@ -69,11 +69,15 @@
       {
         "time": "00:00",
         "price": 8.76
+      },
+      {
+        "time": "04:00",
+        "price": 8.82
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.69,
-    "last_price": 8.76,
+    "last_price": 8.82,
     "historical_high": 8.92,
     "daily_alert_high": 8.69
   },
@@ -99,11 +103,15 @@
       {
         "time": "00:00",
         "price": 1.72
+      },
+      {
+        "time": "04:00",
+        "price": 1.73
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.48,
-    "last_price": 1.72,
+    "last_price": 1.73,
     "historical_high": 1.9,
     "daily_alert_high": 1.72
   },
@@ -214,11 +222,15 @@
       {
         "time": "00:00",
         "price": 2.26
+      },
+      {
+        "time": "04:00",
+        "price": 2.11
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.39,
-    "last_price": 2.26,
+    "last_price": 2.11,
     "historical_high": 2.43,
     "daily_alert_high": 2.39
   },
@@ -231,11 +243,15 @@
       {
         "time": "00:00",
         "price": 2.22
+      },
+      {
+        "time": "04:00",
+        "price": 2.26
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 14710,
     "start_price": 2.3,
-    "last_price": 2.22,
+    "last_price": 2.26,
     "historical_high": 2.3,
     "daily_alert_high": 2.3
   },
@@ -278,13 +294,17 @@
       {
         "time": "00:00",
         "price": 0.59
+      },
+      {
+        "time": "04:00",
+        "price": 0.65
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.57,
-    "last_price": 0.59,
+    "last_price": 0.65,
     "historical_high": 0.69,
-    "daily_alert_high": 0.59
+    "daily_alert_high": 0.65
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -298,11 +318,15 @@
       {
         "time": "00:00",
         "price": 2.67
+      },
+      {
+        "time": "04:00",
+        "price": 2.96
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.19,
-    "last_price": 2.67,
+    "last_price": 2.96,
     "historical_high": 3.57,
     "daily_alert_high": 3.19
   },
@@ -344,13 +368,17 @@
       {
         "time": "22:00",
         "price": 0.76
+      },
+      {
+        "time": "04:00",
+        "price": 0.84
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.76,
-    "last_price": 0.76,
+    "last_price": 0.84,
     "historical_high": 0.88,
-    "daily_alert_high": 0.76
+    "daily_alert_high": 0.84
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -386,11 +414,15 @@
       {
         "time": "22:00",
         "price": 4.07
+      },
+      {
+        "time": "04:00",
+        "price": 4.06
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.07,
-    "last_price": 4.07,
+    "last_price": 4.06,
     "historical_high": 4.22,
     "daily_alert_high": 4.07
   },
@@ -426,11 +458,15 @@
       {
         "time": "00:00",
         "price": 2.58
+      },
+      {
+        "time": "04:00",
+        "price": 2.66
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.66,
-    "last_price": 2.58,
+    "last_price": 2.66,
     "historical_high": 3.49,
     "daily_alert_high": 2.66
   },
@@ -481,13 +517,17 @@
       {
         "time": "00:00",
         "price": 2.24
+      },
+      {
+        "time": "04:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.26,
-    "last_price": 2.24,
+    "last_price": 2.34,
     "historical_high": 2.49,
-    "daily_alert_high": 2.26
+    "daily_alert_high": 2.34
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -501,11 +541,15 @@
       {
         "time": "00:00",
         "price": 2.87
+      },
+      {
+        "time": "04:00",
+        "price": 2.66
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.84,
-    "last_price": 2.87,
+    "last_price": 2.66,
     "historical_high": 3.17,
     "daily_alert_high": 2.87
   },
@@ -535,13 +579,17 @@
       {
         "time": "00:00",
         "price": 0.67
+      },
+      {
+        "time": "04:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 23476,
     "start_price": 0.66,
-    "last_price": 0.67,
+    "last_price": 0.69,
     "historical_high": 0.69,
-    "daily_alert_high": 0.67
+    "daily_alert_high": 0.69
   },
   "Sticker | GamerLegion | Budapest 2025": {
     "history": []
@@ -603,11 +651,15 @@
       {
         "time": "00:00",
         "price": 0.75
+      },
+      {
+        "time": "04:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.89,
-    "last_price": 0.75,
+    "last_price": 0.76,
     "historical_high": 0.91,
     "daily_alert_high": 0.89
   },
@@ -662,13 +714,17 @@
       {
         "time": "00:00",
         "price": 54.3
+      },
+      {
+        "time": "04:00",
+        "price": 57.78
       }
     ],
     "csqaq_id": 20826,
     "start_price": 54.32,
-    "last_price": 54.3,
+    "last_price": 57.78,
     "historical_high": 62.34,
-    "daily_alert_high": 54.32
+    "daily_alert_high": 57.78
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
