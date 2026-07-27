@@ -77,11 +77,15 @@
       {
         "time": "04:00",
         "price": 8.82
+      },
+      {
+        "time": "10:00",
+        "price": 8.76
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.69,
-    "last_price": 8.82,
+    "last_price": 8.76,
     "historical_high": 8.92,
     "daily_alert_high": 8.69
   },
@@ -246,11 +250,15 @@
       {
         "time": "08:00",
         "price": 2.26
+      },
+      {
+        "time": "10:00",
+        "price": 2.3
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.39,
-    "last_price": 2.26,
+    "last_price": 2.3,
     "historical_high": 2.43,
     "daily_alert_high": 2.39
   },
@@ -275,11 +283,15 @@
       {
         "time": "08:00",
         "price": 2.18
+      },
+      {
+        "time": "10:00",
+        "price": 2.22
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.3,
-    "last_price": 2.18,
+    "last_price": 2.22,
     "historical_high": 2.3,
     "daily_alert_high": 2.3
   },
@@ -334,13 +346,17 @@
       {
         "time": "08:00",
         "price": 0.65
+      },
+      {
+        "time": "10:00",
+        "price": 0.68
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.57,
-    "last_price": 0.65,
+    "last_price": 0.68,
     "historical_high": 0.69,
-    "daily_alert_high": 0.65
+    "daily_alert_high": 0.68
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -362,11 +378,15 @@
       {
         "time": "06:00",
         "price": 2.72
+      },
+      {
+        "time": "10:00",
+        "price": 3.05
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.19,
-    "last_price": 2.72,
+    "last_price": 3.05,
     "historical_high": 3.57,
     "daily_alert_high": 3.19
   },
@@ -420,11 +440,15 @@
       {
         "time": "08:00",
         "price": 0.71
+      },
+      {
+        "time": "10:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.76,
-    "last_price": 0.71,
+    "last_price": 0.76,
     "historical_high": 0.88,
     "daily_alert_high": 0.84
   },
@@ -490,11 +514,15 @@
       {
         "time": "06:00",
         "price": 0.55
+      },
+      {
+        "time": "10:00",
+        "price": 0.54
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.6,
-    "last_price": 0.55,
+    "last_price": 0.54,
     "historical_high": 0.71,
     "daily_alert_high": 0.6
   },
@@ -564,11 +592,15 @@
       {
         "time": "08:00",
         "price": 0.6
+      },
+      {
+        "time": "10:00",
+        "price": 0.57
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.57,
-    "last_price": 0.6,
+    "last_price": 0.57,
     "historical_high": 0.69,
     "daily_alert_high": 0.6
   },
@@ -589,11 +621,15 @@
       {
         "time": "08:00",
         "price": 2.33
+      },
+      {
+        "time": "10:00",
+        "price": 2.32
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.26,
-    "last_price": 2.33,
+    "last_price": 2.32,
     "historical_high": 2.49,
     "daily_alert_high": 2.34
   },
@@ -768,11 +804,15 @@
       {
         "time": "08:00",
         "price": 0.76
+      },
+      {
+        "time": "10:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.82,
-    "last_price": 0.76,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.82
   },
@@ -822,11 +862,15 @@
       {
         "time": "08:00",
         "price": 56.63
+      },
+      {
+        "time": "10:00",
+        "price": 56.81
       }
     ],
     "csqaq_id": 20826,
     "start_price": 54.32,
-    "last_price": 56.63,
+    "last_price": 56.81,
     "historical_high": 62.34,
     "daily_alert_high": 57.78
   },
@@ -883,12 +927,16 @@
       {
         "time": "08:00",
         "price": 1.72
+      },
+      {
+        "time": "10:00",
+        "price": 1.87
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.72,
-    "last_price": 1.72,
-    "historical_high": 1.72,
-    "daily_alert_high": 1.72
+    "last_price": 1.87,
+    "historical_high": 1.87,
+    "daily_alert_high": 1.87
   }
 }
