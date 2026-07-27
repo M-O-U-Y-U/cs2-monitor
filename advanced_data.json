@@ -14,11 +14,15 @@
       {
         "time": "00:00",
         "price": 1.61
+      },
+      {
+        "time": "06:00",
+        "price": 1.63
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.58,
-    "last_price": 1.61,
+    "last_price": 1.63,
     "historical_high": 1.75,
     "daily_alert_high": 1.66
   },
@@ -73,11 +77,15 @@
       {
         "time": "04:00",
         "price": 8.77
+      },
+      {
+        "time": "06:00",
+        "price": 8.76
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.69,
-    "last_price": 8.77,
+    "last_price": 8.76,
     "historical_high": 8.92,
     "daily_alert_high": 8.69
   },
@@ -127,13 +135,17 @@
       {
         "time": "04:00",
         "price": 2.58
+      },
+      {
+        "time": "06:00",
+        "price": 2.62
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.58,
-    "last_price": 2.58,
+    "last_price": 2.62,
     "historical_high": 3.28,
-    "daily_alert_high": 2.61
+    "daily_alert_high": 2.62
   },
   "StatTrak™ Nova | Wood Fired (Field-Tested)": {
     "history": [
@@ -251,11 +263,15 @@
       {
         "time": "04:00",
         "price": 2.25
+      },
+      {
+        "time": "06:00",
+        "price": 2.13
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.19,
-    "last_price": 2.25,
+    "last_price": 2.13,
     "historical_high": 2.3,
     "daily_alert_high": 2.25
   },
@@ -376,13 +392,17 @@
       {
         "time": "04:00",
         "price": 0.81
+      },
+      {
+        "time": "06:00",
+        "price": 0.84
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.79,
-    "last_price": 0.81,
+    "last_price": 0.84,
     "historical_high": 0.88,
-    "daily_alert_high": 0.81
+    "daily_alert_high": 0.84
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -418,11 +438,15 @@
       {
         "time": "22:00",
         "price": 3.91
+      },
+      {
+        "time": "06:00",
+        "price": 3.92
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.91,
-    "last_price": 3.91,
+    "last_price": 3.92,
     "historical_high": 4.22,
     "daily_alert_high": 3.91
   },
@@ -438,11 +462,15 @@
       {
         "time": "04:00",
         "price": 0.56
+      },
+      {
+        "time": "06:00",
+        "price": 0.6
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.66,
-    "last_price": 0.56,
+    "last_price": 0.6,
     "historical_high": 0.71,
     "daily_alert_high": 0.66
   },
@@ -462,11 +490,15 @@
       {
         "time": "04:00",
         "price": 2.33
+      },
+      {
+        "time": "06:00",
+        "price": 2.31
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.34,
-    "last_price": 2.33,
+    "last_price": 2.31,
     "historical_high": 3.49,
     "daily_alert_high": 2.34
   },
@@ -545,11 +577,15 @@
       {
         "time": "04:00",
         "price": 3.12
+      },
+      {
+        "time": "06:00",
+        "price": 2.76
       }
     ],
     "csqaq_id": 21512,
     "start_price": 3.16,
-    "last_price": 3.12,
+    "last_price": 2.76,
     "historical_high": 3.17,
     "daily_alert_high": 3.17
   },
@@ -647,11 +683,15 @@
       {
         "time": "04:00",
         "price": 0.76
+      },
+      {
+        "time": "06:00",
+        "price": 0.79
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.83,
-    "last_price": 0.76,
+    "last_price": 0.79,
     "historical_high": 0.91,
     "daily_alert_high": 0.83
   },
@@ -664,13 +704,17 @@
       {
         "time": "00:00",
         "price": 0.69
+      },
+      {
+        "time": "06:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.7,
-    "last_price": 0.69,
+    "last_price": 0.76,
     "historical_high": 0.88,
-    "daily_alert_high": 0.7
+    "daily_alert_high": 0.76
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -706,13 +750,17 @@
       {
         "time": "04:00",
         "price": 51.75
+      },
+      {
+        "time": "06:00",
+        "price": 54.89
       }
     ],
     "csqaq_id": 20826,
     "start_price": 51.71,
-    "last_price": 51.75,
+    "last_price": 54.89,
     "historical_high": 62.34,
-    "daily_alert_high": 51.71
+    "daily_alert_high": 54.89
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
@@ -763,11 +811,15 @@
       {
         "time": "04:00",
         "price": 1.76
+      },
+      {
+        "time": "06:00",
+        "price": 1.69
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.88,
-    "last_price": 1.76,
+    "last_price": 1.69,
     "historical_high": 1.88,
     "daily_alert_high": 1.88
   }
