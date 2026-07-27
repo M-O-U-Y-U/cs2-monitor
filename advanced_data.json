@@ -10,11 +10,15 @@
       {
         "time": "昨日收盘",
         "price": 1.58
+      },
+      {
+        "time": "00:00",
+        "price": 1.61
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.58,
-    "last_price": 1.58,
+    "last_price": 1.61,
     "historical_high": 1.75,
     "daily_alert_high": 1.66
   },
@@ -61,11 +65,15 @@
       {
         "time": "22:00",
         "price": 8.69
+      },
+      {
+        "time": "00:00",
+        "price": 8.7
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.69,
-    "last_price": 8.69,
+    "last_price": 8.7,
     "historical_high": 8.92,
     "daily_alert_high": 8.69
   },
@@ -103,11 +111,15 @@
       {
         "time": "昨日收盘",
         "price": 2.58
+      },
+      {
+        "time": "00:00",
+        "price": 2.61
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.58,
-    "last_price": 2.58,
+    "last_price": 2.61,
     "historical_high": 3.28,
     "daily_alert_high": 2.61
   },
@@ -157,13 +169,17 @@
       {
         "time": "22:00",
         "price": 3.51
+      },
+      {
+        "time": "00:00",
+        "price": 3.59
       }
     ],
     "csqaq_id": 17916,
     "start_price": 3.51,
-    "last_price": 3.51,
+    "last_price": 3.59,
     "historical_high": 4.66,
-    "daily_alert_high": 3.51
+    "daily_alert_high": 3.59
   },
   "Sealed Graffiti | Loser (SWAT Blue)": {
     "history": []
@@ -194,11 +210,15 @@
       {
         "time": "22:00",
         "price": 2.34
+      },
+      {
+        "time": "00:00",
+        "price": 2.25
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.34,
-    "last_price": 2.34,
+    "last_price": 2.25,
     "historical_high": 2.43,
     "daily_alert_high": 2.34
   },
@@ -246,13 +266,17 @@
       {
         "time": "22:00",
         "price": 0.57
+      },
+      {
+        "time": "00:00",
+        "price": 0.63
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.57,
-    "last_price": 0.57,
+    "last_price": 0.63,
     "historical_high": 0.69,
-    "daily_alert_high": 0.57
+    "daily_alert_high": 0.63
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -262,11 +286,15 @@
       {
         "time": "22:00",
         "price": 3.08
+      },
+      {
+        "time": "00:00",
+        "price": 2.77
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.08,
-    "last_price": 3.08,
+    "last_price": 2.77,
     "historical_high": 3.57,
     "daily_alert_high": 3.08
   },
@@ -382,11 +410,15 @@
       {
         "time": "22:00",
         "price": 2.34
+      },
+      {
+        "time": "00:00",
+        "price": 2.31
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.34,
-    "last_price": 2.34,
+    "last_price": 2.31,
     "historical_high": 3.49,
     "daily_alert_high": 2.34
   },
@@ -416,13 +448,17 @@
       {
         "time": "22:00",
         "price": 0.54
+      },
+      {
+        "time": "00:00",
+        "price": 0.61
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.54,
-    "last_price": 0.54,
+    "last_price": 0.61,
     "historical_high": 0.69,
-    "daily_alert_high": 0.54
+    "daily_alert_high": 0.61
   },
   "FAMAS | Yeti Camo (Field-Tested)": {
     "history": [
@@ -445,11 +481,15 @@
       {
         "time": "昨日收盘",
         "price": 3.16
+      },
+      {
+        "time": "00:00",
+        "price": 2.72
       }
     ],
     "csqaq_id": 21512,
     "start_price": 3.16,
-    "last_price": 3.16,
+    "last_price": 2.72,
     "historical_high": 3.17,
     "daily_alert_high": 3.17
   },
@@ -458,11 +498,15 @@
       {
         "time": "22:00",
         "price": 2.78
+      },
+      {
+        "time": "00:00",
+        "price": 2.67
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.78,
-    "last_price": 2.78,
+    "last_price": 2.67,
     "historical_high": 2.89,
     "daily_alert_high": 2.78
   },
@@ -535,11 +579,15 @@
       {
         "time": "22:00",
         "price": 0.83
+      },
+      {
+        "time": "00:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.83,
-    "last_price": 0.83,
+    "last_price": 0.82,
     "historical_high": 0.91,
     "daily_alert_high": 0.83
   },
@@ -548,11 +596,15 @@
       {
         "time": "22:00",
         "price": 0.7
+      },
+      {
+        "time": "00:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.7,
-    "last_price": 0.7,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.7
   },
@@ -612,13 +664,17 @@
       {
         "time": "22:00",
         "price": 0.62
+      },
+      {
+        "time": "00:00",
+        "price": 0.66
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.62,
-    "last_price": 0.62,
-    "historical_high": 0.65,
-    "daily_alert_high": 0.62
+    "last_price": 0.66,
+    "historical_high": 0.66,
+    "daily_alert_high": 0.66
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
@@ -631,11 +687,15 @@
       {
         "time": "22:00",
         "price": 1.88
+      },
+      {
+        "time": "00:00",
+        "price": 1.77
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.88,
-    "last_price": 1.88,
+    "last_price": 1.77,
     "historical_high": 1.88,
     "daily_alert_high": 1.88
   }
