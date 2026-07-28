@@ -151,11 +151,15 @@
       {
         "time": "08:00",
         "price": 2.58
+      },
+      {
+        "time": "10:00",
+        "price": 2.56
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.58,
-    "last_price": 2.58,
+    "last_price": 2.56,
     "historical_high": 3.28,
     "daily_alert_high": 2.62
   },
@@ -213,11 +217,15 @@
       {
         "time": "04:00",
         "price": 3.5
+      },
+      {
+        "time": "10:00",
+        "price": 3.49
       }
     ],
     "csqaq_id": 17916,
     "start_price": 3.51,
-    "last_price": 3.5,
+    "last_price": 3.49,
     "historical_high": 4.66,
     "daily_alert_high": 3.59
   },
@@ -262,11 +270,15 @@
       {
         "time": "08:00",
         "price": 2.13
+      },
+      {
+        "time": "10:00",
+        "price": 2.19
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.34,
-    "last_price": 2.13,
+    "last_price": 2.19,
     "historical_high": 2.43,
     "daily_alert_high": 2.34
   },
@@ -287,11 +299,15 @@
       {
         "time": "08:00",
         "price": 2.25
+      },
+      {
+        "time": "10:00",
+        "price": 2.13
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.19,
-    "last_price": 2.25,
+    "last_price": 2.13,
     "historical_high": 2.3,
     "daily_alert_high": 2.25
   },
@@ -342,13 +358,17 @@
       {
         "time": "04:00",
         "price": 0.62
+      },
+      {
+        "time": "10:00",
+        "price": 0.68
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.57,
-    "last_price": 0.62,
+    "last_price": 0.68,
     "historical_high": 0.69,
-    "daily_alert_high": 0.63
+    "daily_alert_high": 0.68
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -370,11 +390,15 @@
       {
         "time": "08:00",
         "price": 2.77
+      },
+      {
+        "time": "10:00",
+        "price": 2.71
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.08,
-    "last_price": 2.77,
+    "last_price": 2.71,
     "historical_high": 3.57,
     "daily_alert_high": 3.08
   },
@@ -428,11 +452,15 @@
       {
         "time": "08:00",
         "price": 0.88
+      },
+      {
+        "time": "10:00",
+        "price": 0.85
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.79,
-    "last_price": 0.88,
+    "last_price": 0.85,
     "historical_high": 0.88,
     "daily_alert_high": 0.88
   },
@@ -502,11 +530,15 @@
       {
         "time": "08:00",
         "price": 0.57
+      },
+      {
+        "time": "10:00",
+        "price": 0.53
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.66,
-    "last_price": 0.57,
+    "last_price": 0.53,
     "historical_high": 0.71,
     "daily_alert_high": 0.66
   },
@@ -576,11 +608,15 @@
       {
         "time": "08:00",
         "price": 0.55
+      },
+      {
+        "time": "10:00",
+        "price": 0.54
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.54,
-    "last_price": 0.55,
+    "last_price": 0.54,
     "historical_high": 0.69,
     "daily_alert_high": 0.61
   },
@@ -646,11 +682,15 @@
       {
         "time": "08:00",
         "price": 2.76
+      },
+      {
+        "time": "10:00",
+        "price": 2.6
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.78,
-    "last_price": 2.76,
+    "last_price": 2.6,
     "historical_high": 2.89,
     "daily_alert_high": 2.78
   },
@@ -739,13 +779,17 @@
       {
         "time": "08:00",
         "price": 0.82
+      },
+      {
+        "time": "10:00",
+        "price": 0.9
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.83,
-    "last_price": 0.82,
+    "last_price": 0.9,
     "historical_high": 0.91,
-    "daily_alert_high": 0.83
+    "daily_alert_high": 0.9
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -764,11 +808,15 @@
       {
         "time": "08:00",
         "price": 0.72
+      },
+      {
+        "time": "10:00",
+        "price": 0.68
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.7,
-    "last_price": 0.72,
+    "last_price": 0.68,
     "historical_high": 0.88,
     "daily_alert_high": 0.76
   },
@@ -814,13 +862,17 @@
       {
         "time": "08:00",
         "price": 55.44
+      },
+      {
+        "time": "10:00",
+        "price": 57.12
       }
     ],
     "csqaq_id": 20826,
     "start_price": 51.71,
-    "last_price": 55.44,
+    "last_price": 57.12,
     "historical_high": 62.34,
-    "daily_alert_high": 55.44
+    "daily_alert_high": 57.12
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
@@ -831,11 +883,15 @@
       {
         "time": "08:00",
         "price": 2.22
+      },
+      {
+        "time": "10:00",
+        "price": 2.26
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.26,
-    "last_price": 2.22,
+    "last_price": 2.26,
     "historical_high": 2.49,
     "daily_alert_high": 2.26
   },
@@ -883,11 +939,15 @@
       {
         "time": "08:00",
         "price": 1.72
+      },
+      {
+        "time": "10:00",
+        "price": 1.76
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.88,
-    "last_price": 1.72,
+    "last_price": 1.76,
     "historical_high": 1.88,
     "daily_alert_high": 1.88
   }
