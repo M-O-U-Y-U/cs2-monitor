@@ -30,11 +30,15 @@
       {
         "time": "10:00",
         "price": 1.64
+      },
+      {
+        "time": "12:00",
+        "price": 1.65
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.62,
-    "last_price": 1.64,
+    "last_price": 1.65,
     "historical_high": 1.75,
     "daily_alert_high": 1.62
   },
@@ -101,11 +105,15 @@
       {
         "time": "08:01",
         "price": 8.24
+      },
+      {
+        "time": "12:00",
+        "price": 8.25
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.18,
-    "last_price": 8.24,
+    "last_price": 8.25,
     "historical_high": 8.92,
     "daily_alert_high": 8.19
   },
@@ -163,11 +171,15 @@
       {
         "time": "08:01",
         "price": 2.31
+      },
+      {
+        "time": "12:00",
+        "price": 2.3
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.32,
-    "last_price": 2.31,
+    "last_price": 2.3,
     "historical_high": 3.28,
     "daily_alert_high": 2.32
   },
@@ -253,11 +265,15 @@
       {
         "time": "07:01",
         "price": 1.01
+      },
+      {
+        "time": "12:00",
+        "price": 0.81
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.99,
-    "last_price": 1.01,
+    "last_price": 0.81,
     "historical_high": 1.01,
     "daily_alert_high": 1.01
   },
@@ -323,11 +339,15 @@
       {
         "time": "10:00",
         "price": 2.2
+      },
+      {
+        "time": "12:00",
+        "price": 2.27
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.1,
-    "last_price": 2.2,
+    "last_price": 2.27,
     "historical_high": 2.3,
     "daily_alert_high": 2.27
   },
@@ -361,11 +381,15 @@
       {
         "time": "06:00",
         "price": 5.45
+      },
+      {
+        "time": "12:00",
+        "price": 5.46
       }
     ],
     "csqaq_id": 14751,
     "start_price": 5.63,
-    "last_price": 5.45,
+    "last_price": 5.46,
     "historical_high": 5.95,
     "daily_alert_high": 5.63
   },
@@ -504,13 +528,17 @@
       {
         "time": "10:00",
         "price": 0.77
+      },
+      {
+        "time": "12:00",
+        "price": 0.88
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.76,
-    "last_price": 0.77,
+    "last_price": 0.88,
     "historical_high": 0.89,
-    "daily_alert_high": 0.85
+    "daily_alert_high": 0.88
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -598,13 +626,17 @@
       {
         "time": "10:00",
         "price": 0.58
+      },
+      {
+        "time": "12:00",
+        "price": 0.64
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.57,
-    "last_price": 0.58,
+    "last_price": 0.64,
     "historical_high": 0.71,
-    "daily_alert_high": 0.58
+    "daily_alert_high": 0.64
   },
   "SSG 08 | Sans Comic (Field-Tested)": {
     "history": []
@@ -630,11 +662,15 @@
       {
         "time": "10:00",
         "price": 2.01
+      },
+      {
+        "time": "12:00",
+        "price": 1.97
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.07,
-    "last_price": 2.01,
+    "last_price": 1.97,
     "historical_high": 3.49,
     "daily_alert_high": 2.15
   },
@@ -676,11 +712,15 @@
       {
         "time": "08:01",
         "price": 0.57
+      },
+      {
+        "time": "12:00",
+        "price": 0.56
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.52,
-    "last_price": 0.57,
+    "last_price": 0.56,
     "historical_high": 0.69,
     "daily_alert_high": 0.57
   },
@@ -713,11 +753,15 @@
       {
         "time": "10:00",
         "price": 2.31
+      },
+      {
+        "time": "12:00",
+        "price": 2.13
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.26,
-    "last_price": 2.31,
+    "last_price": 2.13,
     "historical_high": 2.49,
     "daily_alert_high": 2.31
   },
@@ -749,11 +793,15 @@
       {
         "time": "10:00",
         "price": 2.96
+      },
+      {
+        "time": "12:00",
+        "price": 2.72
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.78,
-    "last_price": 2.96,
+    "last_price": 2.72,
     "historical_high": 3.19,
     "daily_alert_high": 2.96
   },
@@ -786,11 +834,15 @@
       {
         "time": "10:00",
         "price": 2.61
+      },
+      {
+        "time": "12:00",
+        "price": 2.73
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.56,
-    "last_price": 2.61,
+    "last_price": 2.73,
     "historical_high": 2.89,
     "daily_alert_high": 2.73
   },
@@ -887,11 +939,15 @@
       {
         "time": "10:00",
         "price": 0.84
+      },
+      {
+        "time": "12:00",
+        "price": 0.78
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.89,
-    "last_price": 0.84,
+    "last_price": 0.78,
     "historical_high": 0.91,
     "daily_alert_high": 0.89
   },
@@ -920,13 +976,17 @@
       {
         "time": "08:01",
         "price": 0.72
+      },
+      {
+        "time": "12:00",
+        "price": 0.85
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.77,
-    "last_price": 0.72,
+    "last_price": 0.85,
     "historical_high": 0.88,
-    "daily_alert_high": 0.83
+    "daily_alert_high": 0.85
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -999,11 +1059,15 @@
       {
         "time": "08:01",
         "price": 2.26
+      },
+      {
+        "time": "12:00",
+        "price": 2.38
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.42,
-    "last_price": 2.26,
+    "last_price": 2.38,
     "historical_high": 2.49,
     "daily_alert_high": 2.45
   },
@@ -1034,7 +1098,7 @@
         "price": 0.64
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 17156,
     "start_price": 0.64,
     "last_price": 0.64,
     "historical_high": 0.66,
@@ -1071,12 +1135,19 @@
       {
         "time": "10:00",
         "price": 1.89
+      },
+      {
+        "time": "12:00",
+        "price": 1.84
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.78,
-    "last_price": 1.89,
+    "last_price": 1.84,
     "historical_high": 1.95,
     "daily_alert_high": 1.88
+  },
+  "Tec-9 | Raw Ceramic (Field-Tested)": {
+    "history": []
   }
 }
