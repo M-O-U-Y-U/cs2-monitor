@@ -34,11 +34,15 @@
       {
         "time": "12:00",
         "price": 1.57
+      },
+      {
+        "time": "14:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.55,
-    "last_price": 1.57,
+    "last_price": 1.56,
     "historical_high": 1.75,
     "daily_alert_high": 1.64
   },
@@ -187,11 +191,15 @@
       {
         "time": "10:00",
         "price": 2.11
+      },
+      {
+        "time": "14:00",
+        "price": 2.07
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.11,
-    "last_price": 2.11,
+    "last_price": 2.07,
     "historical_high": 3.28,
     "daily_alert_high": 2.11
   },
@@ -293,11 +301,15 @@
       {
         "time": "12:00",
         "price": 0.77
+      },
+      {
+        "time": "14:00",
+        "price": 0.81
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.76,
-    "last_price": 0.77,
+    "last_price": 0.81,
     "historical_high": 1.01,
     "daily_alert_high": 0.82
   },
@@ -371,11 +383,15 @@
       {
         "time": "12:00",
         "price": 2.34
+      },
+      {
+        "time": "14:00",
+        "price": 2.26
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.15,
-    "last_price": 2.34,
+    "last_price": 2.26,
     "historical_high": 2.53,
     "daily_alert_high": 2.34
   },
@@ -446,11 +462,15 @@
       {
         "time": "12:00",
         "price": 0.69
+      },
+      {
+        "time": "14:00",
+        "price": 0.73
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.73,
-    "last_price": 0.69,
+    "last_price": 0.73,
     "historical_high": 0.73,
     "daily_alert_high": 0.73
   },
@@ -552,11 +572,15 @@
       {
         "time": "10:00",
         "price": 0.82
+      },
+      {
+        "time": "14:00",
+        "price": 0.84
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.77,
-    "last_price": 0.82,
+    "last_price": 0.84,
     "historical_high": 0.89,
     "daily_alert_high": 0.85
   },
@@ -698,13 +722,17 @@
       {
         "time": "12:00",
         "price": 2.02
+      },
+      {
+        "time": "14:00",
+        "price": 2.25
       }
     ],
     "csqaq_id": 18120,
     "start_price": 1.98,
-    "last_price": 2.02,
+    "last_price": 2.25,
     "historical_high": 3.49,
-    "daily_alert_high": 2.16
+    "daily_alert_high": 2.25
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
@@ -744,11 +772,15 @@
       {
         "time": "12:00",
         "price": 0.58
+      },
+      {
+        "time": "14:00",
+        "price": 0.54
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.51,
-    "last_price": 0.58,
+    "last_price": 0.54,
     "historical_high": 0.69,
     "daily_alert_high": 0.58
   },
@@ -785,11 +817,15 @@
       {
         "time": "12:00",
         "price": 2.02
+      },
+      {
+        "time": "14:00",
+        "price": 1.93
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.0,
-    "last_price": 2.02,
+    "last_price": 1.93,
     "historical_high": 2.49,
     "daily_alert_high": 2.02
   },
@@ -829,11 +865,15 @@
       {
         "time": "12:00",
         "price": 2.81
+      },
+      {
+        "time": "14:00",
+        "price": 2.85
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.67,
-    "last_price": 2.81,
+    "last_price": 2.85,
     "historical_high": 3.19,
     "daily_alert_high": 2.88
   },
@@ -1012,11 +1052,15 @@
       {
         "time": "12:00",
         "price": 0.66
+      },
+      {
+        "time": "14:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.82,
-    "last_price": 0.66,
+    "last_price": 0.76,
     "historical_high": 0.88,
     "daily_alert_high": 0.82
   },
@@ -1230,12 +1274,16 @@
       {
         "time": "12:00",
         "price": 6.09
+      },
+      {
+        "time": "14:00",
+        "price": 6.25
       }
     ],
     "csqaq_id": 25098,
     "start_price": 6.16,
-    "last_price": 6.09,
-    "historical_high": 6.16,
-    "daily_alert_high": 6.16
+    "last_price": 6.25,
+    "historical_high": 6.25,
+    "daily_alert_high": 6.25
   }
 }
