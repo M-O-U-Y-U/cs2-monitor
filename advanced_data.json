@@ -18,13 +18,17 @@
       {
         "time": "08:00",
         "price": 1.57
+      },
+      {
+        "time": "10:00",
+        "price": 1.64
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.57,
-    "last_price": 1.57,
+    "last_price": 1.64,
     "historical_high": 1.75,
-    "daily_alert_high": 1.57
+    "daily_alert_high": 1.64
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -77,11 +81,15 @@
       {
         "time": "08:00",
         "price": 8.2
+      },
+      {
+        "time": "10:00",
+        "price": 8.16
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.09,
-    "last_price": 8.2,
+    "last_price": 8.16,
     "historical_high": 8.92,
     "daily_alert_high": 8.2
   },
@@ -111,11 +119,15 @@
       {
         "time": "08:00",
         "price": 1.63
+      },
+      {
+        "time": "10:00",
+        "price": 1.88
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.91,
-    "last_price": 1.63,
+    "last_price": 1.88,
     "historical_high": 2.09,
     "daily_alert_high": 2.09
   },
@@ -135,11 +147,15 @@
       {
         "time": "08:00",
         "price": 2.02
+      },
+      {
+        "time": "10:00",
+        "price": 2.08
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.0,
-    "last_price": 2.02,
+    "last_price": 2.08,
     "historical_high": 3.28,
     "daily_alert_high": 2.08
   },
@@ -217,13 +233,17 @@
       {
         "time": "08:00",
         "price": 0.77
+      },
+      {
+        "time": "10:00",
+        "price": 0.83
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.81,
-    "last_price": 0.77,
+    "last_price": 0.83,
     "historical_high": 1.01,
-    "daily_alert_high": 0.81
+    "daily_alert_high": 0.83
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -238,13 +258,17 @@
       {
         "time": "08:00",
         "price": 2.07
+      },
+      {
+        "time": "10:00",
+        "price": 2.31
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.22,
-    "last_price": 2.07,
+    "last_price": 2.31,
     "historical_high": 2.49,
-    "daily_alert_high": 2.22
+    "daily_alert_high": 2.31
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
@@ -289,11 +313,15 @@
       {
         "time": "08:00",
         "price": 5.77
+      },
+      {
+        "time": "10:00",
+        "price": 5.46
       }
     ],
     "csqaq_id": 14751,
     "start_price": 5.6,
-    "last_price": 5.77,
+    "last_price": 5.46,
     "historical_high": 5.95,
     "daily_alert_high": 5.77
   },
@@ -306,11 +334,15 @@
       {
         "time": "06:00",
         "price": 0.64
+      },
+      {
+        "time": "10:00",
+        "price": 0.63
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.67,
-    "last_price": 0.64,
+    "last_price": 0.63,
     "historical_high": 0.73,
     "daily_alert_high": 0.67
   },
@@ -326,11 +358,15 @@
       {
         "time": "06:00",
         "price": 2.33
+      },
+      {
+        "time": "10:00",
+        "price": 2.2
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.25,
-    "last_price": 2.33,
+    "last_price": 2.2,
     "historical_high": 3.57,
     "daily_alert_high": 2.33
   },
@@ -462,11 +498,15 @@
       {
         "time": "22:00",
         "price": 2.25
+      },
+      {
+        "time": "10:00",
+        "price": 2.11
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.25,
-    "last_price": 2.25,
+    "last_price": 2.11,
     "historical_high": 3.49,
     "daily_alert_high": 2.25
   },
@@ -504,11 +544,15 @@
       {
         "time": "08:00",
         "price": 0.51
+      },
+      {
+        "time": "10:00",
+        "price": 0.59
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.6,
-    "last_price": 0.51,
+    "last_price": 0.59,
     "historical_high": 0.69,
     "daily_alert_high": 0.6
   },
@@ -521,11 +565,15 @@
       {
         "time": "08:00",
         "price": 2.0
+      },
+      {
+        "time": "10:00",
+        "price": 1.98
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.95,
-    "last_price": 2.0,
+    "last_price": 1.98,
     "historical_high": 2.49,
     "daily_alert_high": 2.0
   },
@@ -545,11 +593,15 @@
       {
         "time": "08:00",
         "price": 2.71
+      },
+      {
+        "time": "10:00",
+        "price": 2.68
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.6,
-    "last_price": 2.71,
+    "last_price": 2.68,
     "historical_high": 3.19,
     "daily_alert_high": 2.71
   },
@@ -566,11 +618,15 @@
       {
         "time": "08:00",
         "price": 2.71
+      },
+      {
+        "time": "10:00",
+        "price": 2.59
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.53,
-    "last_price": 2.71,
+    "last_price": 2.59,
     "historical_high": 2.89,
     "daily_alert_high": 2.71
   },
@@ -743,11 +799,15 @@
       {
         "time": "06:00",
         "price": 2.72
+      },
+      {
+        "time": "10:00",
+        "price": 2.49
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.7,
-    "last_price": 2.72,
+    "last_price": 2.49,
     "historical_high": 2.8,
     "daily_alert_high": 2.7
   },
@@ -760,13 +820,17 @@
       {
         "time": "06:00",
         "price": 0.58
+      },
+      {
+        "time": "10:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.55,
-    "last_price": 0.58,
+    "last_price": 0.62,
     "historical_high": 0.66,
-    "daily_alert_high": 0.58
+    "daily_alert_high": 0.62
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
@@ -787,13 +851,17 @@
       {
         "time": "08:00",
         "price": 1.89
+      },
+      {
+        "time": "10:00",
+        "price": 1.91
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.78,
-    "last_price": 1.89,
+    "last_price": 1.91,
     "historical_high": 2.0,
-    "daily_alert_high": 1.89
+    "daily_alert_high": 1.91
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -814,12 +882,16 @@
       {
         "time": "08:00",
         "price": 6.17
+      },
+      {
+        "time": "10:00",
+        "price": 6.25
       }
     ],
     "csqaq_id": 25098,
     "start_price": 5.94,
-    "last_price": 6.17,
+    "last_price": 6.25,
     "historical_high": 6.25,
-    "daily_alert_high": 6.17
+    "daily_alert_high": 6.25
   }
 }
