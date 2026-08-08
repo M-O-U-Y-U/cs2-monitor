@@ -93,11 +93,15 @@
       {
         "time": "12:00",
         "price": 8.19
+      },
+      {
+        "time": "14:00",
+        "price": 8.18
       }
     ],
     "csqaq_id": 20769,
     "start_price": 8.09,
-    "last_price": 8.19,
+    "last_price": 8.18,
     "historical_high": 8.92,
     "daily_alert_high": 8.09
   },
@@ -139,11 +143,15 @@
       {
         "time": "08:00",
         "price": 2.0
+      },
+      {
+        "time": "14:00",
+        "price": 2.09
       }
     ],
     "csqaq_id": 20658,
     "start_price": 2.09,
-    "last_price": 2.0,
+    "last_price": 2.09,
     "historical_high": 3.28,
     "daily_alert_high": 2.09
   },
@@ -201,11 +209,15 @@
       {
         "time": "12:00",
         "price": 2.76
+      },
+      {
+        "time": "14:00",
+        "price": 2.72
       }
     ],
     "csqaq_id": 17916,
     "start_price": 2.87,
-    "last_price": 2.76,
+    "last_price": 2.72,
     "historical_high": 4.66,
     "daily_alert_high": 2.87
   },
@@ -233,11 +245,15 @@
       {
         "time": "12:00",
         "price": 0.82
+      },
+      {
+        "time": "14:00",
+        "price": 0.79
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.75,
-    "last_price": 0.82,
+    "last_price": 0.79,
     "historical_high": 1.01,
     "daily_alert_high": 0.82
   },
@@ -262,11 +278,15 @@
       {
         "time": "12:00",
         "price": 2.11
+      },
+      {
+        "time": "14:00",
+        "price": 2.19
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.11,
-    "last_price": 2.11,
+    "last_price": 2.19,
     "historical_high": 2.49,
     "daily_alert_high": 2.23
   },
@@ -342,13 +362,17 @@
       {
         "time": "12:00",
         "price": 0.64
+      },
+      {
+        "time": "14:00",
+        "price": 0.66
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.64,
-    "last_price": 0.64,
+    "last_price": 0.66,
     "historical_high": 0.73,
-    "daily_alert_high": 0.65
+    "daily_alert_high": 0.66
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -370,11 +394,15 @@
       {
         "time": "10:00",
         "price": 2.21
+      },
+      {
+        "time": "14:00",
+        "price": 2.2
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.35,
-    "last_price": 2.21,
+    "last_price": 2.2,
     "historical_high": 3.57,
     "daily_alert_high": 2.35
   },
@@ -502,11 +530,15 @@
       {
         "time": "12:00",
         "price": 0.51
+      },
+      {
+        "time": "14:00",
+        "price": 0.59
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.51,
-    "last_price": 0.51,
+    "last_price": 0.59,
     "historical_high": 0.71,
     "daily_alert_high": 0.6
   },
@@ -538,11 +570,15 @@
       {
         "time": "12:00",
         "price": 2.19
+      },
+      {
+        "time": "14:00",
+        "price": 2.0
       }
     ],
     "csqaq_id": 18120,
     "start_price": 1.98,
-    "last_price": 2.19,
+    "last_price": 2.0,
     "historical_high": 3.49,
     "daily_alert_high": 2.26
   },
@@ -588,11 +624,15 @@
       {
         "time": "12:00",
         "price": 0.51
+      },
+      {
+        "time": "14:00",
+        "price": 0.56
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.55,
-    "last_price": 0.51,
+    "last_price": 0.56,
     "historical_high": 0.69,
     "daily_alert_high": 0.59
   },
@@ -621,13 +661,17 @@
       {
         "time": "12:00",
         "price": 2.16
+      },
+      {
+        "time": "14:00",
+        "price": 2.19
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.01,
-    "last_price": 2.16,
+    "last_price": 2.19,
     "historical_high": 2.49,
-    "daily_alert_high": 2.16
+    "daily_alert_high": 2.19
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -657,11 +701,15 @@
       {
         "time": "12:00",
         "price": 2.72
+      },
+      {
+        "time": "14:00",
+        "price": 2.66
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.71,
-    "last_price": 2.72,
+    "last_price": 2.66,
     "historical_high": 3.23,
     "daily_alert_high": 3.23
   },
@@ -686,11 +734,15 @@
       {
         "time": "12:00",
         "price": 2.5
+      },
+      {
+        "time": "14:00",
+        "price": 2.58
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.48,
-    "last_price": 2.5,
+    "last_price": 2.58,
     "historical_high": 2.89,
     "daily_alert_high": 2.67
   },
@@ -787,11 +839,15 @@
       {
         "time": "12:00",
         "price": 0.76
+      },
+      {
+        "time": "14:00",
+        "price": 0.8
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.81,
-    "last_price": 0.76,
+    "last_price": 0.8,
     "historical_high": 0.93,
     "daily_alert_high": 0.92
   },
@@ -816,11 +872,15 @@
       {
         "time": "10:00",
         "price": 0.78
+      },
+      {
+        "time": "14:00",
+        "price": 0.7
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.69,
-    "last_price": 0.78,
+    "last_price": 0.7,
     "historical_high": 0.88,
     "daily_alert_high": 0.83
   },
@@ -870,11 +930,15 @@
       {
         "time": "12:00",
         "price": 58.99
+      },
+      {
+        "time": "14:00",
+        "price": 59.04
       }
     ],
     "csqaq_id": 20826,
     "start_price": 50.0,
-    "last_price": 58.99,
+    "last_price": 59.04,
     "historical_high": 62.34,
     "daily_alert_high": 59.48
   },
@@ -899,11 +963,15 @@
       {
         "time": "12:00",
         "price": 2.49
+      },
+      {
+        "time": "14:00",
+        "price": 2.31
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.46,
-    "last_price": 2.49,
+    "last_price": 2.31,
     "historical_high": 2.8,
     "daily_alert_high": 2.7
   },
@@ -994,11 +1062,15 @@
       {
         "time": "12:00",
         "price": 6.5
+      },
+      {
+        "time": "14:00",
+        "price": 6.23
       }
     ],
     "csqaq_id": 25098,
     "start_price": 6.16,
-    "last_price": 6.5,
+    "last_price": 6.23,
     "historical_high": 6.44,
     "daily_alert_high": 6.44
   }
