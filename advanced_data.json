@@ -18,13 +18,17 @@
       {
         "time": "12:00",
         "price": 1.52
+      },
+      {
+        "time": "14:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.54,
-    "last_price": 1.52,
+    "last_price": 1.56,
     "historical_high": 1.75,
-    "daily_alert_high": 1.54
+    "daily_alert_high": 1.56
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -81,11 +85,15 @@
       {
         "time": "12:00",
         "price": 7.73
+      },
+      {
+        "time": "14:00",
+        "price": 7.84
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.77,
-    "last_price": 7.73,
+    "last_price": 7.84,
     "historical_high": 8.92,
     "daily_alert_high": 7.9
   },
@@ -115,11 +123,15 @@
       {
         "time": "08:00",
         "price": 2.61
+      },
+      {
+        "time": "14:00",
+        "price": 2.58
       }
     ],
     "csqaq_id": 3293,
     "start_price": 3.05,
-    "last_price": 2.61,
+    "last_price": 2.58,
     "historical_high": 3.7,
     "daily_alert_high": 3.05
   },
@@ -143,11 +155,15 @@
       {
         "time": "12:00",
         "price": 1.9
+      },
+      {
+        "time": "14:00",
+        "price": 1.92
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.92,
-    "last_price": 1.9,
+    "last_price": 1.92,
     "historical_high": 3.28,
     "daily_alert_high": 1.92
   },
@@ -233,11 +249,15 @@
       {
         "time": "12:00",
         "price": 0.77
+      },
+      {
+        "time": "14:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.74,
-    "last_price": 0.77,
+    "last_price": 0.76,
     "historical_high": 1.01,
     "daily_alert_high": 0.79
   },
@@ -250,11 +270,15 @@
       {
         "time": "06:00",
         "price": 2.02
+      },
+      {
+        "time": "14:00",
+        "price": 2.04
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.99,
-    "last_price": 2.02,
+    "last_price": 2.04,
     "historical_high": 2.49,
     "daily_alert_high": 2.02
   },
@@ -334,11 +358,15 @@
       {
         "time": "12:00",
         "price": 0.67
+      },
+      {
+        "time": "14:00",
+        "price": 0.63
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.65,
-    "last_price": 0.67,
+    "last_price": 0.63,
     "historical_high": 0.73,
     "daily_alert_high": 0.69
   },
@@ -366,11 +394,15 @@
       {
         "time": "12:00",
         "price": 2.37
+      },
+      {
+        "time": "14:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.25,
-    "last_price": 2.37,
+    "last_price": 2.34,
     "historical_high": 3.57,
     "daily_alert_high": 2.37
   },
@@ -420,11 +452,15 @@
       {
         "time": "12:00",
         "price": 0.83
+      },
+      {
+        "time": "14:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.89,
-    "last_price": 0.83,
+    "last_price": 0.82,
     "historical_high": 0.92,
     "daily_alert_high": 0.89
   },
@@ -522,11 +558,15 @@
       {
         "time": "12:00",
         "price": 2.08
+      },
+      {
+        "time": "14:00",
+        "price": 2.2
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.01,
-    "last_price": 2.08,
+    "last_price": 2.2,
     "historical_high": 3.49,
     "daily_alert_high": 2.21
   },
@@ -568,11 +608,15 @@
       {
         "time": "12:00",
         "price": 0.55
+      },
+      {
+        "time": "14:00",
+        "price": 0.54
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.54,
-    "last_price": 0.55,
+    "last_price": 0.54,
     "historical_high": 0.69,
     "daily_alert_high": 0.55
   },
@@ -597,11 +641,15 @@
       {
         "time": "12:00",
         "price": 1.98
+      },
+      {
+        "time": "14:00",
+        "price": 1.92
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.96,
-    "last_price": 1.98,
+    "last_price": 1.92,
     "historical_high": 2.49,
     "daily_alert_high": 1.96
   },
@@ -629,11 +677,15 @@
       {
         "time": "12:00",
         "price": 2.72
+      },
+      {
+        "time": "14:00",
+        "price": 2.53
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.66,
-    "last_price": 2.72,
+    "last_price": 2.53,
     "historical_high": 3.23,
     "daily_alert_high": 2.81
   },
@@ -654,11 +706,15 @@
       {
         "time": "10:00",
         "price": 2.42
+      },
+      {
+        "time": "14:00",
+        "price": 2.39
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.37,
-    "last_price": 2.42,
+    "last_price": 2.39,
     "historical_high": 2.89,
     "daily_alert_high": 2.43
   },
@@ -743,11 +799,15 @@
       {
         "time": "10:00",
         "price": 0.77
+      },
+      {
+        "time": "14:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.81,
-    "last_price": 0.77,
+    "last_price": 0.76,
     "historical_high": 0.93,
     "daily_alert_high": 0.81
   },
@@ -768,13 +828,17 @@
       {
         "time": "12:00",
         "price": 0.77
+      },
+      {
+        "time": "14:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.75,
-    "last_price": 0.77,
+    "last_price": 0.82,
     "historical_high": 0.88,
-    "daily_alert_high": 0.77
+    "daily_alert_high": 0.82
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -814,11 +878,15 @@
       {
         "time": "12:00",
         "price": 52.96
+      },
+      {
+        "time": "14:00",
+        "price": 52.0
       }
     ],
     "csqaq_id": 20826,
     "start_price": 50.49,
-    "last_price": 52.96,
+    "last_price": 52.0,
     "historical_high": 62.34,
     "daily_alert_high": 52.96
   },
@@ -887,11 +955,15 @@
       {
         "time": "12:00",
         "price": 1.68
+      },
+      {
+        "time": "14:00",
+        "price": 1.64
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.72,
-    "last_price": 1.68,
+    "last_price": 1.64,
     "historical_high": 2.0,
     "daily_alert_high": 1.72
   },
