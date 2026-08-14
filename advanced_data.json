@@ -14,13 +14,17 @@
       {
         "time": "02:00",
         "price": 1.54
+      },
+      {
+        "time": "06:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.51,
-    "last_price": 1.54,
+    "last_price": 1.56,
     "historical_high": 1.75,
-    "daily_alert_high": 1.54
+    "daily_alert_high": 1.56
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -73,11 +77,15 @@
       {
         "time": "02:00",
         "price": 7.79
+      },
+      {
+        "time": "06:00",
+        "price": 7.82
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.73,
-    "last_price": 7.79,
+    "last_price": 7.82,
     "historical_high": 8.92,
     "daily_alert_high": 7.79
   },
@@ -103,11 +111,15 @@
       {
         "time": "00:00",
         "price": 2.25
+      },
+      {
+        "time": "06:00",
+        "price": 2.58
       }
     ],
     "csqaq_id": 3293,
     "start_price": 2.58,
-    "last_price": 2.25,
+    "last_price": 2.58,
     "historical_high": 3.7,
     "daily_alert_high": 2.58
   },
@@ -127,13 +139,17 @@
       {
         "time": "02:00",
         "price": 1.89
+      },
+      {
+        "time": "06:00",
+        "price": 1.93
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.89,
-    "last_price": 1.89,
+    "last_price": 1.93,
     "historical_high": 3.28,
-    "daily_alert_high": 1.89
+    "daily_alert_high": 1.93
   },
   "StatTrak™ Nova | Wood Fired (Field-Tested)": {
     "history": [
@@ -181,13 +197,17 @@
       {
         "time": "22:00",
         "price": 2.65
+      },
+      {
+        "time": "06:00",
+        "price": 2.7
       }
     ],
     "csqaq_id": 17916,
     "start_price": 2.65,
-    "last_price": 2.65,
+    "last_price": 2.7,
     "historical_high": 4.66,
-    "daily_alert_high": 2.65
+    "daily_alert_high": 2.7
   },
   "Sealed Graffiti | Loser (SWAT Blue)": {
     "history": []
@@ -205,11 +225,15 @@
       {
         "time": "02:00",
         "price": 0.79
+      },
+      {
+        "time": "06:00",
+        "price": 0.77
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.77,
-    "last_price": 0.79,
+    "last_price": 0.77,
     "historical_high": 1.01,
     "daily_alert_high": 0.79
   },
@@ -226,13 +250,17 @@
       {
         "time": "02:00",
         "price": 2.02
+      },
+      {
+        "time": "06:00",
+        "price": 2.16
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.08,
-    "last_price": 2.02,
+    "last_price": 2.16,
     "historical_high": 2.49,
-    "daily_alert_high": 2.11
+    "daily_alert_high": 2.16
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
@@ -247,11 +275,15 @@
       {
         "time": "02:00",
         "price": 2.0
+      },
+      {
+        "time": "06:00",
+        "price": 2.01
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.04,
-    "last_price": 2.0,
+    "last_price": 2.01,
     "historical_high": 2.53,
     "daily_alert_high": 2.04
   },
@@ -326,13 +358,17 @@
       {
         "time": "02:00",
         "price": 2.19
+      },
+      {
+        "time": "06:00",
+        "price": 2.38
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.13,
-    "last_price": 2.19,
+    "last_price": 2.38,
     "historical_high": 3.57,
-    "daily_alert_high": 2.36
+    "daily_alert_high": 2.38
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -380,13 +416,17 @@
       {
         "time": "02:00",
         "price": 0.79
+      },
+      {
+        "time": "06:00",
+        "price": 0.82
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 22167,
     "start_price": 0.78,
-    "last_price": 0.79,
+    "last_price": 0.82,
     "historical_high": 0.92,
-    "daily_alert_high": 0.79
+    "daily_alert_high": 0.82
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -426,11 +466,15 @@
       {
         "time": "00:00",
         "price": 4.07
+      },
+      {
+        "time": "06:00",
+        "price": 3.97
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.91,
-    "last_price": 4.07,
+    "last_price": 3.97,
     "historical_high": 4.27,
     "daily_alert_high": 4.07
   },
@@ -450,11 +494,15 @@
       {
         "time": "02:00",
         "price": 0.6
+      },
+      {
+        "time": "06:00",
+        "price": 0.55
       }
     ],
     "csqaq_id": 22033,
     "start_price": 0.55,
-    "last_price": 0.6,
+    "last_price": 0.55,
     "historical_high": 0.71,
     "daily_alert_high": 0.6
   },
@@ -470,11 +518,15 @@
       {
         "time": "00:00",
         "price": 2.24
+      },
+      {
+        "time": "06:00",
+        "price": 1.95
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 18120,
     "start_price": 2.11,
-    "last_price": 2.24,
+    "last_price": 1.95,
     "historical_high": 3.49,
     "daily_alert_high": 2.24
   },
@@ -525,13 +577,17 @@
       {
         "time": "00:00",
         "price": 1.93
+      },
+      {
+        "time": "06:00",
+        "price": 1.95
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.9,
-    "last_price": 1.93,
+    "last_price": 1.95,
     "historical_high": 2.49,
-    "daily_alert_high": 1.93
+    "daily_alert_high": 1.95
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -549,13 +605,17 @@
       {
         "time": "02:00",
         "price": 2.58
+      },
+      {
+        "time": "06:00",
+        "price": 2.81
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.64,
-    "last_price": 2.58,
+    "last_price": 2.81,
     "historical_high": 3.23,
-    "daily_alert_high": 2.71
+    "daily_alert_high": 2.81
   },
   "Revolution Case": {
     "history": [
@@ -672,11 +732,15 @@
       {
         "time": "02:00",
         "price": 0.78
+      },
+      {
+        "time": "06:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.84,
-    "last_price": 0.78,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.84
   },
@@ -718,11 +782,15 @@
       {
         "time": "02:00",
         "price": 51.24
+      },
+      {
+        "time": "06:00",
+        "price": 51.21
       }
     ],
     "csqaq_id": 20826,
     "start_price": 51.24,
-    "last_price": 51.24,
+    "last_price": 51.21,
     "historical_high": 62.34,
     "daily_alert_high": 51.24
   },
@@ -739,11 +807,15 @@
       {
         "time": "02:00",
         "price": 2.44
+      },
+      {
+        "time": "06:00",
+        "price": 2.49
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.43,
-    "last_price": 2.44,
+    "last_price": 2.49,
     "historical_high": 2.8,
     "daily_alert_high": 2.57
   },
@@ -760,11 +832,15 @@
       {
         "time": "02:00",
         "price": 0.67
+      },
+      {
+        "time": "06:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.67,
-    "last_price": 0.67,
+    "last_price": 0.69,
     "historical_high": 1.36,
     "daily_alert_high": 0.69
   },
@@ -779,11 +855,15 @@
       {
         "time": "22:00",
         "price": 1.7
+      },
+      {
+        "time": "06:00",
+        "price": 1.67
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.7,
-    "last_price": 1.7,
+    "last_price": 1.67,
     "historical_high": 2.0,
     "daily_alert_high": 1.7
   },
