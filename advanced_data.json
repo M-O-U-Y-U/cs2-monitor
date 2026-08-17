@@ -26,11 +26,15 @@
       {
         "time": "12:00",
         "price": 1.48
+      },
+      {
+        "time": "14:00",
+        "price": 1.5
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.54,
-    "last_price": 1.48,
+    "last_price": 1.5,
     "historical_high": 1.75,
     "daily_alert_high": 1.54
   },
@@ -93,11 +97,15 @@
       {
         "time": "12:00",
         "price": 7.45
+      },
+      {
+        "time": "14:00",
+        "price": 7.4
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.4,
-    "last_price": 7.45,
+    "last_price": 7.4,
     "historical_high": 8.92,
     "daily_alert_high": 7.56
   },
@@ -151,11 +159,15 @@
       {
         "time": "12:00",
         "price": 1.9
+      },
+      {
+        "time": "14:00",
+        "price": 1.89
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.9,
-    "last_price": 1.9,
+    "last_price": 1.89,
     "historical_high": 3.28,
     "daily_alert_high": 1.95
   },
@@ -241,13 +253,17 @@
       {
         "time": "12:00",
         "price": 0.82
+      },
+      {
+        "time": "14:00",
+        "price": 0.83
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.79,
-    "last_price": 0.82,
+    "last_price": 0.83,
     "historical_high": 1.01,
-    "daily_alert_high": 0.82
+    "daily_alert_high": 0.83
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -291,11 +307,15 @@
       {
         "time": "12:00",
         "price": 2.0
+      },
+      {
+        "time": "14:00",
+        "price": 1.98
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.08,
-    "last_price": 2.0,
+    "last_price": 1.98,
     "historical_high": 2.53,
     "daily_alert_high": 2.08
   },
@@ -534,11 +554,15 @@
       {
         "time": "12:00",
         "price": 2.32
+      },
+      {
+        "time": "14:00",
+        "price": 2.02
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.27,
-    "last_price": 2.32,
+    "last_price": 2.02,
     "historical_high": 3.49,
     "daily_alert_high": 2.44
   },
@@ -597,11 +621,15 @@
       {
         "time": "12:00",
         "price": 1.92
+      },
+      {
+        "time": "14:00",
+        "price": 1.93
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.98,
-    "last_price": 1.92,
+    "last_price": 1.93,
     "historical_high": 2.49,
     "daily_alert_high": 2.04
   },
@@ -625,11 +653,15 @@
       {
         "time": "12:00",
         "price": 2.66
+      },
+      {
+        "time": "14:00",
+        "price": 2.81
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.61,
-    "last_price": 2.66,
+    "last_price": 2.81,
     "historical_high": 3.23,
     "daily_alert_high": 2.96
   },
@@ -650,11 +682,15 @@
       {
         "time": "12:00",
         "price": 2.42
+      },
+      {
+        "time": "14:00",
+        "price": 2.36
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.42,
-    "last_price": 2.42,
+    "last_price": 2.36,
     "historical_high": 2.89,
     "daily_alert_high": 2.43
   },
@@ -743,11 +779,15 @@
       {
         "time": "12:00",
         "price": 0.76
+      },
+      {
+        "time": "14:00",
+        "price": 0.77
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.77,
-    "last_price": 0.76,
+    "last_price": 0.77,
     "historical_high": 0.93,
     "daily_alert_high": 0.81
   },
@@ -822,11 +862,15 @@
       {
         "time": "12:00",
         "price": 50.92
+      },
+      {
+        "time": "14:00",
+        "price": 50.84
       }
     ],
     "csqaq_id": 20826,
     "start_price": 51.8,
-    "last_price": 50.92,
+    "last_price": 50.84,
     "historical_high": 62.34,
     "daily_alert_high": 51.87
   },
@@ -845,7 +889,7 @@
         "price": 2.49
       }
     ],
-    "csqaq_id": 3873,
+    "csqaq_id": null,
     "start_price": 2.27,
     "last_price": 2.49,
     "historical_high": 2.8,
@@ -903,11 +947,15 @@
       {
         "time": "12:00",
         "price": 1.7
+      },
+      {
+        "time": "14:00",
+        "price": 1.68
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.64,
-    "last_price": 1.7,
+    "last_price": 1.68,
     "historical_high": 2.0,
     "daily_alert_high": 1.7
   },
