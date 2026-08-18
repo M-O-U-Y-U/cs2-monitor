@@ -38,11 +38,15 @@
       {
         "time": "12:01",
         "price": 1.5
+      },
+      {
+        "time": "16:00",
+        "price": 1.48
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.5,
-    "last_price": 1.5,
+    "last_price": 1.48,
     "historical_high": 1.75,
     "daily_alert_high": 1.5
   },
