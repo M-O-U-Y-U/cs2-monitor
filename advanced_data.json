@@ -61,11 +61,15 @@
       {
         "time": "22:00",
         "price": 7.55
+      },
+      {
+        "time": "00:00",
+        "price": 7.5
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.55,
-    "last_price": 7.55,
+    "last_price": 7.5,
     "historical_high": 8.92,
     "daily_alert_high": 7.55
   },
@@ -87,11 +91,15 @@
       {
         "time": "22:00",
         "price": 2.47
+      },
+      {
+        "time": "00:00",
+        "price": 2.23
       }
     ],
     "csqaq_id": 3293,
     "start_price": 2.47,
-    "last_price": 2.47,
+    "last_price": 2.23,
     "historical_high": 3.71,
     "daily_alert_high": 2.47
   },
@@ -186,11 +194,15 @@
       {
         "time": "22:00",
         "price": 2.02
+      },
+      {
+        "time": "00:00",
+        "price": 1.96
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.02,
-    "last_price": 2.02,
+    "last_price": 1.96,
     "historical_high": 2.49,
     "daily_alert_high": 2.02
   },
@@ -199,11 +211,15 @@
       {
         "time": "22:00",
         "price": 1.91
+      },
+      {
+        "time": "00:00",
+        "price": 1.89
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.91,
-    "last_price": 1.91,
+    "last_price": 1.89,
     "historical_high": 2.53,
     "daily_alert_high": 1.91
   },
@@ -254,13 +270,17 @@
       {
         "time": "22:00",
         "price": 2.08
+      },
+      {
+        "time": "00:00",
+        "price": 2.25
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.08,
-    "last_price": 2.08,
+    "last_price": 2.25,
     "historical_high": 3.57,
-    "daily_alert_high": 2.08
+    "daily_alert_high": 2.25
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -300,13 +320,17 @@
       {
         "time": "22:00",
         "price": 0.91
+      },
+      {
+        "time": "00:00",
+        "price": 0.92
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.91,
-    "last_price": 0.91,
+    "last_price": 0.92,
     "historical_high": 0.92,
-    "daily_alert_high": 0.91
+    "daily_alert_high": 0.92
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -342,13 +366,17 @@
       {
         "time": "22:00",
         "price": 4.06
+      },
+      {
+        "time": "00:00",
+        "price": 4.14
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.06,
-    "last_price": 4.06,
+    "last_price": 4.14,
     "historical_high": 4.27,
-    "daily_alert_high": 4.06
+    "daily_alert_high": 4.14
   },
   "P250 | Plum Netting (Battle-Scarred)": {
     "history": []
@@ -374,11 +402,15 @@
       {
         "time": "22:00",
         "price": 2.07
+      },
+      {
+        "time": "00:00",
+        "price": 1.99
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.07,
-    "last_price": 2.07,
+    "last_price": 1.99,
     "historical_high": 3.49,
     "daily_alert_high": 2.07
   },
@@ -421,11 +453,15 @@
       {
         "time": "22:00",
         "price": 2.01
+      },
+      {
+        "time": "00:00",
+        "price": 1.95
       }
     ],
     "csqaq_id": 21900,
     "start_price": 2.01,
-    "last_price": 2.01,
+    "last_price": 1.95,
     "historical_high": 2.49,
     "daily_alert_high": 2.01
   },
@@ -437,11 +473,15 @@
       {
         "time": "22:00",
         "price": 2.57
+      },
+      {
+        "time": "00:00",
+        "price": 2.44
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.57,
-    "last_price": 2.57,
+    "last_price": 2.44,
     "historical_high": 3.23,
     "daily_alert_high": 2.57
   },
@@ -463,13 +503,17 @@
       {
         "time": "22:00",
         "price": 0.75
+      },
+      {
+        "time": "00:00",
+        "price": 3.0
       }
     ],
     "csqaq_id": 23476,
     "start_price": 0.75,
-    "last_price": 0.75,
-    "historical_high": 0.75,
-    "daily_alert_high": 0.75
+    "last_price": 3.0,
+    "historical_high": 3.0,
+    "daily_alert_high": 3.0
   },
   "Sticker | GamerLegion | Budapest 2025": {
     "history": []
@@ -527,11 +571,15 @@
       {
         "time": "22:00",
         "price": 0.84
+      },
+      {
+        "time": "00:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.84,
-    "last_price": 0.84,
+    "last_price": 0.82,
     "historical_high": 0.93,
     "daily_alert_high": 0.84
   },
@@ -540,11 +588,15 @@
       {
         "time": "22:00",
         "price": 0.84
+      },
+      {
+        "time": "00:00",
+        "price": 0.73
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.84,
-    "last_price": 0.84,
+    "last_price": 0.73,
     "historical_high": 0.88,
     "daily_alert_high": 0.84
   },
@@ -578,11 +630,15 @@
       {
         "time": "22:00",
         "price": 47.96
+      },
+      {
+        "time": "00:00",
+        "price": 46.8
       }
     ],
     "csqaq_id": 20826,
     "start_price": 47.96,
-    "last_price": 47.96,
+    "last_price": 46.8,
     "historical_high": 62.34,
     "daily_alert_high": 47.96
   },
@@ -591,24 +647,32 @@
       {
         "time": "22:00",
         "price": 2.34
+      },
+      {
+        "time": "00:00",
+        "price": 2.44
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.34,
-    "last_price": 2.34,
+    "last_price": 2.44,
     "historical_high": 2.8,
-    "daily_alert_high": 2.34
+    "daily_alert_high": 2.44
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
       {
         "time": "22:00",
         "price": 0.81
+      },
+      {
+        "time": "00:00",
+        "price": 0.8
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.81,
-    "last_price": 0.81,
+    "last_price": 0.8,
     "historical_high": 1.36,
     "daily_alert_high": 0.81
   },
@@ -677,12 +741,16 @@
       {
         "time": "22:00",
         "price": 1.68
+      },
+      {
+        "time": "00:00",
+        "price": 1.99
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.68,
-    "last_price": 1.68,
-    "historical_high": 1.84,
-    "daily_alert_high": 1.68
+    "last_price": 1.99,
+    "historical_high": 1.99,
+    "daily_alert_high": 1.99
   }
 }
