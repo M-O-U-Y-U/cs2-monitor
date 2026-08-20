@@ -10,11 +10,15 @@
       {
         "time": "22:00",
         "price": 1.42
+      },
+      {
+        "time": "00:00",
+        "price": 1.41
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.42,
-    "last_price": 1.42,
+    "last_price": 1.41,
     "historical_high": 1.75,
     "daily_alert_high": 1.42
   },
@@ -61,11 +65,15 @@
       {
         "time": "22:00",
         "price": 7.25
+      },
+      {
+        "time": "00:00",
+        "price": 7.29
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.25,
-    "last_price": 7.25,
+    "last_price": 7.29,
     "historical_high": 8.92,
     "daily_alert_high": 7.25
   },
@@ -87,11 +95,15 @@
       {
         "time": "22:00",
         "price": 2.56
+      },
+      {
+        "time": "00:00",
+        "price": 2.09
       }
     ],
     "csqaq_id": 3293,
     "start_price": 2.56,
-    "last_price": 2.56,
+    "last_price": 2.09,
     "historical_high": 3.71,
     "daily_alert_high": 2.56
   },
@@ -103,11 +115,15 @@
       {
         "time": "22:00",
         "price": 1.8
+      },
+      {
+        "time": "00:00",
+        "price": 1.79
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.8,
-    "last_price": 1.8,
+    "last_price": 1.79,
     "historical_high": 3.28,
     "daily_alert_high": 1.8
   },
@@ -173,13 +189,17 @@
       {
         "time": "22:00",
         "price": 0.73
+      },
+      {
+        "time": "00:00",
+        "price": 0.74
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.73,
-    "last_price": 0.73,
+    "last_price": 0.74,
     "historical_high": 1.01,
-    "daily_alert_high": 0.73
+    "daily_alert_high": 0.74
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -623,13 +643,17 @@
       {
         "time": "22:00",
         "price": 1.67
+      },
+      {
+        "time": "00:00",
+        "price": 1.73
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.67,
-    "last_price": 1.67,
+    "last_price": 1.73,
     "historical_high": 2.0,
-    "daily_alert_high": 1.67
+    "daily_alert_high": 1.73
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -677,11 +701,15 @@
       {
         "time": "22:00",
         "price": 1.79
+      },
+      {
+        "time": "00:00",
+        "price": 1.67
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.79,
-    "last_price": 1.79,
+    "last_price": 1.67,
     "historical_high": 1.99,
     "daily_alert_high": 1.79
   },
