@@ -18,11 +18,15 @@
       {
         "time": "06:00",
         "price": 1.46
+      },
+      {
+        "time": "08:00",
+        "price": 1.43
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.42,
-    "last_price": 1.46,
+    "last_price": 1.43,
     "historical_high": 1.75,
     "daily_alert_high": 1.46
   },
@@ -111,13 +115,17 @@
       {
         "time": "06:00",
         "price": 2.11
+      },
+      {
+        "time": "08:00",
+        "price": 2.57
       }
     ],
     "csqaq_id": 3293,
     "start_price": 2.56,
-    "last_price": 2.11,
+    "last_price": 2.57,
     "historical_high": 3.71,
-    "daily_alert_high": 2.56
+    "daily_alert_high": 2.57
   },
   "Sealed Graffiti | GGWP (Wire Blue)": {
     "history": []
@@ -213,11 +221,15 @@
       {
         "time": "06:00",
         "price": 0.79
+      },
+      {
+        "time": "08:00",
+        "price": 0.73
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.73,
-    "last_price": 0.79,
+    "last_price": 0.73,
     "historical_high": 1.01,
     "daily_alert_high": 0.79
   },
@@ -247,11 +259,15 @@
       {
         "time": "06:00",
         "price": 2.04
+      },
+      {
+        "time": "08:00",
+        "price": 1.87
       }
     ],
     "csqaq_id": 14710,
     "start_price": 2.02,
-    "last_price": 2.04,
+    "last_price": 1.87,
     "historical_high": 2.53,
     "daily_alert_high": 2.02
   },
@@ -294,11 +310,15 @@
       {
         "time": "06:00",
         "price": 0.62
+      },
+      {
+        "time": "08:00",
+        "price": 0.66
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.71,
-    "last_price": 0.62,
+    "last_price": 0.66,
     "historical_high": 0.73,
     "daily_alert_high": 0.71
   },
@@ -314,11 +334,15 @@
       {
         "time": "06:00",
         "price": 2.42
+      },
+      {
+        "time": "08:00",
+        "price": 2.37
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.11,
-    "last_price": 2.42,
+    "last_price": 2.37,
     "historical_high": 3.57,
     "daily_alert_high": 2.42
   },
@@ -446,13 +470,17 @@
       {
         "time": "06:00",
         "price": 2.1
+      },
+      {
+        "time": "08:00",
+        "price": 2.45
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.36,
-    "last_price": 2.1,
+    "last_price": 2.45,
     "historical_high": 3.49,
-    "daily_alert_high": 2.36
+    "daily_alert_high": 2.45
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
@@ -501,13 +529,17 @@
       {
         "time": "06:00",
         "price": 2.02
+      },
+      {
+        "time": "08:00",
+        "price": 2.1
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.91,
-    "last_price": 2.02,
+    "last_price": 2.1,
     "historical_high": 2.49,
-    "daily_alert_high": 2.02
+    "daily_alert_high": 2.1
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -521,11 +553,15 @@
       {
         "time": "06:00",
         "price": 2.57
+      },
+      {
+        "time": "08:00",
+        "price": 2.42
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.43,
-    "last_price": 2.57,
+    "last_price": 2.42,
     "historical_high": 3.23,
     "daily_alert_high": 2.57
   },
@@ -640,11 +676,15 @@
       {
         "time": "06:00",
         "price": 0.71
+      },
+      {
+        "time": "08:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.69,
-    "last_price": 0.71,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.71
   },
@@ -699,11 +739,15 @@
       {
         "time": "06:00",
         "price": 2.38
+      },
+      {
+        "time": "08:00",
+        "price": 2.33
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.34,
-    "last_price": 2.38,
+    "last_price": 2.33,
     "historical_high": 2.8,
     "daily_alert_high": 2.38
   },
@@ -716,11 +760,15 @@
       {
         "time": "06:00",
         "price": 0.69
+      },
+      {
+        "time": "08:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.54,
-    "last_price": 0.69,
+    "last_price": 0.62,
     "historical_high": 1.36,
     "daily_alert_high": 0.69
   },
@@ -739,11 +787,15 @@
       {
         "time": "00:00",
         "price": 1.73
+      },
+      {
+        "time": "08:00",
+        "price": 1.72
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.67,
-    "last_price": 1.73,
+    "last_price": 1.72,
     "historical_high": 2.0,
     "daily_alert_high": 1.73
   },
@@ -801,13 +853,17 @@
       {
         "time": "06:00",
         "price": 1.69
+      },
+      {
+        "time": "08:00",
+        "price": 1.91
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.79,
-    "last_price": 1.69,
+    "last_price": 1.91,
     "historical_high": 1.99,
-    "daily_alert_high": 1.79
+    "daily_alert_high": 1.91
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
