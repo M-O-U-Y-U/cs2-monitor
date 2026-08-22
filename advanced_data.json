@@ -14,13 +14,17 @@
       {
         "time": "00:00",
         "price": 1.4
+      },
+      {
+        "time": "02:00",
+        "price": 1.43
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.42,
-    "last_price": 1.4,
+    "last_price": 1.43,
     "historical_high": 1.75,
-    "daily_alert_high": 1.42
+    "daily_alert_high": 1.43
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -65,11 +69,15 @@
       {
         "time": "22:00",
         "price": 7.32
+      },
+      {
+        "time": "02:00",
+        "price": 7.36
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.32,
-    "last_price": 7.32,
+    "last_price": 7.36,
     "historical_high": 8.92,
     "daily_alert_high": 7.32
   },
@@ -107,11 +115,15 @@
       {
         "time": "22:00",
         "price": 1.79
+      },
+      {
+        "time": "02:00",
+        "price": 1.8
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.79,
-    "last_price": 1.79,
+    "last_price": 1.8,
     "historical_high": 3.28,
     "daily_alert_high": 1.79
   },
@@ -165,11 +177,15 @@
       {
         "time": "00:00",
         "price": 3.0
+      },
+      {
+        "time": "02:00",
+        "price": 2.99
       }
     ],
     "csqaq_id": 17916,
     "start_price": 3.24,
-    "last_price": 3.0,
+    "last_price": 2.99,
     "historical_high": 4.66,
     "daily_alert_high": 3.24
   },
@@ -185,11 +201,15 @@
       {
         "time": "00:00",
         "price": 0.75
+      },
+      {
+        "time": "02:00",
+        "price": 0.76
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.8,
-    "last_price": 0.75,
+    "last_price": 0.76,
     "historical_high": 1.01,
     "daily_alert_high": 0.8
   },
@@ -202,11 +222,15 @@
       {
         "time": "00:00",
         "price": 1.96
+      },
+      {
+        "time": "02:00",
+        "price": 1.95
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.95,
-    "last_price": 1.96,
+    "last_price": 1.95,
     "historical_high": 2.49,
     "daily_alert_high": 1.95
   },
@@ -215,11 +239,15 @@
       {
         "time": "22:00",
         "price": 1.91
+      },
+      {
+        "time": "02:00",
+        "price": 1.87
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.91,
-    "last_price": 1.91,
+    "last_price": 1.87,
     "historical_high": 2.53,
     "daily_alert_high": 1.91
   },
@@ -258,13 +286,17 @@
       {
         "time": "00:00",
         "price": 0.6
+      },
+      {
+        "time": "02:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.59,
-    "last_price": 0.6,
+    "last_price": 0.62,
     "historical_high": 0.73,
-    "daily_alert_high": 0.6
+    "daily_alert_high": 0.62
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -278,13 +310,17 @@
       {
         "time": "00:00",
         "price": 2.21
+      },
+      {
+        "time": "02:00",
+        "price": 2.49
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.44,
-    "last_price": 2.21,
+    "last_price": 2.49,
     "historical_high": 3.57,
-    "daily_alert_high": 2.44
+    "daily_alert_high": 2.49
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -324,11 +360,15 @@
       {
         "time": "22:00",
         "price": 0.82
+      },
+      {
+        "time": "02:00",
+        "price": 0.73
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.82,
-    "last_price": 0.82,
+    "last_price": 0.73,
     "historical_high": 0.93,
     "daily_alert_high": 0.82
   },
@@ -370,11 +410,15 @@
       {
         "time": "00:00",
         "price": 4.14
+      },
+      {
+        "time": "02:00",
+        "price": 4.0
       }
     ],
     "csqaq_id": 8530,
     "start_price": 4.0,
-    "last_price": 4.14,
+    "last_price": 4.0,
     "historical_high": 4.37,
     "daily_alert_high": 4.14
   },
@@ -406,13 +450,17 @@
       {
         "time": "00:00",
         "price": 2.2
+      },
+      {
+        "time": "02:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.21,
-    "last_price": 2.2,
+    "last_price": 2.34,
     "historical_high": 3.49,
-    "daily_alert_high": 2.21
+    "daily_alert_high": 2.34
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
@@ -477,13 +525,17 @@
       {
         "time": "00:00",
         "price": 2.45
+      },
+      {
+        "time": "02:00",
+        "price": 2.68
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.49,
-    "last_price": 2.45,
+    "last_price": 2.68,
     "historical_high": 3.23,
-    "daily_alert_high": 2.49
+    "daily_alert_high": 2.68
   },
   "Revolution Case": {
     "history": [
@@ -503,11 +555,15 @@
       {
         "time": "22:00",
         "price": 1.55
+      },
+      {
+        "time": "02:00",
+        "price": 0.92
       }
     ],
     "csqaq_id": 23476,
     "start_price": 1.55,
-    "last_price": 1.55,
+    "last_price": 0.92,
     "historical_high": 3.15,
     "daily_alert_high": 1.55
   },
@@ -571,11 +627,15 @@
       {
         "time": "00:00",
         "price": 0.82
+      },
+      {
+        "time": "02:00",
+        "price": 0.84
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.88,
-    "last_price": 0.82,
+    "last_price": 0.84,
     "historical_high": 0.93,
     "daily_alert_high": 0.88
   },
@@ -584,11 +644,15 @@
       {
         "time": "22:00",
         "price": 0.86
+      },
+      {
+        "time": "02:00",
+        "price": 0.68
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.86,
-    "last_price": 0.86,
+    "last_price": 0.68,
     "historical_high": 0.88,
     "daily_alert_high": 0.86
   },
@@ -626,11 +690,15 @@
       {
         "time": "00:00",
         "price": 44.18
+      },
+      {
+        "time": "02:00",
+        "price": 45.85
       }
     ],
     "csqaq_id": 20826,
     "start_price": 46.19,
-    "last_price": 44.18,
+    "last_price": 45.85,
     "historical_high": 62.34,
     "daily_alert_high": 46.19
   },
@@ -639,11 +707,15 @@
       {
         "time": "22:00",
         "price": 2.38
+      },
+      {
+        "time": "02:00",
+        "price": 2.36
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.38,
-    "last_price": 2.38,
+    "last_price": 2.36,
     "historical_high": 2.8,
     "daily_alert_high": 2.38
   },
@@ -656,13 +728,17 @@
       {
         "time": "00:00",
         "price": 0.61
+      },
+      {
+        "time": "02:00",
+        "price": 0.64
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.62,
-    "last_price": 0.61,
+    "last_price": 0.64,
     "historical_high": 1.36,
-    "daily_alert_high": 0.62
+    "daily_alert_high": 0.64
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
@@ -679,11 +755,15 @@
       {
         "time": "00:00",
         "price": 1.72
+      },
+      {
+        "time": "02:00",
+        "price": 1.69
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.7,
-    "last_price": 1.72,
+    "last_price": 1.69,
     "historical_high": 2.0,
     "daily_alert_high": 1.72
   },
@@ -737,11 +817,15 @@
       {
         "time": "00:00",
         "price": 1.69
+      },
+      {
+        "time": "02:00",
+        "price": 1.67
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.9,
-    "last_price": 1.69,
+    "last_price": 1.67,
     "historical_high": 1.99,
     "daily_alert_high": 1.9
   },
