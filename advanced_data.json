@@ -117,11 +117,15 @@
       {
         "time": "18:00",
         "price": 7.41
+      },
+      {
+        "time": "20:00",
+        "price": 7.26
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.22,
-    "last_price": 7.41,
+    "last_price": 7.26,
     "historical_high": 8.92,
     "daily_alert_high": 7.45
   },
@@ -151,11 +155,15 @@
       {
         "time": "06:00",
         "price": 1.99
+      },
+      {
+        "time": "20:00",
+        "price": 1.95
       }
     ],
     "csqaq_id": 3293,
     "start_price": 2.09,
-    "last_price": 1.99,
+    "last_price": 1.95,
     "historical_high": 3.71,
     "daily_alert_high": 2.09
   },
@@ -183,11 +191,15 @@
       {
         "time": "18:00",
         "price": 1.73
+      },
+      {
+        "time": "20:00",
+        "price": 1.79
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.73,
-    "last_price": 1.73,
+    "last_price": 1.79,
     "historical_high": 3.28,
     "daily_alert_high": 1.79
   },
@@ -257,11 +269,15 @@
       {
         "time": "18:00",
         "price": 2.92
+      },
+      {
+        "time": "20:00",
+        "price": 2.57
       }
     ],
     "csqaq_id": 17916,
     "start_price": 2.62,
-    "last_price": 2.92,
+    "last_price": 2.57,
     "historical_high": 4.66,
     "daily_alert_high": 2.95
   },
@@ -293,11 +309,15 @@
       {
         "time": "16:00",
         "price": 0.7
+      },
+      {
+        "time": "20:00",
+        "price": 0.65
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.69,
-    "last_price": 0.7,
+    "last_price": 0.65,
     "historical_high": 1.01,
     "daily_alert_high": 0.7
   },
@@ -359,11 +379,15 @@
       {
         "time": "18:00",
         "price": 1.9
+      },
+      {
+        "time": "20:00",
+        "price": 1.91
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.92,
-    "last_price": 1.9,
+    "last_price": 1.91,
     "historical_high": 2.53,
     "daily_alert_high": 1.92
   },
@@ -414,11 +438,15 @@
       {
         "time": "12:00",
         "price": 0.67
+      },
+      {
+        "time": "20:00",
+        "price": 0.56
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.6,
-    "last_price": 0.67,
+    "last_price": 0.56,
     "historical_high": 0.73,
     "daily_alert_high": 0.67
   },
@@ -458,11 +486,15 @@
       {
         "time": "18:00",
         "price": 2.38
+      },
+      {
+        "time": "20:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.42,
-    "last_price": 2.38,
+    "last_price": 2.34,
     "historical_high": 3.57,
     "daily_alert_high": 2.49
   },
@@ -520,11 +552,15 @@
       {
         "time": "18:00",
         "price": 0.91
+      },
+      {
+        "time": "20:00",
+        "price": 0.86
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.9,
-    "last_price": 0.91,
+    "last_price": 0.86,
     "historical_high": 0.95,
     "daily_alert_high": 0.91
   },
@@ -578,11 +614,15 @@
       {
         "time": "18:00",
         "price": 3.74
+      },
+      {
+        "time": "20:00",
+        "price": 3.77
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.51,
-    "last_price": 3.74,
+    "last_price": 3.77,
     "historical_high": 4.37,
     "daily_alert_high": 3.74
   },
@@ -642,11 +682,15 @@
       {
         "time": "18:00",
         "price": 2.55
+      },
+      {
+        "time": "20:00",
+        "price": 2.42
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.5,
-    "last_price": 2.55,
+    "last_price": 2.42,
     "historical_high": 3.49,
     "daily_alert_high": 2.55
   },
@@ -725,11 +769,15 @@
       {
         "time": "18:00",
         "price": 1.92
+      },
+      {
+        "time": "20:00",
+        "price": 1.88
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.87,
-    "last_price": 1.92,
+    "last_price": 1.88,
     "historical_high": 2.49,
     "daily_alert_high": 1.95
   },
@@ -773,11 +821,15 @@
       {
         "time": "18:00",
         "price": 2.31
+      },
+      {
+        "time": "20:00",
+        "price": 2.33
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.26,
-    "last_price": 2.31,
+    "last_price": 2.33,
     "historical_high": 3.23,
     "daily_alert_high": 2.34
   },
@@ -818,11 +870,15 @@
       {
         "time": "18:00",
         "price": 2.12
+      },
+      {
+        "time": "20:00",
+        "price": 2.1
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.1,
-    "last_price": 2.12,
+    "last_price": 2.1,
     "historical_high": 2.89,
     "daily_alert_high": 2.19
   },
@@ -919,11 +975,15 @@
       {
         "time": "14:00",
         "price": 0.7
+      },
+      {
+        "time": "20:00",
+        "price": 0.78
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.78,
-    "last_price": 0.7,
+    "last_price": 0.78,
     "historical_high": 0.93,
     "daily_alert_high": 0.85
   },
@@ -952,11 +1012,15 @@
       {
         "time": "18:00",
         "price": 0.76
+      },
+      {
+        "time": "20:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.81,
-    "last_price": 0.76,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.81
   },
@@ -1039,11 +1103,15 @@
       {
         "time": "18:00",
         "price": 2.62
+      },
+      {
+        "time": "20:00",
+        "price": 2.42
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.78,
-    "last_price": 2.62,
+    "last_price": 2.42,
     "historical_high": 2.82,
     "daily_alert_high": 2.78
   },
@@ -1072,13 +1140,17 @@
       {
         "time": "18:00",
         "price": 0.62
+      },
+      {
+        "time": "20:00",
+        "price": 0.71
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.69,
-    "last_price": 0.62,
+    "last_price": 0.71,
     "historical_high": 1.36,
-    "daily_alert_high": 0.7
+    "daily_alert_high": 0.71
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
@@ -1111,11 +1183,15 @@
       {
         "time": "12:00",
         "price": 1.47
+      },
+      {
+        "time": "20:00",
+        "price": 1.5
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.42,
-    "last_price": 1.47,
+    "last_price": 1.5,
     "historical_high": 2.0,
     "daily_alert_high": 1.5
   },
@@ -1201,13 +1277,17 @@
       {
         "time": "18:00",
         "price": 1.64
+      },
+      {
+        "time": "20:00",
+        "price": 1.76
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.63,
-    "last_price": 1.64,
+    "last_price": 1.76,
     "historical_high": 1.99,
-    "daily_alert_high": 1.74
+    "daily_alert_high": 1.76
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -1256,11 +1336,15 @@
       {
         "time": "18:00",
         "price": 11.2
+      },
+      {
+        "time": "20:00",
+        "price": 10.85
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.65,
-    "last_price": 11.2,
+    "last_price": 10.85,
     "historical_high": 11.58,
     "daily_alert_high": 11.58
   }
