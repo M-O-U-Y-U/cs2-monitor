@@ -10,11 +10,15 @@
       {
         "time": "22:00",
         "price": 1.41
+      },
+      {
+        "time": "00:00",
+        "price": 1.37
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.41,
-    "last_price": 1.41,
+    "last_price": 1.37,
     "historical_high": 1.75,
     "daily_alert_high": 1.41
   },
@@ -61,13 +65,17 @@
       {
         "time": "22:00",
         "price": 7.18
+      },
+      {
+        "time": "00:00",
+        "price": 7.4
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.18,
-    "last_price": 7.18,
+    "last_price": 7.4,
     "historical_high": 8.92,
-    "daily_alert_high": 7.18
+    "daily_alert_high": 7.4
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
@@ -157,13 +165,17 @@
       {
         "time": "22:00",
         "price": 3.04
+      },
+      {
+        "time": "00:00",
+        "price": 3.24
       }
     ],
     "csqaq_id": 17916,
     "start_price": 3.04,
-    "last_price": 3.04,
+    "last_price": 3.24,
     "historical_high": 4.66,
-    "daily_alert_high": 3.04
+    "daily_alert_high": 3.24
   },
   "Sealed Graffiti | Loser (SWAT Blue)": {
     "history": []
@@ -173,13 +185,17 @@
       {
         "time": "22:00",
         "price": 0.62
+      },
+      {
+        "time": "00:00",
+        "price": 0.64
       }
     ],
-    "csqaq_id": 23870,
+    "csqaq_id": null,
     "start_price": 0.62,
-    "last_price": 0.62,
+    "last_price": 0.64,
     "historical_high": 1.01,
-    "daily_alert_high": 0.62
+    "daily_alert_high": 0.64
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -240,7 +256,7 @@
         "price": 0.67
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 17946,
     "start_price": 0.67,
     "last_price": 0.67,
     "historical_high": 0.73,
@@ -300,13 +316,17 @@
       {
         "time": "22:00",
         "price": 0.86
+      },
+      {
+        "time": "00:00",
+        "price": 0.89
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.86,
-    "last_price": 0.86,
+    "last_price": 0.89,
     "historical_high": 0.95,
-    "daily_alert_high": 0.86
+    "daily_alert_high": 0.89
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -342,13 +362,17 @@
       {
         "time": "22:00",
         "price": 3.45
+      },
+      {
+        "time": "00:00",
+        "price": 3.61
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.45,
-    "last_price": 3.45,
+    "last_price": 3.61,
     "historical_high": 4.37,
-    "daily_alert_high": 3.45
+    "daily_alert_high": 3.61
   },
   "P250 | Plum Netting (Battle-Scarred)": {
     "history": []
@@ -374,11 +398,15 @@
       {
         "time": "22:00",
         "price": 2.72
+      },
+      {
+        "time": "00:00",
+        "price": 2.7
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.72,
-    "last_price": 2.72,
+    "last_price": 2.7,
     "historical_high": 3.49,
     "daily_alert_high": 2.72
   },
@@ -408,11 +436,15 @@
       {
         "time": "昨日收盘",
         "price": 0.53
+      },
+      {
+        "time": "00:00",
+        "price": 0.55
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.53,
-    "last_price": 0.53,
+    "last_price": 0.55,
     "historical_high": 0.69,
     "daily_alert_high": 0.55
   },
@@ -437,24 +469,32 @@
       {
         "time": "22:00",
         "price": 2.48
+      },
+      {
+        "time": "00:00",
+        "price": 2.55
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.48,
-    "last_price": 2.48,
+    "last_price": 2.55,
     "historical_high": 3.23,
-    "daily_alert_high": 2.48
+    "daily_alert_high": 2.55
   },
   "Revolution Case": {
     "history": [
       {
         "time": "22:00",
         "price": 2.04
+      },
+      {
+        "time": "00:00",
+        "price": 2.0
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 16283,
     "start_price": 2.04,
-    "last_price": 2.04,
+    "last_price": 2.0,
     "historical_high": 2.89,
     "daily_alert_high": 2.04
   },
@@ -527,13 +567,17 @@
       {
         "time": "22:00",
         "price": 0.69
+      },
+      {
+        "time": "00:00",
+        "price": 0.7
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.69,
-    "last_price": 0.69,
+    "last_price": 0.7,
     "historical_high": 0.93,
-    "daily_alert_high": 0.69
+    "daily_alert_high": 0.7
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -591,11 +635,15 @@
       {
         "time": "22:00",
         "price": 2.65
+      },
+      {
+        "time": "00:00",
+        "price": 2.62
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.65,
-    "last_price": 2.65,
+    "last_price": 2.62,
     "historical_high": 2.83,
     "daily_alert_high": 2.65
   },
@@ -623,11 +671,15 @@
       {
         "time": "22:00",
         "price": 1.63
+      },
+      {
+        "time": "00:00",
+        "price": 1.44
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.63,
-    "last_price": 1.63,
+    "last_price": 1.44,
     "historical_high": 2.0,
     "daily_alert_high": 1.63
   },
@@ -677,13 +729,17 @@
       {
         "time": "22:00",
         "price": 1.54
+      },
+      {
+        "time": "00:00",
+        "price": 1.64
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.54,
-    "last_price": 1.54,
+    "last_price": 1.64,
     "historical_high": 1.99,
-    "daily_alert_high": 1.54
+    "daily_alert_high": 1.64
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -696,11 +752,15 @@
       {
         "time": "22:00",
         "price": 10.58
+      },
+      {
+        "time": "00:00",
+        "price": 10.41
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.58,
-    "last_price": 10.58,
+    "last_price": 10.41,
     "historical_high": 11.62,
     "daily_alert_high": 10.58
   }
