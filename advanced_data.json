@@ -241,11 +241,15 @@
       {
         "time": "08:00",
         "price": 0.62
+      },
+      {
+        "time": "10:00",
+        "price": 0.61
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.59,
-    "last_price": 0.62,
+    "last_price": 0.61,
     "historical_high": 1.01,
     "daily_alert_high": 0.63
   },
@@ -270,11 +274,15 @@
       {
         "time": "08:00",
         "price": 2.03
+      },
+      {
+        "time": "10:00",
+        "price": 2.02
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.02,
-    "last_price": 2.03,
+    "last_price": 2.02,
     "historical_high": 2.49,
     "daily_alert_high": 2.03
   },
@@ -295,11 +303,15 @@
       {
         "time": "08:00",
         "price": 1.9
+      },
+      {
+        "time": "10:00",
+        "price": 1.91
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.84,
-    "last_price": 1.9,
+    "last_price": 1.91,
     "historical_high": 2.53,
     "daily_alert_high": 1.91
   },
@@ -331,7 +343,7 @@
         "price": 5.53
       }
     ],
-    "csqaq_id": 14751,
+    "csqaq_id": null,
     "start_price": 5.53,
     "last_price": 5.53,
     "historical_high": 6.16,
@@ -350,11 +362,15 @@
       {
         "time": "04:00",
         "price": 0.58
+      },
+      {
+        "time": "10:00",
+        "price": 0.62
       }
     ],
-    "csqaq_id": 17946,
+    "csqaq_id": null,
     "start_price": 0.65,
-    "last_price": 0.58,
+    "last_price": 0.62,
     "historical_high": 0.73,
     "daily_alert_high": 0.65
   },
@@ -382,13 +398,17 @@
       {
         "time": "08:00",
         "price": 2.32
+      },
+      {
+        "time": "10:00",
+        "price": 2.69
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.42,
-    "last_price": 2.32,
+    "last_price": 2.69,
     "historical_high": 3.57,
-    "daily_alert_high": 2.54
+    "daily_alert_high": 2.69
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -440,13 +460,17 @@
       {
         "time": "08:00",
         "price": 0.92
+      },
+      {
+        "time": "10:00",
+        "price": 0.95
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.9,
-    "last_price": 0.92,
+    "last_price": 0.95,
     "historical_high": 0.96,
-    "daily_alert_high": 0.92
+    "daily_alert_high": 0.95
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -562,11 +586,15 @@
       {
         "time": "08:00",
         "price": 2.45
+      },
+      {
+        "time": "10:00",
+        "price": 2.64
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.37,
-    "last_price": 2.45,
+    "last_price": 2.64,
     "historical_high": 3.49,
     "daily_alert_high": 2.69
   },
@@ -641,11 +669,15 @@
       {
         "time": "08:00",
         "price": 1.79
+      },
+      {
+        "time": "10:00",
+        "price": 1.7
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.74,
-    "last_price": 1.79,
+    "last_price": 1.7,
     "historical_high": 2.49,
     "daily_alert_high": 1.79
   },
@@ -669,11 +701,15 @@
       {
         "time": "08:00",
         "price": 2.79
+      },
+      {
+        "time": "10:00",
+        "price": 2.49
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.62,
-    "last_price": 2.79,
+    "last_price": 2.49,
     "historical_high": 3.23,
     "daily_alert_high": 2.79
   },
@@ -816,11 +852,15 @@
       {
         "time": "08:00",
         "price": 0.76
+      },
+      {
+        "time": "10:00",
+        "price": 0.81
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.81,
-    "last_price": 0.76,
+    "last_price": 0.81,
     "historical_high": 0.88,
     "daily_alert_high": 0.81
   },
@@ -870,11 +910,15 @@
       {
         "time": "06:00",
         "price": 43.6
+      },
+      {
+        "time": "10:00",
+        "price": 43.33
       }
     ],
     "csqaq_id": 20826,
     "start_price": 43.61,
-    "last_price": 43.6,
+    "last_price": 43.33,
     "historical_high": 62.34,
     "daily_alert_high": 43.61
   },
@@ -920,11 +964,15 @@
       {
         "time": "06:00",
         "price": 0.62
+      },
+      {
+        "time": "10:00",
+        "price": 0.63
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.59,
-    "last_price": 0.62,
+    "last_price": 0.63,
     "historical_high": 1.36,
     "daily_alert_high": 0.64
   },
@@ -955,11 +1003,15 @@
       {
         "time": "08:00",
         "price": 1.44
+      },
+      {
+        "time": "10:00",
+        "price": 1.59
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.64,
-    "last_price": 1.44,
+    "last_price": 1.59,
     "historical_high": 2.0,
     "daily_alert_high": 1.67
   },
@@ -1021,11 +1073,15 @@
       {
         "time": "08:00",
         "price": 1.63
+      },
+      {
+        "time": "10:00",
+        "price": 1.52
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.57,
-    "last_price": 1.63,
+    "last_price": 1.52,
     "historical_high": 1.99,
     "daily_alert_high": 1.74
   },
@@ -1056,11 +1112,15 @@
       {
         "time": "08:00",
         "price": 11.38
+      },
+      {
+        "time": "10:00",
+        "price": 11.28
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.88,
-    "last_price": 11.38,
+    "last_price": 11.28,
     "historical_high": 11.62,
     "daily_alert_high": 11.38
   },
