@@ -69,13 +69,17 @@
       {
         "time": "00:00",
         "price": 7.09
+      },
+      {
+        "time": "02:00",
+        "price": 7.42
       }
     ],
     "csqaq_id": 20769,
     "start_price": 7.1,
-    "last_price": 7.09,
+    "last_price": 7.42,
     "historical_high": 8.92,
-    "daily_alert_high": 7.1
+    "daily_alert_high": 7.42
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
@@ -111,11 +115,15 @@
       {
         "time": "22:00",
         "price": 1.77
+      },
+      {
+        "time": "02:00",
+        "price": 1.72
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.77,
-    "last_price": 1.77,
+    "last_price": 1.72,
     "historical_high": 3.28,
     "daily_alert_high": 1.77
   },
@@ -165,11 +173,15 @@
       {
         "time": "22:00",
         "price": 2.69
+      },
+      {
+        "time": "02:00",
+        "price": 2.67
       }
     ],
     "csqaq_id": 17916,
     "start_price": 2.69,
-    "last_price": 2.69,
+    "last_price": 2.67,
     "historical_high": 4.66,
     "daily_alert_high": 2.69
   },
@@ -198,24 +210,32 @@
       {
         "time": "22:00",
         "price": 1.8
+      },
+      {
+        "time": "02:00",
+        "price": 1.85
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.8,
-    "last_price": 1.8,
+    "last_price": 1.85,
     "historical_high": 2.49,
-    "daily_alert_high": 1.8
+    "daily_alert_high": 1.85
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
       {
         "time": "22:00",
         "price": 1.96
+      },
+      {
+        "time": "02:00",
+        "price": 1.97
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.96,
-    "last_price": 1.96,
+    "last_price": 1.97,
     "historical_high": 2.53,
     "daily_alert_high": 1.96
   },
@@ -243,7 +263,7 @@
         "price": 5.49
       }
     ],
-    "csqaq_id": 14751,
+    "csqaq_id": null,
     "start_price": 5.77,
     "last_price": 5.49,
     "historical_high": 6.16,
@@ -254,13 +274,17 @@
       {
         "time": "22:00",
         "price": 0.56
+      },
+      {
+        "time": "02:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.56,
-    "last_price": 0.56,
+    "last_price": 0.62,
     "historical_high": 0.73,
-    "daily_alert_high": 0.56
+    "daily_alert_high": 0.62
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -274,13 +298,17 @@
       {
         "time": "00:00",
         "price": 2.56
+      },
+      {
+        "time": "02:00",
+        "price": 2.65
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.62,
-    "last_price": 2.56,
+    "last_price": 2.65,
     "historical_high": 3.57,
-    "daily_alert_high": 2.62
+    "daily_alert_high": 2.65
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -366,11 +394,15 @@
       {
         "time": "22:00",
         "price": 3.26
+      },
+      {
+        "time": "02:00",
+        "price": 3.27
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.26,
-    "last_price": 3.26,
+    "last_price": 3.27,
     "historical_high": 4.37,
     "daily_alert_high": 3.26
   },
@@ -406,11 +438,15 @@
       {
         "time": "00:00",
         "price": 2.71
+      },
+      {
+        "time": "02:00",
+        "price": 2.39
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.81,
-    "last_price": 2.71,
+    "last_price": 2.39,
     "historical_high": 3.49,
     "daily_alert_high": 2.81
   },
@@ -444,11 +480,15 @@
       {
         "time": "00:00",
         "price": 0.57
+      },
+      {
+        "time": "02:00",
+        "price": 0.56
       }
     ],
     "csqaq_id": 22038,
     "start_price": 0.56,
-    "last_price": 0.57,
+    "last_price": 0.56,
     "historical_high": 0.69,
     "daily_alert_high": 0.57
   },
@@ -461,11 +501,15 @@
       {
         "time": "00:00",
         "price": 1.89
+      },
+      {
+        "time": "02:00",
+        "price": 1.72
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.95,
-    "last_price": 1.89,
+    "last_price": 1.72,
     "historical_high": 2.49,
     "daily_alert_high": 1.95
   },
@@ -481,11 +525,15 @@
       {
         "time": "00:00",
         "price": 2.67
+      },
+      {
+        "time": "02:00",
+        "price": 2.49
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.62,
-    "last_price": 2.67,
+    "last_price": 2.49,
     "historical_high": 3.23,
     "daily_alert_high": 2.67
   },
@@ -494,11 +542,15 @@
       {
         "time": "22:00",
         "price": 2.09
+      },
+      {
+        "time": "02:00",
+        "price": 2.03
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.09,
-    "last_price": 2.09,
+    "last_price": 2.03,
     "historical_high": 2.89,
     "daily_alert_high": 2.09
   },
@@ -571,11 +623,15 @@
       {
         "time": "22:00",
         "price": 0.72
+      },
+      {
+        "time": "02:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.72,
-    "last_price": 0.72,
+    "last_price": 0.69,
     "historical_high": 0.93,
     "daily_alert_high": 0.72
   },
@@ -588,13 +644,17 @@
       {
         "time": "00:00",
         "price": 0.76
+      },
+      {
+        "time": "02:00",
+        "price": 0.77
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.68,
-    "last_price": 0.76,
+    "last_price": 0.77,
     "historical_high": 0.88,
-    "daily_alert_high": 0.76
+    "daily_alert_high": 0.77
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -647,11 +707,15 @@
       {
         "time": "00:00",
         "price": 2.99
+      },
+      {
+        "time": "02:00",
+        "price": 2.89
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.96,
-    "last_price": 2.99,
+    "last_price": 2.89,
     "historical_high": 2.99,
     "daily_alert_high": 2.99
   },
@@ -683,11 +747,15 @@
       {
         "time": "00:00",
         "price": 1.58
+      },
+      {
+        "time": "02:00",
+        "price": 1.59
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.57,
-    "last_price": 1.58,
+    "last_price": 1.59,
     "historical_high": 2.0,
     "daily_alert_high": 1.57
   },
@@ -741,11 +809,15 @@
       {
         "time": "00:00",
         "price": 1.54
+      },
+      {
+        "time": "02:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.58,
-    "last_price": 1.54,
+    "last_price": 1.56,
     "historical_high": 1.99,
     "daily_alert_high": 1.58
   },
@@ -764,11 +836,15 @@
       {
         "time": "00:00",
         "price": 11.18
+      },
+      {
+        "time": "02:00",
+        "price": 11.2
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.84,
-    "last_price": 11.18,
+    "last_price": 11.2,
     "historical_high": 11.62,
     "daily_alert_high": 11.18
   },
