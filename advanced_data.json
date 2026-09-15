@@ -173,13 +173,17 @@
       {
         "time": "22:00",
         "price": 0.6
+      },
+      {
+        "time": "00:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.6,
-    "last_price": 0.6,
+    "last_price": 0.62,
     "historical_high": 1.01,
-    "daily_alert_high": 0.6
+    "daily_alert_high": 0.62
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -696,11 +700,15 @@
       {
         "time": "22:00",
         "price": 11.15
+      },
+      {
+        "time": "00:00",
+        "price": 11.13
       }
     ],
     "csqaq_id": 14675,
     "start_price": 11.15,
-    "last_price": 11.15,
+    "last_price": 11.13,
     "historical_high": 11.62,
     "daily_alert_high": 11.15
   },
@@ -712,11 +720,15 @@
       {
         "time": "22:00",
         "price": 1.99
+      },
+      {
+        "time": "00:00",
+        "price": 1.98
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.99,
-    "last_price": 1.99,
+    "last_price": 1.98,
     "historical_high": 2.26,
     "daily_alert_high": 1.99
   }
