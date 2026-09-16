@@ -61,11 +61,15 @@
       {
         "time": "22:00",
         "price": 6.9
+      },
+      {
+        "time": "00:00",
+        "price": 6.96
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.9,
-    "last_price": 6.9,
+    "last_price": 6.96,
     "historical_high": 8.92,
     "daily_alert_high": 6.9
   },
@@ -173,24 +177,32 @@
       {
         "time": "22:00",
         "price": 0.6
+      },
+      {
+        "time": "00:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.6,
-    "last_price": 0.6,
+    "last_price": 0.62,
     "historical_high": 1.01,
-    "daily_alert_high": 0.6
+    "daily_alert_high": 0.62
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
       {
         "time": "22:00",
         "price": 2.0
+      },
+      {
+        "time": "00:00",
+        "price": 1.73
       }
     ],
     "csqaq_id": 22213,
     "start_price": 2.0,
-    "last_price": 2.0,
+    "last_price": 1.73,
     "historical_high": 2.49,
     "daily_alert_high": 2.0
   },
@@ -199,11 +211,15 @@
       {
         "time": "22:00",
         "price": 1.85
+      },
+      {
+        "time": "00:00",
+        "price": 1.8
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.85,
-    "last_price": 1.85,
+    "last_price": 1.8,
     "historical_high": 2.53,
     "daily_alert_high": 1.85
   },
@@ -238,11 +254,15 @@
       {
         "time": "22:00",
         "price": 0.69
+      },
+      {
+        "time": "00:00",
+        "price": 0.61
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.69,
-    "last_price": 0.69,
+    "last_price": 0.61,
     "historical_high": 0.73,
     "daily_alert_high": 0.69
   },
@@ -254,13 +274,17 @@
       {
         "time": "22:00",
         "price": 2.42
+      },
+      {
+        "time": "00:00",
+        "price": 2.81
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.42,
-    "last_price": 2.42,
+    "last_price": 2.81,
     "historical_high": 3.57,
-    "daily_alert_high": 2.42
+    "daily_alert_high": 2.81
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -300,11 +324,15 @@
       {
         "time": "22:00",
         "price": 0.89
+      },
+      {
+        "time": "00:00",
+        "price": 0.85
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.89,
-    "last_price": 0.89,
+    "last_price": 0.85,
     "historical_high": 0.99,
     "daily_alert_high": 0.89
   },
@@ -374,13 +402,17 @@
       {
         "time": "22:00",
         "price": 2.34
+      },
+      {
+        "time": "00:00",
+        "price": 2.43
       }
     ],
-    "csqaq_id": 18120,
+    "csqaq_id": null,
     "start_price": 2.34,
-    "last_price": 2.34,
+    "last_price": 2.43,
     "historical_high": 3.49,
-    "daily_alert_high": 2.34
+    "daily_alert_high": 2.43
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
@@ -437,24 +469,32 @@
       {
         "time": "22:00",
         "price": 2.26
+      },
+      {
+        "time": "00:00",
+        "price": 2.33
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.26,
-    "last_price": 2.26,
+    "last_price": 2.33,
     "historical_high": 3.23,
-    "daily_alert_high": 2.26
+    "daily_alert_high": 2.33
   },
   "Revolution Case": {
     "history": [
       {
         "time": "22:00",
         "price": 2.07
+      },
+      {
+        "time": "00:00",
+        "price": 2.04
       }
     ],
     "csqaq_id": 16283,
     "start_price": 2.07,
-    "last_price": 2.07,
+    "last_price": 2.04,
     "historical_high": 2.89,
     "daily_alert_high": 2.07
   },
@@ -527,13 +567,17 @@
       {
         "time": "22:00",
         "price": 0.67
+      },
+      {
+        "time": "00:00",
+        "price": 0.73
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.67,
-    "last_price": 0.67,
+    "last_price": 0.73,
     "historical_high": 0.93,
-    "daily_alert_high": 0.67
+    "daily_alert_high": 0.73
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -578,11 +622,15 @@
       {
         "time": "22:00",
         "price": 39.63
+      },
+      {
+        "time": "00:00",
+        "price": 39.68
       }
     ],
     "csqaq_id": 20826,
     "start_price": 39.63,
-    "last_price": 39.63,
+    "last_price": 39.68,
     "historical_high": 62.34,
     "daily_alert_high": 39.63
   },
@@ -591,11 +639,15 @@
       {
         "time": "22:00",
         "price": 2.24
+      },
+      {
+        "time": "00:00",
+        "price": 2.16
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.24,
-    "last_price": 2.24,
+    "last_price": 2.16,
     "historical_high": 3.04,
     "daily_alert_high": 2.24
   },
@@ -604,11 +656,15 @@
       {
         "time": "22:00",
         "price": 0.6
+      },
+      {
+        "time": "00:00",
+        "price": 0.59
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.6,
-    "last_price": 0.6,
+    "last_price": 0.59,
     "historical_high": 1.36,
     "daily_alert_high": 0.6
   },
@@ -623,11 +679,15 @@
       {
         "time": "22:00",
         "price": 1.62
+      },
+      {
+        "time": "00:00",
+        "price": 1.5
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.62,
-    "last_price": 1.62,
+    "last_price": 1.5,
     "historical_high": 2.0,
     "daily_alert_high": 1.62
   },
@@ -677,13 +737,17 @@
       {
         "time": "22:00",
         "price": 1.45
+      },
+      {
+        "time": "00:00",
+        "price": 1.74
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.45,
-    "last_price": 1.45,
+    "last_price": 1.74,
     "historical_high": 1.99,
-    "daily_alert_high": 1.45
+    "daily_alert_high": 1.74
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -696,11 +760,15 @@
       {
         "time": "22:00",
         "price": 10.39
+      },
+      {
+        "time": "00:00",
+        "price": 10.35
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.39,
-    "last_price": 10.39,
+    "last_price": 10.35,
     "historical_high": 11.62,
     "daily_alert_high": 10.39
   },
@@ -712,12 +780,16 @@
       {
         "time": "22:00",
         "price": 1.85
+      },
+      {
+        "time": "00:00",
+        "price": 1.87
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.85,
-    "last_price": 1.85,
+    "last_price": 1.87,
     "historical_high": 2.26,
-    "daily_alert_high": 1.85
+    "daily_alert_high": 1.87
   }
 }
