@@ -10,11 +10,15 @@
       {
         "time": "22:00",
         "price": 1.2
+      },
+      {
+        "time": "02:00",
+        "price": 1.18
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.2,
-    "last_price": 1.2,
+    "last_price": 1.18,
     "historical_high": 1.75,
     "daily_alert_high": 1.2
   },
@@ -65,11 +69,15 @@
       {
         "time": "00:00",
         "price": 6.57
+      },
+      {
+        "time": "02:00",
+        "price": 6.59
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.59,
-    "last_price": 6.57,
+    "last_price": 6.59,
     "historical_high": 8.92,
     "daily_alert_high": 6.59
   },
@@ -95,11 +103,15 @@
       {
         "time": "00:00",
         "price": 7.64
+      },
+      {
+        "time": "02:00",
+        "price": 5.82
       }
     ],
     "csqaq_id": 3293,
     "start_price": 7.75,
-    "last_price": 7.64,
+    "last_price": 5.82,
     "historical_high": 11.06,
     "daily_alert_high": 7.75
   },
@@ -169,11 +181,15 @@
       {
         "time": "22:00",
         "price": 4.18
+      },
+      {
+        "time": "02:00",
+        "price": 3.81
       }
     ],
     "csqaq_id": 17916,
     "start_price": 4.18,
-    "last_price": 4.18,
+    "last_price": 3.81,
     "historical_high": 4.66,
     "daily_alert_high": 4.18
   },
@@ -206,11 +222,15 @@
       {
         "time": "00:00",
         "price": 1.69
+      },
+      {
+        "time": "02:00",
+        "price": 1.7
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.7,
-    "last_price": 1.69,
+    "last_price": 1.7,
     "historical_high": 2.49,
     "daily_alert_high": 1.7
   },
@@ -223,13 +243,17 @@
       {
         "time": "00:00",
         "price": 1.77
+      },
+      {
+        "time": "02:00",
+        "price": 1.9
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.85,
-    "last_price": 1.77,
+    "last_price": 1.9,
     "historical_high": 2.53,
-    "daily_alert_high": 1.85
+    "daily_alert_high": 1.9
   },
   "MP9 | Pine (Factory New)": {
     "history": [
@@ -253,11 +277,15 @@
       {
         "time": "00:00",
         "price": 5.43
+      },
+      {
+        "time": "02:00",
+        "price": 5.48
       }
     ],
     "csqaq_id": 14751,
     "start_price": 5.08,
-    "last_price": 5.43,
+    "last_price": 5.48,
     "historical_high": 6.16,
     "daily_alert_high": 5.43
   },
@@ -270,11 +298,15 @@
       {
         "time": "00:00",
         "price": 0.67
+      },
+      {
+        "time": "02:00",
+        "price": 0.61
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.58,
-    "last_price": 0.67,
+    "last_price": 0.61,
     "historical_high": 0.73,
     "daily_alert_high": 0.67
   },
@@ -286,13 +318,17 @@
       {
         "time": "22:00",
         "price": 2.95
+      },
+      {
+        "time": "02:00",
+        "price": 3.03
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.95,
-    "last_price": 2.95,
+    "last_price": 3.03,
     "historical_high": 4.8,
-    "daily_alert_high": 2.95
+    "daily_alert_high": 3.03
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -378,11 +414,15 @@
       {
         "time": "00:00",
         "price": 3.41
+      },
+      {
+        "time": "02:00",
+        "price": 3.3
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.38,
-    "last_price": 3.41,
+    "last_price": 3.3,
     "historical_high": 4.37,
     "daily_alert_high": 3.38
   },
@@ -414,11 +454,15 @@
       {
         "time": "00:00",
         "price": 2.41
+      },
+      {
+        "time": "02:00",
+        "price": 2.27
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 18120,
     "start_price": 2.24,
-    "last_price": 2.41,
+    "last_price": 2.27,
     "historical_high": 3.49,
     "daily_alert_high": 2.41
   },
@@ -461,13 +505,17 @@
       {
         "time": "22:00",
         "price": 1.7
+      },
+      {
+        "time": "02:00",
+        "price": 1.75
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.7,
-    "last_price": 1.7,
+    "last_price": 1.75,
     "historical_high": 2.49,
-    "daily_alert_high": 1.7
+    "daily_alert_high": 1.75
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -481,11 +529,15 @@
       {
         "time": "00:00",
         "price": 2.43
+      },
+      {
+        "time": "02:00",
+        "price": 2.41
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.25,
-    "last_price": 2.43,
+    "last_price": 2.41,
     "historical_high": 3.23,
     "daily_alert_high": 2.43
   },
@@ -592,11 +644,15 @@
       {
         "time": "22:00",
         "price": 0.82
+      },
+      {
+        "time": "02:00",
+        "price": 0.69
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.82,
-    "last_price": 0.82,
+    "last_price": 0.69,
     "historical_high": 0.88,
     "daily_alert_high": 0.82
   },
@@ -630,11 +686,15 @@
       {
         "time": "22:00",
         "price": 41.98
+      },
+      {
+        "time": "02:00",
+        "price": 41.8
       }
     ],
     "csqaq_id": 20826,
     "start_price": 41.98,
-    "last_price": 41.98,
+    "last_price": 41.8,
     "historical_high": 62.34,
     "daily_alert_high": 41.98
   },
@@ -647,26 +707,34 @@
       {
         "time": "00:00",
         "price": 2.31
+      },
+      {
+        "time": "02:00",
+        "price": 2.39
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.3,
-    "last_price": 2.31,
+    "last_price": 2.39,
     "historical_high": 3.04,
-    "daily_alert_high": 2.3
+    "daily_alert_high": 2.39
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
       {
         "time": "22:00",
         "price": 0.56
+      },
+      {
+        "time": "02:00",
+        "price": 0.59
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.56,
-    "last_price": 0.56,
+    "last_price": 0.59,
     "historical_high": 1.36,
-    "daily_alert_high": 0.56
+    "daily_alert_high": 0.59
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
@@ -683,13 +751,17 @@
       {
         "time": "00:00",
         "price": 1.52
+      },
+      {
+        "time": "02:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.53,
-    "last_price": 1.52,
+    "last_price": 1.56,
     "historical_high": 2.0,
-    "daily_alert_high": 1.53
+    "daily_alert_high": 1.56
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -764,11 +836,15 @@
       {
         "time": "00:00",
         "price": 10.72
+      },
+      {
+        "time": "02:00",
+        "price": 10.51
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.15,
-    "last_price": 10.72,
+    "last_price": 10.51,
     "historical_high": 11.62,
     "daily_alert_high": 10.72
   },
@@ -784,13 +860,17 @@
       {
         "time": "00:00",
         "price": 1.8
+      },
+      {
+        "time": "02:00",
+        "price": 1.87
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.84,
-    "last_price": 1.8,
+    "last_price": 1.87,
     "historical_high": 2.26,
-    "daily_alert_high": 1.84
+    "daily_alert_high": 1.87
   },
   "FAMAS | Byproduct (Factory New)": {
     "history": []
