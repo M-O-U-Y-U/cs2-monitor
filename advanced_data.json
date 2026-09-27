@@ -69,11 +69,15 @@
       {
         "time": "08:00",
         "price": 6.29
+      },
+      {
+        "time": "10:00",
+        "price": 6.26
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.45,
-    "last_price": 6.29,
+    "last_price": 6.26,
     "historical_high": 8.92,
     "daily_alert_high": 6.45
   },
@@ -231,13 +235,17 @@
       {
         "time": "08:00",
         "price": 1.68
+      },
+      {
+        "time": "10:00",
+        "price": 1.75
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.61,
-    "last_price": 1.68,
+    "last_price": 1.75,
     "historical_high": 2.53,
-    "daily_alert_high": 1.68
+    "daily_alert_high": 1.75
   },
   "MP9 | Pine (Factory New)": {
     "history": [
@@ -274,11 +282,15 @@
       {
         "time": "08:00",
         "price": 0.62
+      },
+      {
+        "time": "10:00",
+        "price": 0.57
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.59,
-    "last_price": 0.62,
+    "last_price": 0.57,
     "historical_high": 0.73,
     "daily_alert_high": 0.62
   },
@@ -294,11 +306,15 @@
       {
         "time": "08:00",
         "price": 3.16
+      },
+      {
+        "time": "10:00",
+        "price": 3.13
       }
     ],
     "csqaq_id": 13187,
     "start_price": 4.6,
-    "last_price": 3.16,
+    "last_price": 3.13,
     "historical_high": 5.11,
     "daily_alert_high": 4.6
   },
@@ -344,11 +360,15 @@
       {
         "time": "08:00",
         "price": 0.91
+      },
+      {
+        "time": "10:00",
+        "price": 0.89
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.88,
-    "last_price": 0.91,
+    "last_price": 0.89,
     "historical_high": 0.99,
     "daily_alert_high": 0.91
   },
@@ -390,11 +410,15 @@
       {
         "time": "08:00",
         "price": 3.81
+      },
+      {
+        "time": "10:00",
+        "price": 3.52
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.42,
-    "last_price": 3.81,
+    "last_price": 3.52,
     "historical_high": 4.37,
     "daily_alert_high": 3.81
   },
@@ -473,13 +497,17 @@
       {
         "time": "昨日收盘",
         "price": 1.68
+      },
+      {
+        "time": "10:00",
+        "price": 1.7
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.68,
-    "last_price": 1.68,
+    "last_price": 1.7,
     "historical_high": 2.49,
-    "daily_alert_high": 1.68
+    "daily_alert_high": 1.7
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -761,11 +789,15 @@
       {
         "time": "08:00",
         "price": 1.51
+      },
+      {
+        "time": "10:00",
+        "price": 1.58
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.69,
-    "last_price": 1.51,
+    "last_price": 1.58,
     "historical_high": 1.99,
     "daily_alert_high": 1.69
   },
@@ -784,11 +816,15 @@
       {
         "time": "08:00",
         "price": 10.44
+      },
+      {
+        "time": "10:00",
+        "price": 10.32
       }
     ],
     "csqaq_id": 14675,
     "start_price": 10.01,
-    "last_price": 10.44,
+    "last_price": 10.32,
     "historical_high": 11.62,
     "daily_alert_high": 10.44
   },
@@ -804,11 +840,15 @@
       {
         "time": "08:00",
         "price": 1.85
+      },
+      {
+        "time": "10:00",
+        "price": 1.73
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.86,
-    "last_price": 1.85,
+    "last_price": 1.73,
     "historical_high": 2.26,
     "daily_alert_high": 1.86
   },
