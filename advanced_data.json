@@ -22,11 +22,15 @@
       {
         "time": "08:00",
         "price": 1.12
+      },
+      {
+        "time": "10:00",
+        "price": 1.11
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.08,
-    "last_price": 1.12,
+    "last_price": 1.11,
     "historical_high": 1.75,
     "daily_alert_high": 1.13
   },
@@ -81,11 +85,15 @@
       {
         "time": "08:00",
         "price": 6.32
+      },
+      {
+        "time": "10:00",
+        "price": 6.36
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.17,
-    "last_price": 6.32,
+    "last_price": 6.36,
     "historical_high": 8.92,
     "daily_alert_high": 6.32
   },
@@ -193,11 +201,15 @@
       {
         "time": "08:00",
         "price": 4.42
+      },
+      {
+        "time": "10:00",
+        "price": 4.33
       }
     ],
     "csqaq_id": 17916,
     "start_price": 4.1,
-    "last_price": 4.42,
+    "last_price": 4.33,
     "historical_high": 4.66,
     "daily_alert_high": 4.42
   },
@@ -221,13 +233,17 @@
       {
         "time": "08:00",
         "price": 0.54
+      },
+      {
+        "time": "10:00",
+        "price": 0.57
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.51,
-    "last_price": 0.54,
+    "last_price": 0.57,
     "historical_high": 1.01,
-    "daily_alert_high": 0.56
+    "daily_alert_high": 0.57
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -271,11 +287,15 @@
       {
         "time": "08:00",
         "price": 1.7
+      },
+      {
+        "time": "10:00",
+        "price": 1.62
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.69,
-    "last_price": 1.7,
+    "last_price": 1.62,
     "historical_high": 2.53,
     "daily_alert_high": 1.7
   },
@@ -318,11 +338,15 @@
       {
         "time": "02:00",
         "price": 0.52
+      },
+      {
+        "time": "10:00",
+        "price": 0.58
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.55,
-    "last_price": 0.52,
+    "last_price": 0.58,
     "historical_high": 0.73,
     "daily_alert_high": 0.62
   },
@@ -342,11 +366,15 @@
       {
         "time": "02:00",
         "price": 2.79
+      },
+      {
+        "time": "10:00",
+        "price": 2.78
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.15,
-    "last_price": 2.79,
+    "last_price": 2.78,
     "historical_high": 5.11,
     "daily_alert_high": 3.23
   },
@@ -486,11 +514,15 @@
       {
         "time": "08:00",
         "price": 2.42
+      },
+      {
+        "time": "10:00",
+        "price": 2.35
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.3,
-    "last_price": 2.42,
+    "last_price": 2.35,
     "historical_high": 3.49,
     "daily_alert_high": 2.42
   },
@@ -537,11 +569,15 @@
       {
         "time": "08:00",
         "price": 1.55
+      },
+      {
+        "time": "10:00",
+        "price": 1.51
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.54,
-    "last_price": 1.55,
+    "last_price": 1.51,
     "historical_high": 2.49,
     "daily_alert_high": 1.54
   },
@@ -561,11 +597,15 @@
       {
         "time": "08:00",
         "price": 2.09
+      },
+      {
+        "time": "10:00",
+        "price": 2.01
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.01,
-    "last_price": 2.09,
+    "last_price": 2.01,
     "historical_high": 3.23,
     "daily_alert_high": 2.18
   },
@@ -586,13 +626,17 @@
       {
         "time": "08:00",
         "price": 1.63
+      },
+      {
+        "time": "10:00",
+        "price": 1.65
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.53,
-    "last_price": 1.63,
+    "last_price": 1.65,
     "historical_high": 2.89,
-    "daily_alert_high": 1.63
+    "daily_alert_high": 1.65
   },
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
     "history": [
@@ -671,11 +715,15 @@
       {
         "time": "08:00",
         "price": 0.62
+      },
+      {
+        "time": "10:00",
+        "price": 0.63
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.68,
-    "last_price": 0.62,
+    "last_price": 0.63,
     "historical_high": 0.93,
     "daily_alert_high": 0.68
   },
@@ -734,13 +782,17 @@
       {
         "time": "08:00",
         "price": 38.75
+      },
+      {
+        "time": "10:00",
+        "price": 39.6
       }
     ],
     "csqaq_id": 20826,
     "start_price": 39.0,
-    "last_price": 38.75,
+    "last_price": 39.6,
     "historical_high": 62.34,
-    "daily_alert_high": 39.0
+    "daily_alert_high": 39.6
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
@@ -755,11 +807,15 @@
       {
         "time": "08:00",
         "price": 2.45
+      },
+      {
+        "time": "10:00",
+        "price": 2.33
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.16,
-    "last_price": 2.45,
+    "last_price": 2.33,
     "historical_high": 3.04,
     "daily_alert_high": 2.45
   },
@@ -865,11 +921,15 @@
       {
         "time": "08:00",
         "price": 1.48
+      },
+      {
+        "time": "10:00",
+        "price": 1.46
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.48,
-    "last_price": 1.48,
+    "last_price": 1.46,
     "historical_high": 1.99,
     "daily_alert_high": 1.5
   },
@@ -896,11 +956,15 @@
       {
         "time": "08:00",
         "price": 9.97
+      },
+      {
+        "time": "10:00",
+        "price": 10.0
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.69,
-    "last_price": 9.97,
+    "last_price": 10.0,
     "historical_high": 11.62,
     "daily_alert_high": 9.97
   },
@@ -924,11 +988,15 @@
       {
         "time": "08:00",
         "price": 1.7
+      },
+      {
+        "time": "10:00",
+        "price": 1.66
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.78,
-    "last_price": 1.7,
+    "last_price": 1.66,
     "historical_high": 2.26,
     "daily_alert_high": 1.78
   },
