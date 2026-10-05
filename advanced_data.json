@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_report_date": "2026-10-03"
+    "last_report_date": "2026-10-05"
   },
   "MAG-7 | Copper Oxide (Field-Tested)": {
     "history": []
@@ -9,46 +9,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.08
-      },
-      {
-        "time": "00:00",
-        "price": 1.07
-      },
-      {
-        "time": "02:00",
-        "price": 1.13
-      },
-      {
-        "time": "08:00",
-        "price": 1.12
-      },
-      {
-        "time": "10:00",
-        "price": 1.11
-      },
-      {
-        "time": "14:00",
-        "price": 1.08
-      },
-      {
-        "time": "08:00",
-        "price": 1.12
-      },
-      {
-        "time": "10:00",
-        "price": 1.11
-      },
-      {
-        "time": "20:00",
-        "price": 1.07
+        "price": 1.06
       }
     ],
     "csqaq_id": 19521,
-    "start_price": 1.08,
-    "last_price": 1.07,
+    "start_price": 1.06,
+    "last_price": 1.06,
     "historical_high": 1.75,
-    "daily_alert_high": 1.13
+    "daily_alert_high": 1.06
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -92,44 +60,12 @@
     "history": [
       {
         "time": "22:00",
-        "price": 6.17
-      },
-      {
-        "time": "00:00",
-        "price": 6.18
-      },
-      {
-        "time": "08:00",
-        "price": 6.32
-      },
-      {
-        "time": "10:00",
         "price": 6.36
-      },
-      {
-        "time": "12:00",
-        "price": 6.35
-      },
-      {
-        "time": "14:00",
-        "price": 6.29
-      },
-      {
-        "time": "08:00",
-        "price": 6.36
-      },
-      {
-        "time": "10:00",
-        "price": 6.41
-      },
-      {
-        "time": "20:00",
-        "price": 6.22
       }
     ],
     "csqaq_id": 20769,
-    "start_price": 6.17,
-    "last_price": 6.22,
+    "start_price": 6.36,
+    "last_price": 6.36,
     "historical_high": 8.92,
     "daily_alert_high": 6.36
   },
@@ -150,22 +86,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.33
-      },
-      {
-        "time": "00:00",
-        "price": 1.63
-      },
-      {
-        "time": "08:00",
         "price": 1.48
       }
     ],
     "csqaq_id": 3293,
-    "start_price": 1.33,
+    "start_price": 1.48,
     "last_price": 1.48,
     "historical_high": 11.06,
-    "daily_alert_high": 1.63
+    "daily_alert_high": 1.48
   },
   "Sealed Graffiti | GGWP (Wire Blue)": {
     "history": []
@@ -175,15 +103,11 @@
       {
         "time": "22:00",
         "price": 1.39
-      },
-      {
-        "time": "08:00",
-        "price": 1.37
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.39,
-    "last_price": 1.37,
+    "last_price": 1.39,
     "historical_high": 3.28,
     "daily_alert_high": 1.39
   },
@@ -232,50 +156,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 4.1
-      },
-      {
-        "time": "00:00",
-        "price": 4.17
-      },
-      {
-        "time": "02:00",
-        "price": 4.31
-      },
-      {
-        "time": "08:00",
-        "price": 4.42
-      },
-      {
-        "time": "10:00",
-        "price": 4.33
-      },
-      {
-        "time": "12:00",
-        "price": 4.51
-      },
-      {
-        "time": "14:00",
-        "price": 4.42
-      },
-      {
-        "time": "08:00",
-        "price": 3.8
-      },
-      {
-        "time": "10:00",
-        "price": 4.48
-      },
-      {
-        "time": "20:00",
-        "price": 4.1
+        "price": 4.45
       }
     ],
     "csqaq_id": 17916,
-    "start_price": 4.1,
-    "last_price": 4.1,
+    "start_price": 4.45,
+    "last_price": 4.45,
     "historical_high": 4.66,
-    "daily_alert_high": 4.51
+    "daily_alert_high": 4.45
   },
   "Sealed Graffiti | Loser (SWAT Blue)": {
     "history": []
@@ -284,81 +172,25 @@
     "history": [
       {
         "time": "22:00",
-        "price": 0.51
-      },
-      {
-        "time": "00:00",
-        "price": 0.56
-      },
-      {
-        "time": "02:00",
         "price": 0.55
-      },
-      {
-        "time": "08:00",
-        "price": 0.54
-      },
-      {
-        "time": "10:00",
-        "price": 0.57
-      },
-      {
-        "time": "12:00",
-        "price": 0.52
-      },
-      {
-        "time": "08:00",
-        "price": 0.58
-      },
-      {
-        "time": "10:00",
-        "price": 0.57
-      },
-      {
-        "time": "20:00",
-        "price": 0.53
       }
     ],
     "csqaq_id": 23870,
-    "start_price": 0.51,
-    "last_price": 0.53,
+    "start_price": 0.55,
+    "last_price": 0.55,
     "historical_high": 1.01,
-    "daily_alert_high": 0.58
+    "daily_alert_high": 0.55
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
       {
         "time": "22:00",
-        "price": 1.62
-      },
-      {
-        "time": "00:00",
-        "price": 1.57
-      },
-      {
-        "time": "02:00",
-        "price": 1.58
-      },
-      {
-        "time": "08:00",
         "price": 1.67
-      },
-      {
-        "time": "08:00",
-        "price": 1.57
-      },
-      {
-        "time": "10:00",
-        "price": 1.63
-      },
-      {
-        "time": "20:00",
-        "price": 1.62
       }
     ],
     "csqaq_id": 22213,
-    "start_price": 1.62,
-    "last_price": 1.62,
+    "start_price": 1.67,
+    "last_price": 1.67,
     "historical_high": 2.49,
     "daily_alert_high": 1.67
   },
@@ -366,42 +198,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.69
-      },
-      {
-        "time": "00:00",
-        "price": 1.62
-      },
-      {
-        "time": "02:00",
-        "price": 1.68
-      },
-      {
-        "time": "08:00",
-        "price": 1.7
-      },
-      {
-        "time": "10:00",
-        "price": 1.62
-      },
-      {
-        "time": "12:00",
-        "price": 1.55
-      },
-      {
-        "time": "08:00",
-        "price": 1.57
-      },
-      {
-        "time": "20:00",
-        "price": 1.55
+        "price": 1.72
       }
     ],
     "csqaq_id": 14710,
-    "start_price": 1.69,
-    "last_price": 1.55,
+    "start_price": 1.72,
+    "last_price": 1.72,
     "historical_high": 2.53,
-    "daily_alert_high": 1.7
+    "daily_alert_high": 1.72
   },
   "MP9 | Pine (Factory New)": {
     "history": [
@@ -420,71 +224,27 @@
     "history": [
       {
         "time": "22:00",
-        "price": 4.84
-      },
-      {
-        "time": "12:00",
-        "price": 4.83
-      },
-      {
-        "time": "08:00",
-        "price": 4.73
-      },
-      {
-        "time": "10:00",
-        "price": 4.6
-      },
-      {
-        "time": "20:00",
         "price": 4.65
       }
     ],
     "csqaq_id": 14751,
-    "start_price": 4.84,
+    "start_price": 4.65,
     "last_price": 4.65,
     "historical_high": 6.16,
-    "daily_alert_high": 4.84
+    "daily_alert_high": 4.65
   },
   "Sawed-Off | Spirit Board (Well-Worn)": {
     "history": [
       {
         "time": "22:00",
         "price": 0.55
-      },
-      {
-        "time": "00:00",
-        "price": 0.62
-      },
-      {
-        "time": "02:00",
-        "price": 0.52
-      },
-      {
-        "time": "10:00",
-        "price": 0.58
-      },
-      {
-        "time": "12:00",
-        "price": 0.64
-      },
-      {
-        "time": "08:00",
-        "price": 0.58
-      },
-      {
-        "time": "10:00",
-        "price": 0.53
-      },
-      {
-        "time": "20:00",
-        "price": 0.54
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.55,
-    "last_price": 0.54,
+    "last_price": 0.55,
     "historical_high": 0.73,
-    "daily_alert_high": 0.64
+    "daily_alert_high": 0.55
   },
   "CZ75-Auto | Honey Paisley (Field-Tested)": {
     "history": []
@@ -493,38 +253,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 3.15
-      },
-      {
-        "time": "00:00",
-        "price": 3.23
-      },
-      {
-        "time": "02:00",
-        "price": 2.79
-      },
-      {
-        "time": "10:00",
-        "price": 2.78
-      },
-      {
-        "time": "12:00",
-        "price": 2.76
-      },
-      {
-        "time": "08:00",
-        "price": 2.54
-      },
-      {
-        "time": "20:00",
-        "price": 2.56
+        "price": 2.55
       }
     ],
     "csqaq_id": 13187,
-    "start_price": 3.15,
-    "last_price": 2.56,
+    "start_price": 2.55,
+    "last_price": 2.55,
     "historical_high": 5.11,
-    "daily_alert_high": 3.23
+    "daily_alert_high": 2.55
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -563,36 +299,12 @@
     "history": [
       {
         "time": "22:00",
-        "price": 0.79
-      },
-      {
-        "time": "02:00",
-        "price": 0.81
-      },
-      {
-        "time": "08:00",
-        "price": 0.82
-      },
-      {
-        "time": "14:00",
-        "price": 0.8
-      },
-      {
-        "time": "08:00",
         "price": 0.83
-      },
-      {
-        "time": "10:00",
-        "price": 0.79
-      },
-      {
-        "time": "20:00",
-        "price": 0.75
       }
     ],
     "csqaq_id": 22167,
-    "start_price": 0.79,
-    "last_price": 0.75,
+    "start_price": 0.83,
+    "last_price": 0.83,
     "historical_high": 0.99,
     "daily_alert_high": 0.83
   },
@@ -629,30 +341,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 3.62
-      },
-      {
-        "time": "02:00",
-        "price": 3.54
-      },
-      {
-        "time": "08:00",
-        "price": 3.82
-      },
-      {
-        "time": "08:00",
-        "price": 3.54
-      },
-      {
-        "time": "20:00",
-        "price": 3.39
+        "price": 3.37
       }
     ],
     "csqaq_id": 8530,
-    "start_price": 3.62,
-    "last_price": 3.39,
+    "start_price": 3.37,
+    "last_price": 3.37,
     "historical_high": 4.37,
-    "daily_alert_high": 3.82
+    "daily_alert_high": 3.37
   },
   "P250 | Plum Netting (Battle-Scarred)": {
     "history": []
@@ -678,41 +374,13 @@
       {
         "time": "22:00",
         "price": 2.3
-      },
-      {
-        "time": "00:00",
-        "price": 2.33
-      },
-      {
-        "time": "08:00",
-        "price": 2.42
-      },
-      {
-        "time": "10:00",
-        "price": 2.35
-      },
-      {
-        "time": "12:00",
-        "price": 2.34
-      },
-      {
-        "time": "08:00",
-        "price": 2.22
-      },
-      {
-        "time": "10:00",
-        "price": 2.47
-      },
-      {
-        "time": "20:00",
-        "price": 2.37
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.3,
-    "last_price": 2.37,
+    "last_price": 2.3,
     "historical_high": 3.49,
-    "daily_alert_high": 2.47
+    "daily_alert_high": 2.3
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
@@ -752,34 +420,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.54
-      },
-      {
-        "time": "08:00",
         "price": 1.55
-      },
-      {
-        "time": "10:00",
-        "price": 1.51
-      },
-      {
-        "time": "12:00",
-        "price": 1.54
-      },
-      {
-        "time": "14:00",
-        "price": 1.55
-      },
-      {
-        "time": "20:00",
-        "price": 1.54
       }
     ],
     "csqaq_id": 21900,
-    "start_price": 1.54,
-    "last_price": 1.54,
+    "start_price": 1.55,
+    "last_price": 1.55,
     "historical_high": 2.49,
-    "daily_alert_high": 1.54
+    "daily_alert_high": 1.55
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -788,95 +436,27 @@
     "history": [
       {
         "time": "22:00",
-        "price": 2.01
-      },
-      {
-        "time": "00:00",
-        "price": 2.18
-      },
-      {
-        "time": "08:00",
-        "price": 2.09
-      },
-      {
-        "time": "10:00",
-        "price": 2.01
-      },
-      {
-        "time": "12:00",
-        "price": 2.23
-      },
-      {
-        "time": "14:00",
-        "price": 2.2
-      },
-      {
-        "time": "08:00",
-        "price": 2.35
-      },
-      {
-        "time": "10:00",
         "price": 2.33
-      },
-      {
-        "time": "20:00",
-        "price": 2.38
       }
     ],
     "csqaq_id": 21512,
-    "start_price": 2.01,
-    "last_price": 2.38,
+    "start_price": 2.33,
+    "last_price": 2.33,
     "historical_high": 3.23,
-    "daily_alert_high": 2.38
+    "daily_alert_high": 2.33
   },
   "Revolution Case": {
     "history": [
       {
         "time": "22:00",
-        "price": 1.53
-      },
-      {
-        "time": "00:00",
-        "price": 1.57
-      },
-      {
-        "time": "02:00",
-        "price": 1.59
-      },
-      {
-        "time": "08:00",
-        "price": 1.63
-      },
-      {
-        "time": "10:00",
-        "price": 1.65
-      },
-      {
-        "time": "12:00",
-        "price": 1.57
-      },
-      {
-        "time": "14:00",
-        "price": 1.62
-      },
-      {
-        "time": "08:00",
-        "price": 1.56
-      },
-      {
-        "time": "10:00",
-        "price": 1.59
-      },
-      {
-        "time": "20:00",
-        "price": 1.48
+        "price": 1.5
       }
     ],
     "csqaq_id": 16283,
-    "start_price": 1.53,
-    "last_price": 1.48,
+    "start_price": 1.5,
+    "last_price": 1.5,
     "historical_high": 2.89,
-    "daily_alert_high": 1.65
+    "daily_alert_high": 1.5
   },
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
     "history": [
@@ -946,83 +526,27 @@
     "history": [
       {
         "time": "22:00",
-        "price": 0.68
-      },
-      {
-        "time": "00:00",
-        "price": 0.67
-      },
-      {
-        "time": "08:00",
-        "price": 0.62
-      },
-      {
-        "time": "10:00",
-        "price": 0.63
-      },
-      {
-        "time": "12:00",
-        "price": 0.68
-      },
-      {
-        "time": "08:00",
-        "price": 0.62
-      },
-      {
-        "time": "10:00",
-        "price": 0.61
-      },
-      {
-        "time": "20:00",
-        "price": 0.68
+        "price": 0.74
       }
     ],
     "csqaq_id": 14742,
-    "start_price": 0.68,
-    "last_price": 0.68,
+    "start_price": 0.74,
+    "last_price": 0.74,
     "historical_high": 0.93,
-    "daily_alert_high": 0.68
+    "daily_alert_high": 0.74
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
       {
         "time": "22:00",
-        "price": 0.72
-      },
-      {
-        "time": "00:00",
-        "price": 0.68
-      },
-      {
-        "time": "08:00",
-        "price": 0.74
-      },
-      {
-        "time": "12:00",
-        "price": 0.69
-      },
-      {
-        "time": "14:00",
-        "price": 0.75
-      },
-      {
-        "time": "08:00",
-        "price": 0.74
-      },
-      {
-        "time": "10:00",
-        "price": 0.68
-      },
-      {
-        "time": "20:00",
-        "price": 0.73
+        "price": 0.65
       }
     ],
     "csqaq_id": 18780,
-    "start_price": 0.72,
-    "last_price": 0.73,
+    "start_price": 0.65,
+    "last_price": 0.65,
     "historical_high": 0.88,
-    "daily_alert_high": 0.75
+    "daily_alert_high": 0.65
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -1053,104 +577,40 @@
     "history": [
       {
         "time": "22:00",
-        "price": 39.0
-      },
-      {
-        "time": "08:00",
-        "price": 38.75
-      },
-      {
-        "time": "10:00",
-        "price": 39.6
-      },
-      {
-        "time": "14:00",
-        "price": 40.27
-      },
-      {
-        "time": "08:00",
-        "price": 40.15
-      },
-      {
-        "time": "20:00",
-        "price": 39.0
+        "price": 40.16
       }
     ],
     "csqaq_id": 20826,
-    "start_price": 39.0,
-    "last_price": 39.0,
+    "start_price": 40.16,
+    "last_price": 40.16,
     "historical_high": 62.34,
-    "daily_alert_high": 40.27
+    "daily_alert_high": 40.16
   },
   "StatTrak™ P90 | Grim (Field-Tested)": {
     "history": [
       {
         "time": "22:00",
-        "price": 2.16
-      },
-      {
-        "time": "00:00",
-        "price": 2.23
-      },
-      {
-        "time": "08:00",
-        "price": 2.45
-      },
-      {
-        "time": "10:00",
-        "price": 2.33
-      },
-      {
-        "time": "12:00",
-        "price": 2.38
-      },
-      {
-        "time": "08:00",
-        "price": 2.23
-      },
-      {
-        "time": "10:00",
-        "price": 2.18
-      },
-      {
-        "time": "20:00",
-        "price": 2.39
+        "price": 2.34
       }
     ],
     "csqaq_id": 3873,
-    "start_price": 2.16,
-    "last_price": 2.39,
+    "start_price": 2.34,
+    "last_price": 2.34,
     "historical_high": 3.04,
-    "daily_alert_high": 2.45
+    "daily_alert_high": 2.34
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
       {
         "time": "22:00",
-        "price": 0.61
-      },
-      {
-        "time": "00:00",
         "price": 0.55
-      },
-      {
-        "time": "14:00",
-        "price": 0.54
-      },
-      {
-        "time": "10:00",
-        "price": 0.55
-      },
-      {
-        "time": "20:00",
-        "price": 0.6
       }
     ],
     "csqaq_id": 17156,
-    "start_price": 0.61,
-    "last_price": 0.6,
+    "start_price": 0.55,
+    "last_price": 0.55,
     "historical_high": 1.36,
-    "daily_alert_high": 0.61
+    "daily_alert_high": 0.55
   },
   "Galil AR | Robin's Egg (Field-Tested)": {
     "history": []
@@ -1162,34 +622,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.54
-      },
-      {
-        "time": "02:00",
-        "price": 1.48
-      },
-      {
-        "time": "08:00",
-        "price": 1.41
-      },
-      {
-        "time": "12:00",
-        "price": 1.4
-      },
-      {
-        "time": "14:00",
-        "price": 1.41
-      },
-      {
-        "time": "08:00",
-        "price": 1.39
+        "price": 1.46
       }
     ],
     "csqaq_id": 15503,
-    "start_price": 1.54,
-    "last_price": 1.39,
+    "start_price": 1.46,
+    "last_price": 1.46,
     "historical_high": 2.0,
-    "daily_alert_high": 1.54
+    "daily_alert_high": 1.46
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -1236,50 +676,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.48
-      },
-      {
-        "time": "00:00",
-        "price": 1.43
-      },
-      {
-        "time": "02:00",
-        "price": 1.5
-      },
-      {
-        "time": "08:00",
-        "price": 1.48
-      },
-      {
-        "time": "10:00",
         "price": 1.46
-      },
-      {
-        "time": "12:00",
-        "price": 1.44
-      },
-      {
-        "time": "14:00",
-        "price": 1.55
-      },
-      {
-        "time": "08:00",
-        "price": 1.48
-      },
-      {
-        "time": "10:00",
-        "price": 1.46
-      },
-      {
-        "time": "20:00",
-        "price": 1.48
       }
     ],
     "csqaq_id": 21609,
-    "start_price": 1.48,
-    "last_price": 1.48,
+    "start_price": 1.46,
+    "last_price": 1.46,
     "historical_high": 1.99,
-    "daily_alert_high": 1.55
+    "daily_alert_high": 1.46
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -1291,46 +695,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 9.69
-      },
-      {
-        "time": "00:00",
-        "price": 9.45
-      },
-      {
-        "time": "02:00",
-        "price": 9.59
-      },
-      {
-        "time": "08:00",
-        "price": 9.97
-      },
-      {
-        "time": "10:00",
-        "price": 10.0
-      },
-      {
-        "time": "14:00",
-        "price": 9.75
-      },
-      {
-        "time": "08:00",
-        "price": 9.84
-      },
-      {
-        "time": "10:00",
-        "price": 9.97
-      },
-      {
-        "time": "20:00",
-        "price": 10.0
+        "price": 9.6
       }
     ],
     "csqaq_id": 14675,
-    "start_price": 9.69,
-    "last_price": 10.0,
+    "start_price": 9.6,
+    "last_price": 9.6,
     "historical_high": 11.62,
-    "daily_alert_high": 9.97
+    "daily_alert_high": 9.6
   },
   "P90 | Desert Halftone (Field-Tested)": {
     "history": []
@@ -1339,50 +711,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 1.78
-      },
-      {
-        "time": "00:00",
-        "price": 1.57
-      },
-      {
-        "time": "02:00",
-        "price": 1.78
-      },
-      {
-        "time": "08:00",
-        "price": 1.7
-      },
-      {
-        "time": "10:00",
         "price": 1.66
-      },
-      {
-        "time": "12:00",
-        "price": 1.67
-      },
-      {
-        "time": "14:00",
-        "price": 1.7
-      },
-      {
-        "time": "08:00",
-        "price": 1.68
-      },
-      {
-        "time": "10:00",
-        "price": 1.62
-      },
-      {
-        "time": "20:00",
-        "price": 1.58
       }
     ],
     "csqaq_id": 21860,
-    "start_price": 1.78,
-    "last_price": 1.58,
+    "start_price": 1.66,
+    "last_price": 1.66,
     "historical_high": 2.26,
-    "daily_alert_high": 1.78
+    "daily_alert_high": 1.66
   },
   "FAMAS | Byproduct (Factory New)": {
     "history": []
@@ -1394,22 +730,14 @@
     "history": [
       {
         "time": "22:00",
-        "price": 492.73
-      },
-      {
-        "time": "00:00",
-        "price": 606.47
-      },
-      {
-        "time": "20:00",
-        "price": 606.42
+        "price": 531.69
       }
     ],
     "csqaq_id": 6785,
-    "start_price": 492.73,
-    "last_price": 606.42,
+    "start_price": 531.69,
+    "last_price": 531.69,
     "historical_high": 606.65,
-    "daily_alert_high": 606.47
+    "daily_alert_high": 531.69
   },
   "XM1014 | Canvas Cloud (Minimal Wear)": {
     "history": []
