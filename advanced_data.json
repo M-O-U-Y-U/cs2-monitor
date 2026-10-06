@@ -69,11 +69,15 @@
       {
         "time": "00:00",
         "price": 6.06
+      },
+      {
+        "time": "02:00",
+        "price": 6.15
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.18,
-    "last_price": 6.06,
+    "last_price": 6.15,
     "historical_high": 8.92,
     "daily_alert_high": 6.18
   },
@@ -95,11 +99,15 @@
       {
         "time": "22:00",
         "price": 1.39
+      },
+      {
+        "time": "02:00",
+        "price": 1.35
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.39,
-    "last_price": 1.39,
+    "last_price": 1.35,
     "historical_high": 11.06,
     "daily_alert_high": 1.39
   },
@@ -173,11 +181,15 @@
       {
         "time": "00:00",
         "price": 4.61
+      },
+      {
+        "time": "02:00",
+        "price": 3.99
       }
     ],
     "csqaq_id": 17916,
     "start_price": 4.29,
-    "last_price": 4.61,
+    "last_price": 3.99,
     "historical_high": 4.66,
     "daily_alert_high": 4.61
   },
@@ -210,11 +222,15 @@
       {
         "time": "00:00",
         "price": 1.66
+      },
+      {
+        "time": "02:00",
+        "price": 1.65
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.63,
-    "last_price": 1.66,
+    "last_price": 1.65,
     "historical_high": 2.49,
     "daily_alert_high": 1.66
   },
@@ -227,11 +243,15 @@
       {
         "time": "00:00",
         "price": 1.56
+      },
+      {
+        "time": "02:00",
+        "price": 1.55
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.58,
-    "last_price": 1.56,
+    "last_price": 1.55,
     "historical_high": 2.53,
     "daily_alert_high": 1.58
   },
@@ -253,11 +273,15 @@
       {
         "time": "22:00",
         "price": 4.83
+      },
+      {
+        "time": "02:00",
+        "price": 4.77
       }
     ],
     "csqaq_id": 14751,
     "start_price": 4.83,
-    "last_price": 4.83,
+    "last_price": 4.77,
     "historical_high": 6.16,
     "daily_alert_high": 4.83
   },
@@ -266,11 +290,15 @@
       {
         "time": "22:00",
         "price": 0.62
+      },
+      {
+        "time": "02:00",
+        "price": 0.51
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.62,
-    "last_price": 0.62,
+    "last_price": 0.51,
     "historical_high": 0.73,
     "daily_alert_high": 0.62
   },
@@ -286,11 +314,15 @@
       {
         "time": "00:00",
         "price": 2.33
+      },
+      {
+        "time": "02:00",
+        "price": 2.45
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.58,
-    "last_price": 2.33,
+    "last_price": 2.45,
     "historical_high": 5.11,
     "daily_alert_high": 2.58
   },
@@ -332,13 +364,17 @@
       {
         "time": "22:00",
         "price": 0.81
+      },
+      {
+        "time": "02:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.81,
-    "last_price": 0.81,
+    "last_price": 0.82,
     "historical_high": 0.99,
-    "daily_alert_high": 0.81
+    "daily_alert_high": 0.82
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -414,11 +450,15 @@
       {
         "time": "00:00",
         "price": 2.34
+      },
+      {
+        "time": "02:00",
+        "price": 2.36
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.21,
-    "last_price": 2.34,
+    "last_price": 2.36,
     "historical_high": 3.49,
     "daily_alert_high": 2.34
   },
@@ -465,13 +505,17 @@
       {
         "time": "00:00",
         "price": 1.51
+      },
+      {
+        "time": "02:00",
+        "price": 1.55
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.5,
-    "last_price": 1.51,
+    "last_price": 1.55,
     "historical_high": 2.49,
-    "daily_alert_high": 1.5
+    "daily_alert_high": 1.55
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -481,11 +525,15 @@
       {
         "time": "22:00",
         "price": 2.3
+      },
+      {
+        "time": "02:00",
+        "price": 2.09
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.3,
-    "last_price": 2.3,
+    "last_price": 2.09,
     "historical_high": 3.23,
     "daily_alert_high": 2.3
   },
@@ -498,11 +546,15 @@
       {
         "time": "00:00",
         "price": 1.57
+      },
+      {
+        "time": "02:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.51,
-    "last_price": 1.57,
+    "last_price": 1.56,
     "historical_high": 2.89,
     "daily_alert_high": 1.57
   },
@@ -575,11 +627,15 @@
       {
         "time": "22:00",
         "price": 0.72
+      },
+      {
+        "time": "02:00",
+        "price": 0.68
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.72,
-    "last_price": 0.72,
+    "last_price": 0.68,
     "historical_high": 0.93,
     "daily_alert_high": 0.72
   },
@@ -592,11 +648,15 @@
       {
         "time": "00:00",
         "price": 0.67
+      },
+      {
+        "time": "02:00",
+        "price": 0.64
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.72,
-    "last_price": 0.67,
+    "last_price": 0.64,
     "historical_high": 0.88,
     "daily_alert_high": 0.72
   },
@@ -651,13 +711,17 @@
       {
         "time": "00:00",
         "price": 2.21
+      },
+      {
+        "time": "02:00",
+        "price": 2.42
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.2,
-    "last_price": 2.21,
+    "last_price": 2.42,
     "historical_high": 3.04,
-    "daily_alert_high": 2.2
+    "daily_alert_high": 2.42
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
@@ -687,11 +751,15 @@
       {
         "time": "00:00",
         "price": 1.5
+      },
+      {
+        "time": "02:00",
+        "price": 1.37
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.39,
-    "last_price": 1.5,
+    "last_price": 1.37,
     "historical_high": 2.0,
     "daily_alert_high": 1.5
   },
@@ -745,13 +813,17 @@
       {
         "time": "00:00",
         "price": 1.44
+      },
+      {
+        "time": "02:00",
+        "price": 1.55
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.43,
-    "last_price": 1.44,
+    "last_price": 1.55,
     "historical_high": 1.99,
-    "daily_alert_high": 1.43
+    "daily_alert_high": 1.55
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -768,11 +840,15 @@
       {
         "time": "00:00",
         "price": 9.38
+      },
+      {
+        "time": "02:00",
+        "price": 9.47
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.14,
-    "last_price": 9.38,
+    "last_price": 9.47,
     "historical_high": 11.62,
     "daily_alert_high": 9.38
   },
@@ -788,13 +864,17 @@
       {
         "time": "00:00",
         "price": 1.63
+      },
+      {
+        "time": "02:00",
+        "price": 1.65
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.58,
-    "last_price": 1.63,
+    "last_price": 1.65,
     "historical_high": 2.26,
-    "daily_alert_high": 1.63
+    "daily_alert_high": 1.65
   },
   "FAMAS | Byproduct (Factory New)": {
     "history": []
