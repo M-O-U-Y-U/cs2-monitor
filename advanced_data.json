@@ -10,11 +10,15 @@
       {
         "time": "22:00",
         "price": 1.06
+      },
+      {
+        "time": "00:00",
+        "price": 1.07
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.06,
-    "last_price": 1.06,
+    "last_price": 1.07,
     "historical_high": 1.75,
     "daily_alert_high": 1.06
   },
@@ -61,11 +65,15 @@
       {
         "time": "22:00",
         "price": 6.18
+      },
+      {
+        "time": "00:00",
+        "price": 6.06
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.18,
-    "last_price": 6.18,
+    "last_price": 6.06,
     "historical_high": 8.92,
     "daily_alert_high": 6.18
   },
@@ -103,11 +111,15 @@
       {
         "time": "22:00",
         "price": 1.39
+      },
+      {
+        "time": "00:00",
+        "price": 1.33
       }
     ],
     "csqaq_id": 20658,
     "start_price": 1.39,
-    "last_price": 1.39,
+    "last_price": 1.33,
     "historical_high": 3.28,
     "daily_alert_high": 1.39
   },
@@ -157,13 +169,17 @@
       {
         "time": "22:00",
         "price": 4.29
+      },
+      {
+        "time": "00:00",
+        "price": 4.61
       }
     ],
     "csqaq_id": 17916,
     "start_price": 4.29,
-    "last_price": 4.29,
+    "last_price": 4.61,
     "historical_high": 4.66,
-    "daily_alert_high": 4.29
+    "daily_alert_high": 4.61
   },
   "Sealed Graffiti | Loser (SWAT Blue)": {
     "history": []
@@ -173,11 +189,15 @@
       {
         "time": "昨日收盘",
         "price": 0.56
+      },
+      {
+        "time": "00:00",
+        "price": 0.53
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.56,
-    "last_price": 0.56,
+    "last_price": 0.53,
     "historical_high": 1.01,
     "daily_alert_high": 0.56
   },
@@ -186,24 +206,32 @@
       {
         "time": "22:00",
         "price": 1.63
+      },
+      {
+        "time": "00:00",
+        "price": 1.66
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.63,
-    "last_price": 1.63,
+    "last_price": 1.66,
     "historical_high": 2.49,
-    "daily_alert_high": 1.63
+    "daily_alert_high": 1.66
   },
   "StatTrak™ Five-SeveN | Scrawl (Minimal Wear)": {
     "history": [
       {
         "time": "22:00",
         "price": 1.58
+      },
+      {
+        "time": "00:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.58,
-    "last_price": 1.58,
+    "last_price": 1.56,
     "historical_high": 2.53,
     "daily_alert_high": 1.58
   },
@@ -254,11 +282,15 @@
       {
         "time": "22:00",
         "price": 2.58
+      },
+      {
+        "time": "00:00",
+        "price": 2.33
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.58,
-    "last_price": 2.58,
+    "last_price": 2.33,
     "historical_high": 5.11,
     "daily_alert_high": 2.58
   },
@@ -342,11 +374,15 @@
       {
         "time": "22:00",
         "price": 3.26
+      },
+      {
+        "time": "00:00",
+        "price": 3.29
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.26,
-    "last_price": 3.26,
+    "last_price": 3.29,
     "historical_high": 4.37,
     "daily_alert_high": 3.26
   },
@@ -374,13 +410,17 @@
       {
         "time": "22:00",
         "price": 2.21
+      },
+      {
+        "time": "00:00",
+        "price": 2.34
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.21,
-    "last_price": 2.21,
+    "last_price": 2.34,
     "historical_high": 3.49,
-    "daily_alert_high": 2.21
+    "daily_alert_high": 2.34
   },
   "Glock-18 | Clear Polymer (Battle-Scarred)": {
     "history": [
@@ -421,11 +461,15 @@
       {
         "time": "22:00",
         "price": 1.5
+      },
+      {
+        "time": "00:00",
+        "price": 1.51
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.5,
-    "last_price": 1.5,
+    "last_price": 1.51,
     "historical_high": 2.49,
     "daily_alert_high": 1.5
   },
@@ -450,13 +494,17 @@
       {
         "time": "22:00",
         "price": 1.51
+      },
+      {
+        "time": "00:00",
+        "price": 1.57
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.51,
-    "last_price": 1.51,
+    "last_price": 1.57,
     "historical_high": 2.89,
-    "daily_alert_high": 1.51
+    "daily_alert_high": 1.57
   },
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
     "history": [
@@ -540,11 +588,15 @@
       {
         "time": "22:00",
         "price": 0.72
+      },
+      {
+        "time": "00:00",
+        "price": 0.67
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.72,
-    "last_price": 0.72,
+    "last_price": 0.67,
     "historical_high": 0.88,
     "daily_alert_high": 0.72
   },
@@ -578,11 +630,15 @@
       {
         "time": "22:00",
         "price": 39.93
+      },
+      {
+        "time": "00:00",
+        "price": 39.98
       }
     ],
     "csqaq_id": 20826,
     "start_price": 39.93,
-    "last_price": 39.93,
+    "last_price": 39.98,
     "historical_high": 62.34,
     "daily_alert_high": 39.93
   },
@@ -591,11 +647,15 @@
       {
         "time": "22:00",
         "price": 2.2
+      },
+      {
+        "time": "00:00",
+        "price": 2.21
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.2,
-    "last_price": 2.2,
+    "last_price": 2.21,
     "historical_high": 3.04,
     "daily_alert_high": 2.2
   },
@@ -623,13 +683,17 @@
       {
         "time": "22:00",
         "price": 1.39
+      },
+      {
+        "time": "00:00",
+        "price": 1.5
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.39,
-    "last_price": 1.39,
+    "last_price": 1.5,
     "historical_high": 2.0,
-    "daily_alert_high": 1.39
+    "daily_alert_high": 1.5
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -677,11 +741,15 @@
       {
         "time": "22:00",
         "price": 1.43
+      },
+      {
+        "time": "00:00",
+        "price": 1.44
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.43,
-    "last_price": 1.43,
+    "last_price": 1.44,
     "historical_high": 1.99,
     "daily_alert_high": 1.43
   },
@@ -696,13 +764,17 @@
       {
         "time": "22:00",
         "price": 9.14
+      },
+      {
+        "time": "00:00",
+        "price": 9.38
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.14,
-    "last_price": 9.14,
+    "last_price": 9.38,
     "historical_high": 11.62,
-    "daily_alert_high": 9.14
+    "daily_alert_high": 9.38
   },
   "P90 | Desert Halftone (Field-Tested)": {
     "history": []
@@ -712,13 +784,17 @@
       {
         "time": "22:00",
         "price": 1.58
+      },
+      {
+        "time": "00:00",
+        "price": 1.63
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.58,
-    "last_price": 1.58,
+    "last_price": 1.63,
     "historical_high": 2.26,
-    "daily_alert_high": 1.58
+    "daily_alert_high": 1.63
   },
   "FAMAS | Byproduct (Factory New)": {
     "history": []
@@ -733,7 +809,7 @@
         "price": 529.57
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 6785,
     "start_price": 529.57,
     "last_price": 529.57,
     "historical_high": 606.65,
