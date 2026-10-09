@@ -18,11 +18,15 @@
       {
         "time": "08:00",
         "price": 0.99
+      },
+      {
+        "time": "10:00",
+        "price": 0.97
       }
     ],
     "csqaq_id": 19521,
     "start_price": 1.01,
-    "last_price": 0.99,
+    "last_price": 0.97,
     "historical_high": 1.75,
     "daily_alert_high": 1.01
   },
@@ -81,13 +85,17 @@
       {
         "time": "08:00",
         "price": 6.03
+      },
+      {
+        "time": "10:00",
+        "price": 6.11
       }
     ],
     "csqaq_id": 20769,
     "start_price": 5.34,
-    "last_price": 6.03,
+    "last_price": 6.11,
     "historical_high": 8.92,
-    "daily_alert_high": 5.98
+    "daily_alert_high": 6.11
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
@@ -446,11 +454,15 @@
       {
         "time": "08:00",
         "price": 3.25
+      },
+      {
+        "time": "10:00",
+        "price": 3.1
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.19,
-    "last_price": 3.25,
+    "last_price": 3.1,
     "historical_high": 4.37,
     "daily_alert_high": 3.25
   },
@@ -577,11 +589,15 @@
       {
         "time": "08:00",
         "price": 2.24
+      },
+      {
+        "time": "10:00",
+        "price": 2.08
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.31,
-    "last_price": 2.24,
+    "last_price": 2.08,
     "historical_high": 3.23,
     "daily_alert_high": 2.31
   },
@@ -602,11 +618,15 @@
       {
         "time": "08:00",
         "price": 1.39
+      },
+      {
+        "time": "10:00",
+        "price": 1.41
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.45,
-    "last_price": 1.39,
+    "last_price": 1.41,
     "historical_high": 2.89,
     "daily_alert_high": 1.45
   },
@@ -704,13 +724,17 @@
       {
         "time": "08:00",
         "price": 0.67
+      },
+      {
+        "time": "10:00",
+        "price": 0.74
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.68,
-    "last_price": 0.67,
+    "last_price": 0.74,
     "historical_high": 0.88,
-    "daily_alert_high": 0.68
+    "daily_alert_high": 0.74
   },
   "Sticker | ZywOo | Budapest 2025": {
     "history": []
@@ -754,11 +778,15 @@
       {
         "time": "08:00",
         "price": 40.39
+      },
+      {
+        "time": "10:00",
+        "price": 40.48
       }
     ],
     "csqaq_id": 20826,
     "start_price": 39.8,
-    "last_price": 40.39,
+    "last_price": 40.48,
     "historical_high": 62.34,
     "daily_alert_high": 40.32
   },
@@ -800,11 +828,15 @@
       {
         "time": "08:00",
         "price": 0.55
+      },
+      {
+        "time": "10:00",
+        "price": 0.52
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.55,
-    "last_price": 0.55,
+    "last_price": 0.52,
     "historical_high": 1.36,
     "daily_alert_high": 0.59
   },
@@ -893,13 +925,17 @@
       {
         "time": "08:00",
         "price": 1.4
+      },
+      {
+        "time": "10:00",
+        "price": 1.48
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.41,
-    "last_price": 1.4,
+    "last_price": 1.48,
     "historical_high": 1.99,
-    "daily_alert_high": 1.41
+    "daily_alert_high": 1.48
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -924,11 +960,15 @@
       {
         "time": "08:00",
         "price": 9.25
+      },
+      {
+        "time": "10:00",
+        "price": 9.27
       }
     ],
     "csqaq_id": 14675,
     "start_price": 8.34,
-    "last_price": 9.25,
+    "last_price": 9.27,
     "historical_high": 11.62,
     "daily_alert_high": 9.25
   },
@@ -952,11 +992,15 @@
       {
         "time": "08:00",
         "price": 1.62
+      },
+      {
+        "time": "10:00",
+        "price": 1.52
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.57,
-    "last_price": 1.62,
+    "last_price": 1.52,
     "historical_high": 2.26,
     "daily_alert_high": 1.62
   },
