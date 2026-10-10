@@ -14,11 +14,15 @@
       {
         "time": "08:00",
         "price": 0.96
+      },
+      {
+        "time": "10:00",
+        "price": 0.98
       }
     ],
     "csqaq_id": 19521,
     "start_price": 0.97,
-    "last_price": 0.96,
+    "last_price": 0.98,
     "historical_high": 1.75,
     "daily_alert_high": 1.01
   },
@@ -69,13 +73,17 @@
       {
         "time": "08:00",
         "price": 6.05
+      },
+      {
+        "time": "10:00",
+        "price": 6.13
       }
     ],
     "csqaq_id": 20769,
     "start_price": 6.11,
-    "last_price": 6.05,
+    "last_price": 6.13,
     "historical_high": 8.92,
-    "daily_alert_high": 6.11
+    "daily_alert_high": 6.13
   },
   "StatTrak™ SCAR-20 | Green Marine (Field-Tested)": {
     "history": [
@@ -169,11 +177,15 @@
       {
         "time": "08:00",
         "price": 3.56
+      },
+      {
+        "time": "10:00",
+        "price": 3.57
       }
     ],
     "csqaq_id": 17916,
     "start_price": 3.75,
-    "last_price": 3.56,
+    "last_price": 3.57,
     "historical_high": 4.66,
     "daily_alert_high": 4.1
   },
@@ -189,11 +201,15 @@
       {
         "time": "08:00",
         "price": 0.53
+      },
+      {
+        "time": "10:00",
+        "price": 0.52
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.52,
-    "last_price": 0.53,
+    "last_price": 0.52,
     "historical_high": 1.01,
     "daily_alert_high": 0.56
   },
@@ -219,11 +235,15 @@
       {
         "time": "08:00",
         "price": 1.55
+      },
+      {
+        "time": "10:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.72,
-    "last_price": 1.55,
+    "last_price": 1.56,
     "historical_high": 2.53,
     "daily_alert_high": 1.72
   },
@@ -286,13 +306,17 @@
       {
         "time": "08:00",
         "price": 2.43
+      },
+      {
+        "time": "10:00",
+        "price": 2.99
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.41,
-    "last_price": 2.43,
+    "last_price": 2.99,
     "historical_high": 5.11,
-    "daily_alert_high": 2.41
+    "daily_alert_high": 2.99
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -418,11 +442,15 @@
       {
         "time": "08:00",
         "price": 2.36
+      },
+      {
+        "time": "10:00",
+        "price": 2.5
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.54,
-    "last_price": 2.36,
+    "last_price": 2.5,
     "historical_high": 3.49,
     "daily_alert_high": 2.54
   },
@@ -469,11 +497,15 @@
       {
         "time": "08:00",
         "price": 1.54
+      },
+      {
+        "time": "10:00",
+        "price": 1.5
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.56,
-    "last_price": 1.54,
+    "last_price": 1.5,
     "historical_high": 2.49,
     "daily_alert_high": 1.56
   },
@@ -489,11 +521,15 @@
       {
         "time": "08:00",
         "price": 2.18
+      },
+      {
+        "time": "10:00",
+        "price": 2.07
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.08,
-    "last_price": 2.18,
+    "last_price": 2.07,
     "historical_high": 3.23,
     "daily_alert_high": 2.31
   },
@@ -506,11 +542,15 @@
       {
         "time": "08:00",
         "price": 1.48
+      },
+      {
+        "time": "10:00",
+        "price": 1.46
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.4,
-    "last_price": 1.48,
+    "last_price": 1.46,
     "historical_high": 2.89,
     "daily_alert_high": 1.48
   },
@@ -608,11 +648,15 @@
       {
         "time": "08:00",
         "price": 0.75
+      },
+      {
+        "time": "10:00",
+        "price": 0.64
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.7,
-    "last_price": 0.75,
+    "last_price": 0.64,
     "historical_high": 0.88,
     "daily_alert_high": 0.75
   },
@@ -650,11 +694,15 @@
       {
         "time": "08:00",
         "price": 39.68
+      },
+      {
+        "time": "10:00",
+        "price": 40.25
       }
     ],
     "csqaq_id": 20826,
     "start_price": 40.03,
-    "last_price": 39.68,
+    "last_price": 40.25,
     "historical_high": 62.34,
     "daily_alert_high": 40.32
   },
@@ -667,11 +715,15 @@
       {
         "time": "08:00",
         "price": 2.47
+      },
+      {
+        "time": "10:00",
+        "price": 2.09
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.1,
-    "last_price": 2.47,
+    "last_price": 2.09,
     "historical_high": 3.04,
     "daily_alert_high": 2.47
   },
@@ -765,11 +817,15 @@
       {
         "time": "08:00",
         "price": 1.41
+      },
+      {
+        "time": "10:00",
+        "price": 1.44
       }
     ],
-    "csqaq_id": 21609,
+    "csqaq_id": null,
     "start_price": 1.43,
-    "last_price": 1.41,
+    "last_price": 1.44,
     "historical_high": 1.99,
     "daily_alert_high": 1.48
   },
@@ -788,11 +844,15 @@
       {
         "time": "08:00",
         "price": 9.48
+      },
+      {
+        "time": "10:00",
+        "price": 9.37
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.2,
-    "last_price": 9.48,
+    "last_price": 9.37,
     "historical_high": 11.62,
     "daily_alert_high": 9.48
   },
@@ -808,13 +868,17 @@
       {
         "time": "08:00",
         "price": 1.56
+      },
+      {
+        "time": "10:00",
+        "price": 1.7
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.55,
-    "last_price": 1.56,
+    "last_price": 1.7,
     "historical_high": 2.26,
-    "daily_alert_high": 1.62
+    "daily_alert_high": 1.7
   },
   "FAMAS | Byproduct (Factory New)": {
     "history": []
