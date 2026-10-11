@@ -10,13 +10,17 @@
       {
         "time": "22:00",
         "price": 0.96
+      },
+      {
+        "time": "02:00",
+        "price": 0.99
       }
     ],
     "csqaq_id": 19521,
     "start_price": 0.96,
-    "last_price": 0.96,
+    "last_price": 0.99,
     "historical_high": 1.75,
-    "daily_alert_high": 0.96
+    "daily_alert_high": 0.99
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -65,11 +69,15 @@
       {
         "time": "00:00",
         "price": 5.92
+      },
+      {
+        "time": "02:00",
+        "price": 5.93
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 20769,
     "start_price": 5.94,
-    "last_price": 5.92,
+    "last_price": 5.93,
     "historical_high": 8.92,
     "daily_alert_high": 5.94
   },
@@ -165,11 +173,15 @@
       {
         "time": "00:00",
         "price": 3.38
+      },
+      {
+        "time": "02:00",
+        "price": 3.33
       }
     ],
     "csqaq_id": 17916,
     "start_price": 3.56,
-    "last_price": 3.38,
+    "last_price": 3.33,
     "historical_high": 4.66,
     "daily_alert_high": 3.56
   },
@@ -181,13 +193,17 @@
       {
         "time": "22:00",
         "price": 0.53
+      },
+      {
+        "time": "02:00",
+        "price": 0.54
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.53,
-    "last_price": 0.53,
+    "last_price": 0.54,
     "historical_high": 1.01,
-    "daily_alert_high": 0.53
+    "daily_alert_high": 0.54
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -198,11 +214,15 @@
       {
         "time": "00:00",
         "price": 1.62
+      },
+      {
+        "time": "02:00",
+        "price": 1.55
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.55,
-    "last_price": 1.62,
+    "last_price": 1.55,
     "historical_high": 2.49,
     "daily_alert_high": 1.62
   },
@@ -498,13 +518,17 @@
       {
         "time": "00:00",
         "price": 1.54
+      },
+      {
+        "time": "02:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.53,
-    "last_price": 1.54,
+    "last_price": 1.56,
     "historical_high": 2.89,
-    "daily_alert_high": 1.53
+    "daily_alert_high": 1.56
   },
   "Souvenir Charm | Austin 2025 Highlight | Techno4K Almost The Hero": {
     "history": [
@@ -687,13 +711,17 @@
       {
         "time": "00:00",
         "price": 1.34
+      },
+      {
+        "time": "02:00",
+        "price": 1.43
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.32,
-    "last_price": 1.34,
+    "last_price": 1.43,
     "historical_high": 2.0,
-    "daily_alert_high": 1.34
+    "daily_alert_high": 1.43
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -745,11 +773,15 @@
       {
         "time": "00:00",
         "price": 1.37
+      },
+      {
+        "time": "02:00",
+        "price": 1.34
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.44,
-    "last_price": 1.37,
+    "last_price": 1.34,
     "historical_high": 1.99,
     "daily_alert_high": 1.44
   },
@@ -768,11 +800,15 @@
       {
         "time": "00:00",
         "price": 9.46
+      },
+      {
+        "time": "02:00",
+        "price": 9.4
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.13,
-    "last_price": 9.46,
+    "last_price": 9.4,
     "historical_high": 11.62,
     "daily_alert_high": 9.46
   },
@@ -788,11 +824,15 @@
       {
         "time": "00:00",
         "price": 1.59
+      },
+      {
+        "time": "02:00",
+        "price": 1.55
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.72,
-    "last_price": 1.59,
+    "last_price": 1.55,
     "historical_high": 2.26,
     "daily_alert_high": 1.72
   },
