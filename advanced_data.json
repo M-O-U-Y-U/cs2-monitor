@@ -18,13 +18,17 @@
       {
         "time": "12:00",
         "price": 0.96
+      },
+      {
+        "time": "14:00",
+        "price": 1.03
       }
     ],
     "csqaq_id": 19521,
     "start_price": 0.98,
-    "last_price": 0.96,
+    "last_price": 1.03,
     "historical_high": 1.75,
-    "daily_alert_high": 1.01
+    "daily_alert_high": 1.03
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -73,11 +77,15 @@
       {
         "time": "08:00",
         "price": 5.98
+      },
+      {
+        "time": "14:00",
+        "price": 5.95
       }
     ],
     "csqaq_id": 20769,
     "start_price": 5.89,
-    "last_price": 5.98,
+    "last_price": 5.95,
     "historical_high": 8.92,
     "daily_alert_high": 6.13
   },
@@ -586,11 +594,15 @@
       {
         "time": "12:00",
         "price": 1.55
+      },
+      {
+        "time": "14:00",
+        "price": 1.54
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.51,
-    "last_price": 1.55,
+    "last_price": 1.54,
     "historical_high": 2.89,
     "daily_alert_high": 1.55
   },
@@ -811,11 +823,15 @@
       {
         "time": "12:00",
         "price": 1.4
+      },
+      {
+        "time": "14:00",
+        "price": 1.41
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.39,
-    "last_price": 1.4,
+    "last_price": 1.41,
     "historical_high": 2.0,
     "daily_alert_high": 1.47
   },
@@ -877,11 +893,15 @@
       {
         "time": "12:00",
         "price": 1.37
+      },
+      {
+        "time": "14:00",
+        "price": 1.44
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.37,
-    "last_price": 1.37,
+    "last_price": 1.44,
     "historical_high": 1.99,
     "daily_alert_high": 1.51
   },
@@ -904,11 +924,15 @@
       {
         "time": "12:00",
         "price": 9.55
+      },
+      {
+        "time": "14:00",
+        "price": 9.6
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.22,
-    "last_price": 9.55,
+    "last_price": 9.6,
     "historical_high": 11.62,
     "daily_alert_high": 9.58
   },
@@ -932,11 +956,15 @@
       {
         "time": "12:00",
         "price": 1.76
+      },
+      {
+        "time": "14:00",
+        "price": 1.75
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.76,
-    "last_price": 1.76,
+    "last_price": 1.75,
     "historical_high": 2.26,
     "daily_alert_high": 1.77
   },
