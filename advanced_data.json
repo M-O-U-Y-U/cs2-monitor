@@ -95,11 +95,15 @@
       {
         "time": "昨日收盘",
         "price": 1.48
+      },
+      {
+        "time": "10:00",
+        "price": 1.47
       }
     ],
     "csqaq_id": 3293,
     "start_price": 1.48,
-    "last_price": 1.48,
+    "last_price": 1.47,
     "historical_high": 11.06,
     "daily_alert_high": 1.48
   },
@@ -173,11 +177,15 @@
       {
         "time": "08:00",
         "price": 3.38
+      },
+      {
+        "time": "10:00",
+        "price": 3.37
       }
     ],
-    "csqaq_id": 17916,
+    "csqaq_id": null,
     "start_price": 3.91,
-    "last_price": 3.38,
+    "last_price": 3.37,
     "historical_high": 4.66,
     "daily_alert_high": 4.1
   },
@@ -206,11 +214,15 @@
       {
         "time": "08:00",
         "price": 1.48
+      },
+      {
+        "time": "10:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 22213,
     "start_price": 1.55,
-    "last_price": 1.48,
+    "last_price": 1.56,
     "historical_high": 2.49,
     "daily_alert_high": 1.63
   },
@@ -270,11 +282,15 @@
       {
         "time": "08:00",
         "price": 0.55
+      },
+      {
+        "time": "10:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.6,
-    "last_price": 0.55,
+    "last_price": 0.62,
     "historical_high": 0.73,
     "daily_alert_high": 0.62
   },
@@ -290,13 +306,17 @@
       {
         "time": "08:00",
         "price": 3.22
+      },
+      {
+        "time": "10:00",
+        "price": 3.47
       }
     ],
     "csqaq_id": 13187,
     "start_price": 2.39,
-    "last_price": 3.22,
+    "last_price": 3.47,
     "historical_high": 5.11,
-    "daily_alert_high": 3.22
+    "daily_alert_high": 3.47
   },
   "Desert Eagle | Bronze Deco (Minimal Wear)": {
     "history": [
@@ -386,11 +406,15 @@
       {
         "time": "08:00",
         "price": 3.25
+      },
+      {
+        "time": "10:00",
+        "price": 3.17
       }
     ],
     "csqaq_id": 8530,
     "start_price": 3.29,
-    "last_price": 3.25,
+    "last_price": 3.17,
     "historical_high": 4.37,
     "daily_alert_high": 3.29
   },
@@ -422,11 +446,15 @@
       {
         "time": "08:00",
         "price": 2.45
+      },
+      {
+        "time": "10:00",
+        "price": 2.16
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.5,
-    "last_price": 2.45,
+    "last_price": 2.16,
     "historical_high": 3.49,
     "daily_alert_high": 2.54
   },
@@ -469,11 +497,15 @@
       {
         "time": "昨日收盘",
         "price": 1.44
+      },
+      {
+        "time": "10:00",
+        "price": 1.56
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.44,
-    "last_price": 1.44,
+    "last_price": 1.56,
     "historical_high": 2.49,
     "daily_alert_high": 1.56
   },
@@ -506,11 +538,15 @@
       {
         "time": "08:00",
         "price": 1.55
+      },
+      {
+        "time": "10:00",
+        "price": 1.48
       }
     ],
     "csqaq_id": 16283,
     "start_price": 1.51,
-    "last_price": 1.55,
+    "last_price": 1.48,
     "historical_high": 2.89,
     "daily_alert_high": 1.55
   },
@@ -604,11 +640,15 @@
       {
         "time": "08:00",
         "price": 0.67
+      },
+      {
+        "time": "10:00",
+        "price": 0.62
       }
     ],
     "csqaq_id": 18780,
     "start_price": 0.69,
-    "last_price": 0.67,
+    "last_price": 0.62,
     "historical_high": 0.88,
     "daily_alert_high": 0.75
   },
@@ -646,11 +686,15 @@
       {
         "time": "08:00",
         "price": 40.5
+      },
+      {
+        "time": "10:00",
+        "price": 40.44
       }
     ],
     "csqaq_id": 20826,
     "start_price": 40.25,
-    "last_price": 40.5,
+    "last_price": 40.44,
     "historical_high": 62.34,
     "daily_alert_high": 40.32
   },
@@ -680,11 +724,15 @@
       {
         "time": "08:00",
         "price": 0.61
+      },
+      {
+        "time": "10:00",
+        "price": 0.6
       }
     ],
     "csqaq_id": 17156,
     "start_price": 0.59,
-    "last_price": 0.61,
+    "last_price": 0.6,
     "historical_high": 1.36,
     "daily_alert_high": 0.61
   },
@@ -703,11 +751,15 @@
       {
         "time": "08:00",
         "price": 1.33
+      },
+      {
+        "time": "10:00",
+        "price": 1.39
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.39,
-    "last_price": 1.33,
+    "last_price": 1.39,
     "historical_high": 2.0,
     "daily_alert_high": 1.47
   },
@@ -761,11 +813,15 @@
       {
         "time": "08:00",
         "price": 1.51
+      },
+      {
+        "time": "10:00",
+        "price": 1.41
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.37,
-    "last_price": 1.51,
+    "last_price": 1.41,
     "historical_high": 1.99,
     "daily_alert_high": 1.51
   },
@@ -786,7 +842,7 @@
         "price": 9.58
       }
     ],
-    "csqaq_id": 14675,
+    "csqaq_id": null,
     "start_price": 9.22,
     "last_price": 9.58,
     "historical_high": 11.62,
@@ -804,13 +860,17 @@
       {
         "time": "08:00",
         "price": 1.74
+      },
+      {
+        "time": "10:00",
+        "price": 1.77
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.76,
-    "last_price": 1.74,
+    "last_price": 1.77,
     "historical_high": 2.26,
-    "daily_alert_high": 1.76
+    "daily_alert_high": 1.77
   },
   "FAMAS | Byproduct (Factory New)": {
     "history": []
