@@ -10,13 +10,17 @@
       {
         "time": "22:00",
         "price": 0.99
+      },
+      {
+        "time": "00:00",
+        "price": 1.0
       }
     ],
     "csqaq_id": 19521,
     "start_price": 0.99,
-    "last_price": 0.99,
+    "last_price": 1.0,
     "historical_high": 1.75,
-    "daily_alert_high": 0.99
+    "daily_alert_high": 1.0
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -61,11 +65,15 @@
       {
         "time": "22:00",
         "price": 5.78
+      },
+      {
+        "time": "00:00",
+        "price": 5.64
       }
     ],
     "csqaq_id": 20769,
     "start_price": 5.78,
-    "last_price": 5.78,
+    "last_price": 5.64,
     "historical_high": 8.92,
     "daily_alert_high": 5.78
   },
@@ -173,13 +181,17 @@
       {
         "time": "22:00",
         "price": 0.51
+      },
+      {
+        "time": "00:00",
+        "price": 0.53
       }
     ],
     "csqaq_id": 23870,
     "start_price": 0.51,
-    "last_price": 0.51,
+    "last_price": 0.53,
     "historical_high": 1.01,
-    "daily_alert_high": 0.51
+    "daily_alert_high": 0.53
   },
   "StatTrak™ XM1014 | Mockingbird (Minimal Wear)": {
     "history": [
@@ -199,13 +211,17 @@
       {
         "time": "22:00",
         "price": 1.69
+      },
+      {
+        "time": "00:00",
+        "price": 1.72
       }
     ],
     "csqaq_id": 14710,
     "start_price": 1.69,
-    "last_price": 1.69,
+    "last_price": 1.72,
     "historical_high": 2.53,
-    "daily_alert_high": 1.69
+    "daily_alert_high": 1.72
   },
   "MP9 | Pine (Factory New)": {
     "history": [
@@ -238,11 +254,15 @@
       {
         "time": "22:00",
         "price": 0.57
+      },
+      {
+        "time": "00:00",
+        "price": 0.52
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.57,
-    "last_price": 0.57,
+    "last_price": 0.52,
     "historical_high": 0.73,
     "daily_alert_high": 0.57
   },
@@ -300,13 +320,17 @@
       {
         "time": "22:00",
         "price": 0.7
+      },
+      {
+        "time": "00:00",
+        "price": 0.87
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.7,
-    "last_price": 0.7,
+    "last_price": 0.87,
     "historical_high": 0.99,
-    "daily_alert_high": 0.7
+    "daily_alert_high": 0.87
   },
   "AWP | Arsenic Spill (Field-Tested)": {
     "history": [
@@ -374,11 +398,15 @@
       {
         "time": "22:00",
         "price": 2.48
+      },
+      {
+        "time": "00:00",
+        "price": 2.45
       }
     ],
     "csqaq_id": 18120,
     "start_price": 2.48,
-    "last_price": 2.48,
+    "last_price": 2.45,
     "historical_high": 3.49,
     "daily_alert_high": 2.48
   },
@@ -421,13 +449,17 @@
       {
         "time": "22:00",
         "price": 1.44
+      },
+      {
+        "time": "00:00",
+        "price": 1.55
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.44,
-    "last_price": 1.44,
+    "last_price": 1.55,
     "historical_high": 2.49,
-    "daily_alert_high": 1.44
+    "daily_alert_high": 1.55
   },
   "Sticker | Complexity Gaming | Paris 2023": {
     "history": []
@@ -437,11 +469,15 @@
       {
         "time": "22:00",
         "price": 2.38
+      },
+      {
+        "time": "00:00",
+        "price": 2.31
       }
     ],
     "csqaq_id": 21512,
     "start_price": 2.38,
-    "last_price": 2.38,
+    "last_price": 2.31,
     "historical_high": 3.23,
     "daily_alert_high": 2.38
   },
@@ -527,13 +563,17 @@
       {
         "time": "22:00",
         "price": 0.66
+      },
+      {
+        "time": "00:00",
+        "price": 0.68
       }
     ],
     "csqaq_id": 14742,
     "start_price": 0.66,
-    "last_price": 0.66,
+    "last_price": 0.68,
     "historical_high": 0.93,
-    "daily_alert_high": 0.66
+    "daily_alert_high": 0.68
   },
   "StatTrak™ Negev | Ultralight (Field-Tested)": {
     "history": [
@@ -578,11 +618,15 @@
       {
         "time": "22:00",
         "price": 40.5
+      },
+      {
+        "time": "00:00",
+        "price": 40.85
       }
     ],
     "csqaq_id": 20826,
     "start_price": 40.5,
-    "last_price": 40.5,
+    "last_price": 40.85,
     "historical_high": 62.34,
     "daily_alert_high": 40.5
   },
@@ -591,13 +635,17 @@
       {
         "time": "22:00",
         "price": 2.21
+      },
+      {
+        "time": "00:00",
+        "price": 2.25
       }
     ],
     "csqaq_id": 3873,
     "start_price": 2.21,
-    "last_price": 2.21,
+    "last_price": 2.25,
     "historical_high": 3.04,
-    "daily_alert_high": 2.21
+    "daily_alert_high": 2.25
   },
   "Souvenir AUG | Snake Pit (Field-Tested)": {
     "history": [
@@ -623,13 +671,17 @@
       {
         "time": "22:00",
         "price": 1.35
+      },
+      {
+        "time": "00:00",
+        "price": 1.44
       }
     ],
     "csqaq_id": 15503,
     "start_price": 1.35,
-    "last_price": 1.35,
+    "last_price": 1.44,
     "historical_high": 2.0,
-    "daily_alert_high": 1.35
+    "daily_alert_high": 1.44
   },
   "Tec-9 | Raw Ceramic (Field-Tested)": {
     "history": []
@@ -696,11 +748,15 @@
       {
         "time": "22:00",
         "price": 9.45
+      },
+      {
+        "time": "00:00",
+        "price": 9.54
       }
     ],
     "csqaq_id": 14675,
     "start_price": 9.45,
-    "last_price": 9.45,
+    "last_price": 9.54,
     "historical_high": 11.62,
     "daily_alert_high": 9.45
   },
@@ -712,11 +768,15 @@
       {
         "time": "22:00",
         "price": 1.56
+      },
+      {
+        "time": "00:00",
+        "price": 1.5
       }
     ],
-    "csqaq_id": null,
+    "csqaq_id": 21860,
     "start_price": 1.56,
-    "last_price": 1.56,
+    "last_price": 1.5,
     "historical_high": 2.26,
     "daily_alert_high": 1.56
   },
