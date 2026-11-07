@@ -10,13 +10,17 @@
       {
         "time": "22:00",
         "price": 0.79
+      },
+      {
+        "time": "00:00",
+        "price": 0.82
       }
     ],
     "csqaq_id": 19521,
     "start_price": 0.79,
-    "last_price": 0.79,
+    "last_price": 0.82,
     "historical_high": 1.75,
-    "daily_alert_high": 0.79
+    "daily_alert_high": 0.82
   },
   "StatTrak™ Tec-9 | Jambiya (Minimal Wear)": {
     "history": [
@@ -696,11 +700,15 @@
       {
         "time": "22:00",
         "price": 7.84
+      },
+      {
+        "time": "00:00",
+        "price": 7.83
       }
     ],
     "csqaq_id": 14675,
     "start_price": 7.84,
-    "last_price": 7.84,
+    "last_price": 7.83,
     "historical_high": 11.62,
     "daily_alert_high": 7.84
   },
@@ -712,11 +720,15 @@
       {
         "time": "22:00",
         "price": 1.61
+      },
+      {
+        "time": "00:00",
+        "price": 1.47
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.61,
-    "last_price": 1.61,
+    "last_price": 1.47,
     "historical_high": 2.26,
     "daily_alert_high": 1.61
   },
