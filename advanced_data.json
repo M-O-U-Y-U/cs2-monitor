@@ -10,11 +10,15 @@
       {
         "time": "22:00",
         "price": 0.76
+      },
+      {
+        "time": "00:00",
+        "price": 0.75
       }
     ],
     "csqaq_id": 19521,
     "start_price": 0.76,
-    "last_price": 0.76,
+    "last_price": 0.75,
     "historical_high": 1.75,
     "daily_alert_high": 0.76
   },
@@ -677,13 +681,17 @@
       {
         "time": "22:00",
         "price": 1.21
+      },
+      {
+        "time": "00:00",
+        "price": 1.33
       }
     ],
     "csqaq_id": 21609,
     "start_price": 1.21,
-    "last_price": 1.21,
+    "last_price": 1.33,
     "historical_high": 1.99,
-    "daily_alert_high": 1.21
+    "daily_alert_high": 1.33
   },
   "M249 | Sleet (Minimal Wear)": {
     "history": []
@@ -696,13 +704,17 @@
       {
         "time": "22:00",
         "price": 6.85
+      },
+      {
+        "time": "00:00",
+        "price": 6.99
       }
     ],
     "csqaq_id": 14675,
     "start_price": 6.85,
-    "last_price": 6.85,
+    "last_price": 6.99,
     "historical_high": 11.62,
-    "daily_alert_high": 6.85
+    "daily_alert_high": 6.99
   },
   "P90 | Desert Halftone (Field-Tested)": {
     "history": []
@@ -712,11 +724,15 @@
       {
         "time": "22:00",
         "price": 1.53
+      },
+      {
+        "time": "00:00",
+        "price": 1.52
       }
     ],
     "csqaq_id": 21860,
     "start_price": 1.53,
-    "last_price": 1.53,
+    "last_price": 1.52,
     "historical_high": 2.26,
     "daily_alert_high": 1.53
   },
@@ -753,11 +769,15 @@
       {
         "time": "22:00",
         "price": 1.21
+      },
+      {
+        "time": "00:00",
+        "price": 1.09
       }
     ],
     "csqaq_id": 25011,
     "start_price": 1.21,
-    "last_price": 1.21,
+    "last_price": 1.09,
     "historical_high": 1.23,
     "daily_alert_high": 1.21
   },
