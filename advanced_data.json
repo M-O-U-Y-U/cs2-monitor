@@ -246,11 +246,15 @@
       {
         "time": "08:00",
         "price": 0.58
+      },
+      {
+        "time": "20:00",
+        "price": 0.55
       }
     ],
     "csqaq_id": 17946,
     "start_price": 0.51,
-    "last_price": 0.58,
+    "last_price": 0.55,
     "historical_high": 0.73,
     "daily_alert_high": 0.58
   },
@@ -266,11 +270,15 @@
       {
         "time": "08:00",
         "price": 2.62
+      },
+      {
+        "time": "20:00",
+        "price": 2.55
       }
     ],
     "csqaq_id": 13187,
     "start_price": 3.16,
-    "last_price": 2.62,
+    "last_price": 2.55,
     "historical_high": 7.14,
     "daily_alert_high": 3.16
   },
@@ -312,11 +320,15 @@
       {
         "time": "昨日收盘",
         "price": 0.88
+      },
+      {
+        "time": "20:00",
+        "price": 0.74
       }
     ],
     "csqaq_id": 22167,
     "start_price": 0.88,
-    "last_price": 0.88,
+    "last_price": 0.74,
     "historical_high": 0.99,
     "daily_alert_high": 0.88
   },
@@ -354,11 +366,15 @@
       {
         "time": "昨日收盘",
         "price": 2.71
+      },
+      {
+        "time": "20:00",
+        "price": 2.78
       }
     ],
     "csqaq_id": 8530,
     "start_price": 2.71,
-    "last_price": 2.71,
+    "last_price": 2.78,
     "historical_high": 4.37,
     "daily_alert_high": 2.78
   },
@@ -433,11 +449,15 @@
       {
         "time": "昨日收盘",
         "price": 1.45
+      },
+      {
+        "time": "20:00",
+        "price": 1.4
       }
     ],
     "csqaq_id": 21900,
     "start_price": 1.45,
-    "last_price": 1.45,
+    "last_price": 1.4,
     "historical_high": 2.49,
     "daily_alert_high": 1.46
   },
