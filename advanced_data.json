@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_report_date": "2026-11-18"
+    "last_report_date": "2026-11-19"
   },
   "MAG-7 | Copper Oxide (Field-Tested)": {
     "history": []
@@ -253,15 +253,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 2.55
-      },
-      {
-        "time": "20:00",
         "price": 2.45
       }
     ],
     "csqaq_id": 13187,
-    "start_price": 2.55,
+    "start_price": 2.45,
     "last_price": 2.45,
     "historical_high": 7.14,
     "daily_alert_high": 3.16
@@ -345,15 +341,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 2.78
-      },
-      {
-        "time": "20:00",
         "price": 2.87
       }
     ],
     "csqaq_id": 8530,
-    "start_price": 2.78,
+    "start_price": 2.87,
     "last_price": 2.87,
     "historical_high": 4.37,
     "daily_alert_high": 2.87
@@ -428,15 +420,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 1.4
-      },
-      {
-        "time": "20:00",
         "price": 1.48
       }
     ],
     "csqaq_id": 21900,
-    "start_price": 1.4,
+    "start_price": 1.48,
     "last_price": 1.48,
     "historical_high": 2.49,
     "daily_alert_high": 1.48
