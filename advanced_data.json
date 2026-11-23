@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_report_date": "2026-11-22"
+    "last_report_date": "2026-11-23"
   },
   "MAG-7 | Copper Oxide (Field-Tested)": {
     "history": []
@@ -253,19 +253,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 2.36
-      },
-      {
-        "time": "08:00",
-        "price": 2.32
-      },
-      {
-        "time": "20:00",
         "price": 2.39
       }
     ],
     "csqaq_id": 13187,
-    "start_price": 2.36,
+    "start_price": 2.39,
     "last_price": 2.39,
     "historical_high": 7.14,
     "daily_alert_high": 3.16
@@ -307,15 +299,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 0.81
-      },
-      {
-        "time": "08:00",
         "price": 0.87
       }
     ],
     "csqaq_id": 22167,
-    "start_price": 0.81,
+    "start_price": 0.87,
     "last_price": 0.87,
     "historical_high": 0.99,
     "daily_alert_high": 0.88
@@ -353,15 +341,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 3.08
-      },
-      {
-        "time": "08:00",
         "price": 2.94
       }
     ],
     "csqaq_id": 8530,
-    "start_price": 3.08,
+    "start_price": 2.94,
     "last_price": 2.94,
     "historical_high": 4.37,
     "daily_alert_high": 3.08
@@ -389,19 +373,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 2.33
-      },
-      {
-        "time": "08:00",
-        "price": 2.01
-      },
-      {
-        "time": "20:00",
         "price": 2.27
       }
     ],
     "csqaq_id": 18120,
-    "start_price": 2.33,
+    "start_price": 2.27,
     "last_price": 2.27,
     "historical_high": 3.49,
     "daily_alert_high": 2.38
@@ -444,15 +420,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 1.33
-      },
-      {
-        "time": "08:00",
         "price": 1.35
       }
     ],
     "csqaq_id": 21900,
-    "start_price": 1.33,
+    "start_price": 1.35,
     "last_price": 1.35,
     "historical_high": 2.49,
     "daily_alert_high": 1.48
@@ -554,19 +526,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 0.62
-      },
-      {
-        "time": "08:00",
-        "price": 0.66
-      },
-      {
-        "time": "20:00",
         "price": 0.55
       }
     ],
     "csqaq_id": 14742,
-    "start_price": 0.62,
+    "start_price": 0.55,
     "last_price": 0.55,
     "historical_high": 0.93,
     "daily_alert_high": 0.66
@@ -575,15 +539,11 @@
     "history": [
       {
         "time": "昨日收盘",
-        "price": 0.69
-      },
-      {
-        "time": "08:00",
         "price": 0.59
       }
     ],
     "csqaq_id": 18780,
-    "start_price": 0.69,
+    "start_price": 0.59,
     "last_price": 0.59,
     "historical_high": 0.88,
     "daily_alert_high": 0.73
